@@ -1,5 +1,7 @@
 package cz.ctyrkaten.train.common.library;
 
+import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.relauncher.Side;
 import cz.ctyrkaten.train.client.render.Ctyrk4RenderEnum;
 import train.common.api.TrainRecord;
 import train.common.api.TrainRenderRecord;
@@ -15,8 +17,11 @@ public class Ctyrk4Registry {
     }
 
     public void registerRenderRecords() {
-        for (TrainRenderRecord render : Ctyrk4RenderEnum.values()) {
-            Traincraft.instance.traincraftRegistry.registerTrainRenderRecord(render);
+        Side side = FMLCommonHandler.instance().getEffectiveSide();
+        if (side == Side.CLIENT) {
+            for (TrainRenderRecord render : Ctyrk4RenderEnum.values()) {
+                Traincraft.instance.traincraftRegistry.registerTrainRenderRecord(render);
+            }
         }
     }
 
