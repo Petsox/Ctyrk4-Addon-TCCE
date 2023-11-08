@@ -8,6 +8,6 @@
   "logoFile": "Logo.png",
   "authorList": ["Petsox"],
   "credits": "Petsox",
-  "requiredMods": ["Forge@[10.13.4.1558,)", "Traincraft@[4.4.1_020-CE_7,)"],
+  "requiredMods": ["Forge@[10.13.4.1558,)", "Traincraft@[4.4.1_020-CE_7,)"]
 }
 ]
