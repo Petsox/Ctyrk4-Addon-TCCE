@@ -46,6 +46,8 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 		}
 	}, "", null, 0, false),
 	locoCD242(Ctyrk4EntityLocoElectricCD242.class, new ModelCD242(), "CD_242_", true, new float[] { -1.7F, 0.05F, 0.0F }, new float[] { 0F, 0F, 180F }, new float[]{0.9f,0.9f,0.9f}, "",0,null, "", null, 0, false),
+	locoCD100(Ctyrk4EntityLocoElectricCD100.class, new ModelCD100(), "CD_100_", true, new float[] { -1.7F, 0.05F, 0.0F }, new float[] { 0F, 0F, 180F }, new float[]{0.9f,0.9f,0.9f}, "",0,null, "", null, 0, false),
+	locoCD140(Ctyrk4EntityLocoElectricCD140.class, new ModelCD140(), "CD_140_", true, new float[] { -1.7F, 0.05F, 0.0F }, new float[] { 0F, 0F, 180F }, new float[]{0.9f,0.9f,0.9f}, "",0,null, "", null, 0, false),
 
 	locoZSSK131(Ctyrk4EntityLocoElectricZSSK131.class, new ModelZSSK131(), "ZSSK131_", true, new float[] { -1.2F, -0.47F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
 	locoCD151(Ctyrk4EntityLocoElectricCD151.class, new ModelLocoCD151(), "CD151_", true, new float[]{-2,0.18f,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),

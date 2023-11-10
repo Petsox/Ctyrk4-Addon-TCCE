@@ -30,6 +30,8 @@ public enum Ctyrk4ItemIDs {
 	minecartLocoZSSK350("ItemRollingStock", "ZSSK_350", 3),
 	minecartCD230("ItemRollingStock", "CD_230", 3),
 	locoCD242("ItemRollingStock", "CD_242", 3),
+	locoCD100("ItemRollingStock", "CD_100", 3),
+	locoCD140("ItemRollingStock", "CD_140", 3),
 	minecartCDBDTN("ItemRollingStock", "CD_Bdtn", 3),
 	minecartPassengerMVZSV2("ItemRollingStock", "MVZSV2", 3),
 
