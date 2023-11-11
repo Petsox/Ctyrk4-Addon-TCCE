@@ -5,8 +5,9 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import train.common.api.EntityRollingStock;
+import train.common.api.IPassenger;
 
-public class Ctyrk4EntityPassengerCD451Coach extends EntityRollingStock{
+public class Ctyrk4EntityPassengerCD451Coach extends EntityRollingStock implements IPassenger {
 
 	public Ctyrk4EntityPassengerCD451Coach(World world) {
 		super(world);

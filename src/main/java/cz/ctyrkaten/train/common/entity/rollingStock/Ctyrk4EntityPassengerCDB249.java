@@ -6,8 +6,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import train.common.api.EntityRollingStock;
 import train.common.core.util.TraincraftUtil;
+import train.common.api.IPassenger;
 
-public class Ctyrk4EntityPassengerCDB249 extends EntityRollingStock {
+public class Ctyrk4EntityPassengerCDB249 extends EntityRollingStock implements IPassenger {
 
 	public Ctyrk4EntityPassengerCDB249(World world) {
 		super(world);

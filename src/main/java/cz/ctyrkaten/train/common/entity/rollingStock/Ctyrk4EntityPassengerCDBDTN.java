@@ -5,9 +5,9 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import train.common.api.EntityRollingStock;
-import train.common.core.util.TraincraftUtil;
+import train.common.api.IPassenger;
 
-public class Ctyrk4EntityPassengerCDBDTN extends EntityRollingStock {
+public class Ctyrk4EntityPassengerCDBDTN extends EntityRollingStock implements IPassenger {
     //public TiltingHandler tiltingHandler = new TiltingHandler(7);
 
     public Ctyrk4EntityPassengerCDBDTN(World world) {
