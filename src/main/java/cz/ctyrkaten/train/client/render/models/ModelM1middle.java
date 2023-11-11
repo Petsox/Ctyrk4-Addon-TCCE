@@ -1647,9 +1647,9 @@ public class ModelM1middle extends ModelConverter //Same as Filename
 
 
 		if(entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor()==3455){
-			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/CD_x7x_bogie"));
+			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/CD_x7x_bogie.png"));
 		} else {
-			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/CD_x7x_bogie"));
+			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/CD_x7x_bogie.png"));
 		}
 
 		GL11.glPushMatrix();

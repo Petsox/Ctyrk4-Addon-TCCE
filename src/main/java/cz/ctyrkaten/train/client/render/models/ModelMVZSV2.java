@@ -654,7 +654,7 @@ public class ModelMVZSV2 extends ModelBase
 			rheingoldpassenger_dining2Model[i].render(f5);
 		}
 
-		Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/Generic_CD_bogie"));
+		Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/Generic_CD_bogie.png"));
 		GL11.glPushMatrix();
 		GL11.glTranslated(-3,0.20,-0.375);
 		bogie1.render(entity,f,f1,f2,f3,f4,f5);
