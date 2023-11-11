@@ -69,11 +69,6 @@ public class Ctyrk4EntityTenderCSD387 extends Tender implements IInventory {
 	}
 
 	@Override
-	public int getMinecartType() {
-		return 0;
-	}
-
-	@Override
 	protected void readEntityFromNBT(NBTTagCompound nbttagcompound) {
 		super.readEntityFromNBT(nbttagcompound);
 
@@ -93,50 +88,9 @@ public class Ctyrk4EntityTenderCSD387 extends Tender implements IInventory {
 	}
 
 	@Override
-	public int getInventoryStackLimit() {
-		return 0;
-	}
-
-	@Override
-	public void markDirty() {
-
-	}
-
-	@Override
-	public void openInventory() {
-
-	}
-
-	@Override
-	public void closeInventory() {
-
-	}
-
-	@Override
 	public int getSizeInventory() {
 		return freightInventorySize;
 	}
-
-	@Override
-	public ItemStack getStackInSlot(int i) {
-		return null;
-	}
-
-	@Override
-	public ItemStack decrStackSize(int i, int i1) {
-		return null;
-	}
-
-	@Override
-	public ItemStack getStackInSlotOnClosing(int i) {
-		return null;
-	}
-
-	@Override
-	public void setInventorySlotContents(int i, ItemStack itemStack) {
-
-	}
-
 	@Override
 	public boolean interactFirst(EntityPlayer entityplayer) {
 		playerEntity = entityplayer;

@@ -129,6 +129,11 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	CD650Tail(Ctyrk4EntityPassengerCD650Tail.class, new ModelCD650Tail(), "CD650_", true, new float[] {0F, -0.03F, 0F}, new float[]{0F, 0F, 180F}, null, "", 0, null, "", null, 0, false ),
 	CDBFHPVEE295( Ctyrk4EntityElectricCDBFHPVEE295.class, new ModelCDBFHPVEE295(),"CDBfhpvee295_", true, new float[] {-2F, 0.155F, 0F},  new float[] { 0F, 180F, 180F },null, "", 0, null, "", null, 0, false),
 	CDBDMTEE( Ctyrk4EntityPassengerCDBDMTEE.class, new ModelCDBDMTEE(),"Bdmtee_", true, new float[] {0F, 0.155F, 0F},  new float[] { 0F, 180F, 180F },null, "", 0, null, "", null, 0, false),
+	locoElectricM1(Ctyrk4EntityLocoElectricM1.class, new ModelM1end(), "M1_", true, new float[] { -1.9F, 0.15F, 0.0F },   new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
+	passengerM1Coach(Ctyrk4EntityPassengerM1Coach.class, new ModelM1middle(), "M1_", true, new float[] { -0.3F, 0.15F, 0.0F },   new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
+	cabooseM1Tail(Ctyrk4EntityCabooseM1Tail.class, new ModelM1end(), "M1_", true, new float[] { 0.0F, 0.15F, 0.0F },   new float[] { 0F, 0F, 180F }, null, "", 0, null, "", null, 0, false),
+	passenger8171Mid(Ctyrk4EntityPassenger8171MMid.class, new Model8171MCoach(), "8171M_", true, new float[] { -0.0F, 0.1F, 0.0F },   new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
+	passenger8171Tail(Ctyrk4EntityPassenger8171Tail.class, new Model8171MTail(), "8171M_", true, new float[] { 0.0F, 0.1F, 0.0F },   new float[] { 0F, 0F, 180F }, null, "", 0, null, "", null, 0, false),
 	;
 	private Class<? extends EntityRollingStock> entityClass;
 	private ModelBase model;
@@ -158,7 +163,6 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	 * @param smokeFX ArrayList
 	 * @param explosionType String
 	 * @param explosionFX ArrayList
-	 * @see Ctyrk4RenderRollingStock
 	 */
 	Ctyrk4RenderEnum(Class<? extends EntityRollingStock> entityClass, ModelBase model, String texture, boolean multiTexture, float[] trans, float[] rotate, float[] scale, String smokeType, int smokeIterations, ArrayList<double[]> smokeFX, String explosionType, ArrayList<double[]> explosionFX, int explosionFXIterations, boolean hasSmokeOnSlopes) {
 		this.entityClass = entityClass;

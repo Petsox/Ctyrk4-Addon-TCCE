@@ -37,11 +37,6 @@ public class Ctyrk4EntityCabooseCD471Tail extends EntityRollingStock implements 
 	}
 
 	@Override
-	public int getMinecartType() {
-		return 0;
-	}
-
-	@Override
 	public boolean interactFirst(EntityPlayer entityplayer) {
 		playerEntity = entityplayer;
 		if ((super.interactFirst(entityplayer))) {

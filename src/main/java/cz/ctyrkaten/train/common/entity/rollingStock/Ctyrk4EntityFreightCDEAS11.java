@@ -9,6 +9,7 @@ import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
 import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
+import train.common.Traincraft;
 import train.common.api.Freight;
 import train.common.library.GuiIDs;
 
@@ -62,11 +63,6 @@ public class Ctyrk4EntityFreightCDEAS11 extends Freight implements IInventory {
 	}
 
 	@Override
-	public int getMinecartType() {
-		return 0;
-	}
-
-	@Override
 	protected void readEntityFromNBT(NBTTagCompound nbttagcompound) {
 		super.readEntityFromNBT(nbttagcompound);
 
@@ -84,50 +80,9 @@ public class Ctyrk4EntityFreightCDEAS11 extends Freight implements IInventory {
 	public String getInventoryName() {
 		return "CD EAs 11";
 	}
-
-	@Override
-	public int getInventoryStackLimit() {
-		return 0;
-	}
-
-	@Override
-	public void markDirty() {
-
-	}
-
-	@Override
-	public void openInventory() {
-
-	}
-
-	@Override
-	public void closeInventory() {
-
-	}
-
 	@Override
 	public int getSizeInventory() {
 		return freightInventorySize;
-	}
-
-	@Override
-	public ItemStack getStackInSlot(int i) {
-		return null;
-	}
-
-	@Override
-	public ItemStack decrStackSize(int i, int i1) {
-		return null;
-	}
-
-	@Override
-	public ItemStack getStackInSlotOnClosing(int i) {
-		return null;
-	}
-
-	@Override
-	public void setInventorySlotContents(int i, ItemStack itemStack) {
-
 	}
 
 	@Override
@@ -136,7 +91,7 @@ public class Ctyrk4EntityFreightCDEAS11 extends Freight implements IInventory {
 		if ((super.interactFirst(entityplayer))) {
 			return false;
 		}
-		entityplayer.openGui(Ctyrk4_Addon_TCCE.instance, GuiIDs.FREIGHT, worldObj, this.getEntityId(), -1, (int) this.posZ);
+		entityplayer.openGui(Traincraft.instance, GuiIDs.FREIGHT, worldObj, this.getEntityId(), -1, (int) this.posZ);
 		return true;
 	}
 

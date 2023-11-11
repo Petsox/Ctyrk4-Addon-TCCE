@@ -6,6 +6,7 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
+import train.common.Traincraft;
 import train.common.api.AbstractWorkCart;
 import train.common.core.util.TraincraftUtil;
 import train.common.library.GuiIDs;
@@ -52,10 +53,10 @@ public class Ctyrk4EntityPassengerMVZSV2 extends AbstractWorkCart implements IIn
 				return;
 			}
 			if (i == 7) {
-				((EntityPlayer) riddenByEntity).openGui(Ctyrk4_Addon_TCCE.instance, GuiIDs.CRAFTING_CART, worldObj, (int) this.posX, (int) this.posY, (int) this.posZ);
+				((EntityPlayer) riddenByEntity).openGui(Traincraft.instance, GuiIDs.CRAFTING_CART, worldObj, (int) this.posX, (int) this.posY, (int) this.posZ);
 			}
 			if (i == 9) {
-				((EntityPlayer) riddenByEntity).openGui(Ctyrk4_Addon_TCCE.instance, GuiIDs.FURNACE_CART, worldObj, (int) this.posX, (int) this.posY, (int) this.posZ);
+				((EntityPlayer) riddenByEntity).openGui(Traincraft.instance, GuiIDs.FURNACE_CART, worldObj, (int) this.posX, (int) this.posY, (int) this.posZ);
 			}
 		}
 	}
@@ -67,33 +68,8 @@ public class Ctyrk4EntityPassengerMVZSV2 extends AbstractWorkCart implements IIn
 	}
 
 	@Override
-	public int getMinecartType() {
-		return 0;
-	}
-
-	@Override
 	public int getSizeInventory() {
 		return 0;
-	}
-
-	@Override
-	public ItemStack getStackInSlot(int i) {
-		return null;
-	}
-
-	@Override
-	public ItemStack decrStackSize(int i, int i1) {
-		return null;
-	}
-
-	@Override
-	public ItemStack getStackInSlotOnClosing(int i) {
-		return null;
-	}
-
-	@Override
-	public void setInventorySlotContents(int i, ItemStack itemStack) {
-
 	}
 
 	@Override
@@ -128,17 +104,6 @@ public class Ctyrk4EntityPassengerMVZSV2 extends AbstractWorkCart implements IIn
 	public boolean isUseableByPlayer(EntityPlayer entityplayer) {
 		return !isDead && entityplayer.getDistanceSqToEntity(this) <= 64D;
 	}
-
-	@Override
-	public void openInventory() {
-
-	}
-
-	@Override
-	public void closeInventory() {
-
-	}
-
 	@Override
 	public boolean isStorageCart() {
 		return false;

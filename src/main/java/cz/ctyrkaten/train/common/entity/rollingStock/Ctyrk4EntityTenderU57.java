@@ -84,7 +84,7 @@ public class Ctyrk4EntityTenderU57 extends Tender implements IInventory {
 	}
 	@Override
 	public String getInventoryName() {
-		return "U57's Tender";
+		return "U57 Tender";
 	}
 
 	@Override

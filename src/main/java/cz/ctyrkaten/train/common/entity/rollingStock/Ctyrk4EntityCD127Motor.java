@@ -9,6 +9,7 @@ import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
 import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
+import train.common.Traincraft;
 import train.common.api.Freight;
 import train.common.library.GuiIDs;
 
@@ -90,21 +91,6 @@ public class Ctyrk4EntityCD127Motor extends Freight implements IInventory  {
     }
 
     @Override
-    public ItemStack getStackInSlot(int i) {
-        return null;
-    }
-
-    @Override
-    public ItemStack decrStackSize(int i, int i1) {
-        return null;
-    }
-
-    @Override
-    public ItemStack getStackInSlotOnClosing(int i) {
-        return null;
-    }
-
-    @Override
     public void setInventorySlotContents(int i, ItemStack itemStack) {
 
     }
@@ -114,7 +100,7 @@ public class Ctyrk4EntityCD127Motor extends Freight implements IInventory  {
         if ((super.interactFirst(entityplayer))) {
             return false;
         }
-        entityplayer.openGui(Ctyrk4_Addon_TCCE.instance, GuiIDs.FREIGHT, worldObj, this.getEntityId(), -1, (int) this.posZ);
+        entityplayer.openGui(Traincraft.instance, GuiIDs.FREIGHT, worldObj, this.getEntityId(), -1, (int) this.posZ);
         return true;
     }
 

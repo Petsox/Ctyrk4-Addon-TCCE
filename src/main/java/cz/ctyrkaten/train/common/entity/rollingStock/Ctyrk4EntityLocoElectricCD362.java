@@ -8,6 +8,7 @@ import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
 import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
+import train.common.Traincraft;
 import train.common.api.ElectricTrain;
 import train.common.core.util.TraincraftUtil;
 import train.common.library.GuiIDs;
@@ -42,7 +43,7 @@ public class Ctyrk4EntityLocoElectricCD362 extends ElectricTrain {
 	@Override
 	public void pressKey(int i) {
 		if (i == 7 && riddenByEntity != null && riddenByEntity instanceof EntityPlayer) {
-			((EntityPlayer) riddenByEntity).openGui(Ctyrk4_Addon_TCCE.instance, GuiIDs.LOCO, worldObj, (int) this.posX, (int) this.posY, (int) this.posZ);
+			((EntityPlayer) riddenByEntity).openGui(Traincraft.instance, GuiIDs.LOCO, worldObj, (int) this.posX, (int) this.posY, (int) this.posZ);
 		}
 	}
 

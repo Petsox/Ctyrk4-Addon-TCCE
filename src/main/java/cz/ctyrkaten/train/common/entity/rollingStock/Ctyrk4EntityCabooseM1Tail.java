@@ -37,11 +37,6 @@ public class Ctyrk4EntityCabooseM1Tail extends EntityRollingStock implements IPa
 	}
 
 	@Override
-	public int getMinecartType() {
-		return 0;
-	}
-
-	@Override
 	public boolean interactFirst(EntityPlayer entityplayer) {
 		playerEntity = entityplayer;
 		if ((super.interactFirst(entityplayer))) {

@@ -8,6 +8,7 @@ import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
 import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
+import train.common.Traincraft;
 import train.common.api.ElectricTrain;
 import train.common.library.GuiIDs;
 
@@ -74,7 +75,7 @@ public class Ctyrk4EntityLocoElectricCD650Loco extends ElectricTrain {
     @Override
     public void pressKey(int i) {
         if (i == 7 && riddenByEntity != null && riddenByEntity instanceof EntityPlayer) {
-            ((EntityPlayer) riddenByEntity).openGui(Ctyrk4_Addon_TCCE.instance, GuiIDs.LOCO, worldObj, (int) this.posX + 2, (int) this.posY, (int) this.posZ);
+            ((EntityPlayer) riddenByEntity).openGui(Traincraft.instance, GuiIDs.LOCO, worldObj, (int) this.posX + 2, (int) this.posY, (int) this.posZ);
         }
     }
 
@@ -93,11 +94,6 @@ public class Ctyrk4EntityLocoElectricCD650Loco extends ElectricTrain {
             }
         }
         nbttagcompound.setTag("Items", nbttaglist);
-    }
-
-    @Override
-    public int getMinecartType() {
-        return 0;
     }
 
     @Override
@@ -122,48 +118,8 @@ public class Ctyrk4EntityLocoElectricCD650Loco extends ElectricTrain {
     }
 
     @Override
-    public ItemStack getStackInSlot(int i) {
-        return null;
-    }
-
-    @Override
-    public ItemStack decrStackSize(int i, int i1) {
-        return null;
-    }
-
-    @Override
-    public ItemStack getStackInSlotOnClosing(int i) {
-        return null;
-    }
-
-    @Override
-    public void setInventorySlotContents(int i, ItemStack itemStack) {
-
-    }
-
-    @Override
     public String getInventoryName() {
         return "CD 650";
-    }
-
-    @Override
-    public int getInventoryStackLimit() {
-        return 0;
-    }
-
-    @Override
-    public void markDirty() {
-
-    }
-
-    @Override
-    public void openInventory() {
-
-    }
-
-    @Override
-    public void closeInventory() {
-
     }
 
     @Override
