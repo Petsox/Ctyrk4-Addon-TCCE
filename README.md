@@ -11,7 +11,7 @@ Screenshot
 Usage
 -----
 
-Addon requires Traincraft mod with support for addons / cart registering.
+Requires Traincraft mod with support for addons / cart registering.
 
 https://github.com/EternalBlueFlame/Traincraft-5/tree/1.7-Community-4.3
 
