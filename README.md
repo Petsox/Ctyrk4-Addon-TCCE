@@ -17,6 +17,17 @@ https://github.com/EternalBlueFlame/Traincraft-5/tree/1.7-Community-4.3
 
 Currently new items are available only in tab creative mode (no crafting recipes) and for Minecraft 1.7.10.
 
+Authors
+-----
+
+Petsox - @Petsox
+
+HajdaM - @hajdam
+
+tpeterka1 - @tpeterka1
+
+And all creators of included models and skins
+
 Building
 --------
 
