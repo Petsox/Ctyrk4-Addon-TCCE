@@ -8,38 +8,33 @@ import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
 import train.common.Traincraft;
-import train.common.api.DieselTrain;
-import train.common.api.LiquidManager;
-import train.common.library.EnumTrains;
+import train.common.api.ElectricTrain;
 import train.common.library.GuiIDs;
 
-public class Ctyrk4EntityLocoDieselCD720 extends DieselTrain {
-    public Ctyrk4EntityLocoDieselCD720(World world) {
-        super(world, EnumTrains.H1044.getTankCapacity(), LiquidManager.dieselFilter());
-        initLoco();
+public class Ctyrk4EntityLocoElectricCD680 extends ElectricTrain {
+
+    public Ctyrk4EntityLocoElectricCD680(World world) {
+        super(world);
+
     }
-    public Ctyrk4EntityLocoDieselCD720(World world, double d, double d1, double d2) {
+
+    public Ctyrk4EntityLocoElectricCD680(World world, double d, double d1, double d2) {
         this(world);
-        setPosition(d, d1 + yOffset, d2);
+        setPosition(d, d1 + (double) yOffset, d2);
         motionX = 0.0D;
         motionY = 0.0D;
         motionZ = 0.0D;
-        prevPosX = d;
+        prevPosX = d ;
         prevPosY = d1;
         prevPosZ = d2;
-    }
-
-    public void initLoco() {
-        fuelTrain = 0;
-        locoInvent = new ItemStack[inventorySize];
     }
 
     @Override
     public void updateRiderPosition() {
         if (riddenByEntity == null) {return;}
         double pitchRads = this.anglePitchClient * Math.PI / 180.0D;
-        double distance = -0.3;
-        double yOffset = 0.15;
+        double distance = 4.86;
+        double yOffset = -0.24;
         float rotationCos1 = (float) Math.cos(Math.toRadians(this.renderYaw + 90));
         float rotationSin1 = (float) Math.sin(Math.toRadians((this.renderYaw + 90)));
         if(side.isServer()){
@@ -78,14 +73,8 @@ public class Ctyrk4EntityLocoDieselCD720 extends DieselTrain {
     @Override
     public void pressKey(int i) {
         if (i == 7 && riddenByEntity != null && riddenByEntity instanceof EntityPlayer) {
-            ((EntityPlayer) riddenByEntity).openGui(Traincraft.instance, GuiIDs.LOCO, worldObj, (int) this.posX, (int) this.posY, (int) this.posZ);
+            ((EntityPlayer) riddenByEntity).openGui(Traincraft.instance, GuiIDs.LOCO, worldObj, (int) this.posX + 2, (int) this.posY, (int) this.posZ);
         }
-    }
-
-    @Override
-    public void onUpdate() {
-        checkInvent(locoInvent[0]);
-        super.onUpdate();
     }
 
     @Override
@@ -126,27 +115,10 @@ public class Ctyrk4EntityLocoDieselCD720 extends DieselTrain {
         return inventorySize;
     }
 
-
     @Override
     public String getInventoryName() {
-        return "CD 720";
+        return "CD 680";
     }
-
-
-    @Override
-    public float getOptimalDistance(EntityMinecart cart) {
-        return (1.1F);
-    }
-    @Override
-    public boolean canBeAdjusted(EntityMinecart cart) {
-        return canBeAdjusted;
-    }
-
-    @Override
-    public boolean isItemValidForSlot(int i, ItemStack itemstack) {
-        return true;
-    }
-
 
     @Override
     public boolean interactFirst(EntityPlayer entityplayer) {
@@ -162,5 +134,17 @@ public class Ctyrk4EntityLocoDieselCD720 extends DieselTrain {
         }
         return true;
     }
+    @Override
+    public float getOptimalDistance(EntityMinecart cart) {
+        return 0.85F;
+    }
 
+    @Override
+    public boolean canBeAdjusted(EntityMinecart cart) {
+        return canBeAdjusted;
+    }
+    @Override
+    public boolean isItemValidForSlot(int i, ItemStack itemstack) {
+        return true;
+    }
 }
