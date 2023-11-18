@@ -12,8 +12,6 @@ import java.lang.reflect.InvocationTargetException;
 
 public enum Ctyrk4EnumTrains implements TrainRecord {
 	
-	//Ctyrk4 Pack
-
 	locoCD843("CD 843", Ctyrk4EntityLocoDieselCD843.class, Ctyrk4ItemIDs.minecartLocoCD843.item, "diesel", 816, 111, 1.4, 10,0,100,0.7,0.9,8000,TraincraftUtil.getBytesFromColors(new String[] {"Orange", "Green", "Grey", "LightBlue"}), 18, -4.25,Constants.TOOLTIP ),
 	locoElectricCD127("Loco Electric CD 127", Ctyrk4EntityLocoElectricCD127.class, Ctyrk4ItemIDs.minecartCD127.item,"electric",2978,66,0,15,0,400,0.9,0.946,0,TraincraftUtil.getBytesFromColors(new String[] {"Red", "Lime"}),18,-1, Constants.TOOLTIP),
 	CD127Motor("CD 127 Motor", Ctyrk4EntityCD127Motor.class, Ctyrk4ItemIDs.minecartCD127Motor.item, "freight", 0.5, TraincraftUtil.getBytesFromColors(new String[] {"Red", "Lime"}), 0, 27, Constants.TOOLTIP),
@@ -96,8 +94,6 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 
 	;
 
-//String trainType,int MHP,int maxSpeed, double mass, int fuelConsumption, int waterConsumption, int heatingTime, double accelerationRate, double brakeRate, int tankCapacity, String[] colors,
-
 	private String internalName;
 	private Class entityClass;
 	private Item item;
@@ -118,6 +114,7 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	private int cargoCapacity;
 	
 	/**
+     * Constructor for standard train.
 	 * 
 	 * @param internalName : Only used by EntityRegistry
 	 * @param entityClass
@@ -155,7 +152,8 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	}
 	
 	/**
-	 * Constructor for additional tooltips on the item
+	 * Constructor for additional tooltips on the item.
+     *
 	 * @param internalName
 	 * @param entityClass
 	 * @param item
@@ -195,7 +193,8 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	}
 	
 	/**
-	 * Constructor for freight carts
+	 * Constructor for freight carts.
+     *
 	 * @param internalName
 	 * @param entityClass
 	 * @param item
@@ -203,8 +202,6 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	 * @param mass
 	 * @param colors
 	 * @param guiRenderScale
-	 * //@param bogieLocoPositions
-	 * //@param bogieUtilityPositions
 	 * @param cargoCapacity
 	 * @param additionalTooltip
 	 */
