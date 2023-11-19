@@ -159,18 +159,17 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	}, 3, true),
 	T4(Ctyrk4EntityElectricT4.class, new ModelT4(), "T4_", true,new float[] {-1.25F, 0.2F, 0F},  new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
 	ClassA16tender(Ctyrk4EntityTenderA16.class, new ModelA16Tender(), "A16_Tender_", true,
-			new float[] { 0.0F, 0.1F, 0.0F }, new float[] { 180F, 0.0F, 0.0F },new float[] { 1F, 1F, 0.9F }, "", 0, null, "", null, 0, false),
+			new float[] { 0.0F, 0F, 0.0F }, new float[] { 180F, 0.0F, 0.0F }, null, "", 0, null, "", null, 0, false),
 	ClassA16Loco(Ctyrk4EntityLocoSteamA16.class, new ModelA16Loco(), "A16_", true,
-			new float[] { -4.5F, 0.1F, 0.0F }, new float[] { 180F, 180F, 0.0F },new float[] { 1F, 1F, 0.9F }, "largesmoke", 3, new ArrayList<double[]>() {
+			new float[] { -6F, 0F, 0.0F }, new float[] { 180F, 180F, 0.0F }, null, "largesmoke", 3, new ArrayList<double[]>() {
 		{
-			add(new double[] { 7.6D, 1.75D, 0.0D });
+			add(new double[] { 9.2D, 1.75D, 0.0D });
 		}
 	}, "explode", new ArrayList<double[]>() {
 		{
-			add(new double[] { 7.8D, -0.2D, 0.8D });
+			add(new double[] { 9.4D, -0.2D, 0.8D });
 		}
 	}, 2, false),
-	FLBox(Ctyrk4EntityFreightFLBox.class, new ModelFLBox(), "FLBox_", true, new float[] { 0.0F, 0.1F, 0.0F },  new float[] { 180F, 0.0F, 0.0F }, new float[] { 1.3F, 1.1F, 0.9F }, "", 0, null, "", null, 0, false),
 	;
 	private Class<? extends EntityRollingStock> entityClass;
 	private ModelBase model;
