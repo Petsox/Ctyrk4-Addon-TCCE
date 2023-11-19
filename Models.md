@@ -1,4 +1,4 @@
-| VANILLA MODEL	   | AUTOR	                  | RESKINY V 4 EDICI                                    | POZNÁMKA          | VÝSLEDEK ❓-nevyřešeno/❌-zakázáno/✅-povoleno |
+| VANILLA MODEL	   | AUTHOR                  | RESKINS IN CTYRK4 EDITION                            | NOTES             | RESULT ❓-not solved/❌-disallowed/✅-allowed |
 |------------------|-------------------------|------------------------------------------------------|-------------------| --- |
 | Rheingold        | sebasver                | A149, AB349, B249, Bbdgmee236, BDs, Ds, WRmz, MVZSv2 |                   | ❓ |
 | E10 DB           | sebasver                | 100, 140, 242, RE 420                                |                   | ❓ |
@@ -37,11 +37,11 @@
 | 451              | S. S. Amazon            | 451                                                  |                   | ✅ |
 | 714              | 2kmartinz               | 714                                                  |                   | ✅ |
 |                  |                         |                                                      |                   | |
-| Freight Cart US  | ???                     | Eas                                                  | už z původního TC | ❓ |
-| Tank wagon       | ???                     | Cisterny                                             | už z původního TC | ❓ |
-| Flat Car Logs    | ???                     | Vozy na dřevo                                        | už z původního TC | ❓ |
-| Flat Car Rails   | ???                     | Kolejnicové vozy                                     | už z původního TC | ❓ |
-| Freight Gondola  | ???                     | Nákladní vozy                                        | už z původního TC | ❓ |
-| Open Wagon       | ???                     | Eas                                                  | už z původního TC | ❓ |
-| VL10             | ???                     | 131                                                  | už z původního TC | ❓ |
-| V60              | ???                     | Rakušanka (715)                                      | už z původního TC | ❓ |
+| Freight Cart US  | ???                     | Eas                                                  | from former TC    | ❓ |
+| Tank wagon       | ???                     | Cisterny                                             | from former TC    | ❓ |
+| Flat Car Logs    | ???                     | Vozy na dřevo                                        | from former TC    | ❓ |
+| Flat Car Rails   | ???                     | Kolejnicové vozy                                     | from former TC    | ❓ |
+| Freight Gondola  | ???                     | Nákladní vozy                                        | from former TC    | ❓ |
+| Open Wagon       | ???                     | Eas                                                  | from former TC    | ❓ |
+| VL10             | ???                     | 131                                                  | from former TC    | ❓ |
+| V60              | ???                     | Rakušanka (715)                                      | from former TC    | ❓ |
