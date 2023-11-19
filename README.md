@@ -33,7 +33,7 @@ Discord
 
 You can contact us here, we will happily create a ticket for any questions you might have:
 
-https://discord.gg/kfv2kpuezU/
+https://discord.gg/kfv2kpuezU
 
 Building
 --------
