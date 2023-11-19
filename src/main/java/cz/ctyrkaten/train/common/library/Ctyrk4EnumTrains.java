@@ -105,10 +105,11 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	CSD464("Loco Steam C11", Ctyrk4EntityCSD464.class, Ctyrk4ItemIDs.minecartCSD464.item,"steam", 1030, 97, 0, 80, 100, 200, 0.35, 0.975, 16000, TraincraftUtil.getBytesFromColors(new String[]{"Red"}), 10, -3.0, "Pack: " + EnumChatFormatting.YELLOW + "Ctyrk4 Pack"  + EnumChatFormatting.GOLD + EnumChatFormatting.BOLD + "  -Petsox"),
 	T4("T4", Ctyrk4EntityElectricT4.class, Ctyrk4ItemIDs.minecartT4.item, "electric", 200, 70, 0,20, 0, 100, 0.7, 0.8, 1000, TraincraftUtil.getBytesFromColors(new String[] {"Red","Orange"}), 18, -2, "Pack: " + EnumChatFormatting.YELLOW + "Ctyrk4 Pack"  + EnumChatFormatting.GOLD + EnumChatFormatting.BOLD + "  -Petsox"),
 	ClassA16("A16", Ctyrk4EntityLocoSteamA16.class,  Ctyrk4ItemIDs.minecartA16Loco.item,
-			"steam", 2102, 111, 0, 60, 180, 160, 0.7, 0.97, 10000, TraincraftUtil.getBytesFromColors(new String[] {"Black", "Brown", "Cyan", "Green", "Grey", "LightBlue", "Lime", "Magenta", "Pink", "Red", "White", "Skin16", "Skin17", "Skin18"}), 7, -11, "Pack: " + EnumChatFormatting.YELLOW + "Ctyrk4 Pack"  + EnumChatFormatting.GOLD + EnumChatFormatting.BOLD + "  -Petsox"),
+			"steam", 2102, 111, 0, 60, 180, 160, 0.7, 0.97, 10000, TraincraftUtil.getBytesFromColors(new String[] {"Black", "Brown", "Cyan", "Green", "Grey", "LightBlue", "Lime", "Magenta", "Pink", "Red", "White", "Skin16", "Skin17", "Skin18"}), 7, -8, "Pack: " + EnumChatFormatting.YELLOW + "Ctyrk4 Pack"  + EnumChatFormatting.GOLD + EnumChatFormatting.BOLD + "  -Petsox"),
 	ClassA16tender("A16 tender", Ctyrk4EntityTenderA16.class, Ctyrk4ItemIDs.minecartA16Tender.item, "tender", 0,
 			0, 0.5, 0, 0, 0, 0, 0, 14000, TraincraftUtil.getBytesFromColors(new String[] { "Black" }), 18, 0,
 			"Pack: " + EnumChatFormatting.YELLOW + "Ctyrk4 Pack"  + EnumChatFormatting.GOLD + EnumChatFormatting.BOLD + "  -Petsox" ),
+	FlBox("FreeLance Box Cart", Ctyrk4EntityFreightFLBox.class, Ctyrk4ItemIDs.minecartFLBox.item, "freight", 3.5, TraincraftUtil.getBytesFromColors(new String[]{"Brown"}), 18, 45, "Pack: " + EnumChatFormatting.YELLOW + "Ctyrk4 Pack"  + EnumChatFormatting.GOLD + EnumChatFormatting.BOLD + "  -Petsox"),
 	;
 
 //String trainType,int MHP,int maxSpeed, double mass, int fuelConsumption, int waterConsumption, int heatingTime, double accelerationRate, double brakeRate, int tankCapacity, String[] colors,

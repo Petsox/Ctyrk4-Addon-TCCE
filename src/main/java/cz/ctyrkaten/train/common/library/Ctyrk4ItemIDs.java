@@ -95,6 +95,7 @@ public enum Ctyrk4ItemIDs {
 	minecartCDWRMZ("ItemRollingStock", "CD_WRMz", 2),
 	minecartCDDS("ItemRollingStock", "CD_Ds", 2),
 	minecartCD914("ItemRollingStock", "CD914", 2),
+	minecartFLBox("ItemRollingStock", "FLBox", 2),
 	;
 
 	public Item item;
