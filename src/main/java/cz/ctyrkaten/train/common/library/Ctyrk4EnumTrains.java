@@ -31,6 +31,8 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 			Constants.TOOLTIP ),
 	locoDieselGP40("Loco Diesel CD742", Ctyrk4EntityLocoDieselCD742.class,  Ctyrk4ItemIDs.minecartCD742.item, "diesel", 1200, 91,
 			0, 50, 0, 250, 0.8, 0.966, 10000, TraincraftUtil.getBytesFromColors(new String[] { "Yellow", "White", "Blue", "Orange", "LightBlue", "Green", "Lime", "Red" }), 15, -2.5, Constants.TOOLTIP),
+	locoDieselCD751("Loco Diesel CD 751", Ctyrk4EntityLocoDieselCD751.class, Ctyrk4ItemIDs.minecartCD751.item, "diesel",
+			1985, 101, 0, 40, 0, 100, 0.8, 0.97, 12000,TraincraftUtil.getBytesFromColors(new String[]{"Red"}), 10, -4.2, Constants.TOOLTIP),
 	locoDieselCD754("Loco Diesel CD 754", Ctyrk4EntityLocoDieselCD754.class, Ctyrk4ItemIDs.minecartCD754.item, "diesel",
 			1985, 101, 0, 40, 0, 100, 0.8, 0.97, 12000,TraincraftUtil.getBytesFromColors(new String[]{"Red", "Cyan", "Orange", "Green", "Yellow", "Lime", "Grey", "Blue"}), 10, -4.2, Constants.TOOLTIP),
 	locoDieselCD720("Loco Diesel CD 720", Ctyrk4EntityLocoDieselCD720.class, Ctyrk4ItemIDs.minecartCD720.item, "diesel",

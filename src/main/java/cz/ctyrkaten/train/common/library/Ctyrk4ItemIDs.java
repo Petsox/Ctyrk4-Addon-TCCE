@@ -4,6 +4,7 @@ import net.minecraft.item.Item;
 
 public enum Ctyrk4ItemIDs {
 	minecartCD742("ItemRollingStock", "CD_742", 10),
+	minecartCD751("ItemRollingStock", "CD_751", 10),
 	minecartCD754("ItemRollingStock", "CD_754", 10),
 	minecartCD451("ItemRollingStock", "CD_451", 10),
 	minecartCD451Coach("ItemRollingStock", "CD_051", 10),

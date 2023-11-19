@@ -58,6 +58,11 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	locoCD363(Ctyrk4EntityLocoElectricCD363.class, new ModelCD363(), "CD363_", true, new float[]{-2,0.18f,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
 	locoZSSK362(Ctyrk4EntityLocoElectricZSSK362.class, new ModelZSSK362(), "ZSSK361_", true, new float[]{-2,0.18f,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
 	locoZSSK363(Ctyrk4EntityLocoElectricZSSK363.class, new ModelZSSK363(), "ZSSK363_", true, new float[]{-2,0.18f,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
+	locoCD751(Ctyrk4EntityLocoDieselCD751.class, new ModelCD751(), "CD_751_", true, new float[] { -3.1F, 0.15F, 0.0F }, new float[] { 0F, 180F, 180F }, null, "smoke", 5, new ArrayList<double[]>() {
+		{
+			add(new double[] { 1.42D, 1.45D, 0.0D });
+		}
+	}, "", null, 0, false),
 	locoCD754(Ctyrk4EntityLocoDieselCD754.class, new ModelCD754(), "CD_754_", true, new float[] { -3.1F, 0.15F, 0.0F }, new float[] { 0F, 180F, 180F }, null, "smoke", 5, new ArrayList<double[]>() {
 		{
 			add(new double[] { 1.42D, 1.45D, 0.0D });
