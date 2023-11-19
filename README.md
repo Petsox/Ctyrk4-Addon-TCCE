@@ -28,6 +28,13 @@ HajdaM - @hajdam
 
 And all creators of included models and skins
 
+Discord
+-------
+
+You can contact us here, we will happily create a ticket for any questions you might have:
+
+https://discord.gg/kfv2kpuezU/
+
 Building
 --------
 
