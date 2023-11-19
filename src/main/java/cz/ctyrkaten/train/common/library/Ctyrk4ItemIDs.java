@@ -1,3 +1,10 @@
+/*******************************************************************************
+ * Copyright (c) 2012 mrbrutal. All rights reserved.
+ *
+ * @name TrainCraft
+ * @author mrbrutal
+ ******************************************************************************/
+
 package cz.ctyrkaten.train.common.library;
 
 import net.minecraft.item.Item;
@@ -96,7 +103,7 @@ public enum Ctyrk4ItemIDs {
 	public String iconName;
 
 	/**
-	 * Amount for one emerald. For ItemRollingStock, it is the price for one train.
+	 * amount for one emerald. For ItemRollingStock, it is the price for one train
 	 */
 	public int amountForEmerald;
 

@@ -31,7 +31,7 @@ public enum Ctyrk4EnumSounds implements TrainSoundRecord {
 	private boolean soundChangeWithSpeed;
 
 	/**
-	 * Defines the sounds for the locomotives.
+	 * Defines the sounds for the locomotives Many locomotives have the same sound for run and idle
 	 * 
 	 * @param entityClass
 	 * @param horn

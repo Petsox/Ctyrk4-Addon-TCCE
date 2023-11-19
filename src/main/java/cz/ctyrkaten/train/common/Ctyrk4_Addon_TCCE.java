@@ -23,7 +23,7 @@ import cz.ctyrkaten.train.common.library.Ctyrk4Registry;
 @Mod(modid = Ctyrk4AddonInfo.modID, name = Ctyrk4AddonInfo.modName, version = Ctyrk4AddonInfo.modVersion)
 public class Ctyrk4_Addon_TCCE {
 
-	/* Mod instance */
+	/* TrainCraft instance */
 	@Instance(Ctyrk4AddonInfo.modID)
 	public static Ctyrk4_Addon_TCCE instance;
 
@@ -32,7 +32,7 @@ public class Ctyrk4_Addon_TCCE {
 
 //	public static File configDirectory;
 
-	/* Creative tab for Addon */
+	/* Creative tab for Traincraft */
 	public static CreativeTabs tcAddonTab;
 
     private Ctyrk4Registry registry;
