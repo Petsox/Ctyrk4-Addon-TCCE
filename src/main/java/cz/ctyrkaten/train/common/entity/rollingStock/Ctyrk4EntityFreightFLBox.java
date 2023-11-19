@@ -1,7 +1,5 @@
 package cz.ctyrkaten.train.common.entity.rollingStock;
 
-import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
-import cz.ctyrkaten.train.common.library.Ctyrk4EnumTrains;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
@@ -10,26 +8,27 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
-import net.minecraftforge.fluids.FluidRegistry;
-import train.common.api.LiquidManager;
-import train.common.api.Tender;
+import train.common.Traincraft;
+import train.common.api.Freight;
 import train.common.library.GuiIDs;
 
-public class Ctyrk4EntityTenderA16 extends Tender implements IInventory {
+public class Ctyrk4EntityFreightFLBox extends Freight implements IInventory {
 	public int freightInventorySize;
 	public int numFreightSlots;
+	private EntityPlayer playerEntity;
 
-	public Ctyrk4EntityTenderA16(World world) {
-		super(world, FluidRegistry.WATER, 0, Ctyrk4EnumTrains.tenderCSD387.getTankCapacity(), LiquidManager.WATER_FILTER);
-		initFreightTender();
+	public Ctyrk4EntityFreightFLBox(World world) {
+		super(world);
+		initFreightCart();
 	}
 
-	public void initFreightTender() {
-		freightInventorySize = 16;
-		tenderItems = new ItemStack[freightInventorySize];
+	public void initFreightCart() {
+		numFreightSlots = 9;
+		if(trainSpec!=null)freightInventorySize = trainSpec.getCargoCapacity();
+		cargoItems = new ItemStack[freightInventorySize];
 	}
 
-	public Ctyrk4EntityTenderA16(World world, double d, double d1, double d2) {
+	public Ctyrk4EntityFreightFLBox(World world, double d, double d1, double d2) {
 		this(world);
 		setPosition(d, d1 + (double) yOffset, d2);
 		motionX = 0.0D;
@@ -47,21 +46,15 @@ public class Ctyrk4EntityTenderA16 extends Tender implements IInventory {
 	}
 
 	@Override
-	public void onUpdate() {
-		super.onUpdate();
-		checkInvent(tenderItems[0], this);
-	}
-
-	@Override
 	protected void writeEntityToNBT(NBTTagCompound nbttagcompound) {
 		super.writeEntityToNBT(nbttagcompound);
 
 		NBTTagList nbttaglist = new NBTTagList();
-		for (int i = 0; i < tenderItems.length; i++) {
-			if (tenderItems[i] != null) {
+		for (int i = 0; i < cargoItems.length; i++) {
+			if (cargoItems[i] != null) {
 				NBTTagCompound nbttagcompound1 = new NBTTagCompound();
 				nbttagcompound1.setByte("Slot", (byte) i);
-				tenderItems[i].writeToNBT(nbttagcompound1);
+				cargoItems[i].writeToNBT(nbttagcompound1);
 				nbttaglist.appendTag(nbttagcompound1);
 			}
 		}
@@ -73,44 +66,37 @@ public class Ctyrk4EntityTenderA16 extends Tender implements IInventory {
 		super.readEntityFromNBT(nbttagcompound);
 
 		NBTTagList nbttaglist = nbttagcompound.getTagList("Items", Constants.NBT.TAG_COMPOUND);
-		tenderItems = new ItemStack[getSizeInventory()];
+		cargoItems = new ItemStack[getSizeInventory()];
 		for (int i = 0; i < nbttaglist.tagCount(); i++) {
 			NBTTagCompound nbttagcompound1 = nbttaglist.getCompoundTagAt(i);
 			int j = nbttagcompound1.getByte("Slot") & 0xff;
-			if (j >= 0 && j < tenderItems.length) {
-				tenderItems[j] = ItemStack.loadItemStackFromNBT(nbttagcompound1);
+			if (j >= 0 && j < cargoItems.length) {
+				cargoItems[j] = ItemStack.loadItemStackFromNBT(nbttagcompound1);
 			}
 		}
 	}
 	@Override
 	public String getInventoryName() {
-		return "A16 Tender";
+		return "FreeLance Box Cart";
 	}
-
 	@Override
 	public int getSizeInventory() {
 		return freightInventorySize;
 	}
+
 	@Override
 	public boolean interactFirst(EntityPlayer entityplayer) {
 		playerEntity = entityplayer;
 		if ((super.interactFirst(entityplayer))) {
 			return false;
 		}
-		if (!this.worldObj.isRemote) {
-			entityplayer.openGui(Ctyrk4_Addon_TCCE.instance, GuiIDs.TENDER, worldObj, this.getEntityId(), -1, (int) this.posZ);
-		}
+		entityplayer.openGui(Traincraft.instance, GuiIDs.FREIGHT, worldObj, this.getEntityId(), -1, (int) this.posZ);
 		return true;
 	}
 
 	@Override
-	public boolean canBeRidden() {
-		return false;
-	}
-
-	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
-		return 3.2F;
+		return 4F;
 	}
 
 	@Override
