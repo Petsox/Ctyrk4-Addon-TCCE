@@ -170,6 +170,7 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 			add(new double[] { 9.4D, -0.2D, 0.8D });
 		}
 	}, 2, false),
+	FLBox(Ctyrk4EntityFreightFLBox.class, new ModelFLBox(), "FLBox_", true, new float[] { 0.0F, 0.1F, 0.0F },  new float[] { 180F, 0.0F, 0.0F }, new float[] { 1.3F, 1.1F, 0.9F }, "", 0, null, "", null, 0, false),
 	;
 	private Class<? extends EntityRollingStock> entityClass;
 	private ModelBase model;

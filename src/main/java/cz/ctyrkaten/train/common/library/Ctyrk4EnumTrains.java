@@ -11,8 +11,6 @@ import cz.ctyrkaten.train.common.entity.rollingStock.*;
 import java.lang.reflect.InvocationTargetException;
 
 public enum Ctyrk4EnumTrains implements TrainRecord {
-	
-	//Ctyrk4 Pack
 
 	locoCD843("CD 843", Ctyrk4EntityLocoDieselCD843.class, Ctyrk4ItemIDs.minecartLocoCD843.item, "diesel", 816, 111, 1.4, 10,0,100,0.7,0.9,8000,TraincraftUtil.getBytesFromColors(new String[] {"Orange", "Green", "Grey", "LightBlue"}), 18, -4.25,Constants.TOOLTIP ),
 	locoElectricCD127("Loco Electric CD 127", Ctyrk4EntityLocoElectricCD127.class, Ctyrk4ItemIDs.minecartCD127.item,"electric",2978,66,0,15,0,400,0.9,0.946,0,TraincraftUtil.getBytesFromColors(new String[] {"Red", "Lime"}),18,-1, Constants.TOOLTIP),
@@ -41,10 +39,10 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	ARR845("Arriva 845", Ctyrk4EntityLocoDieselARR845.class, Ctyrk4ItemIDs.minecartARR845.item, "diesel", 286, 121, 0, 10, 0,100,0.85,0.7, 15000, TraincraftUtil.getBytesFromColors(new String[]{"Cyan", "LightBlue"}), 18, -4.5, Constants.TOOLTIP),
 	locoElectricZSSK350("Loco Electric ZSSK 350", Ctyrk4EntityLocoElectricZSSK350.class, Ctyrk4ItemIDs.minecartLocoZSSK350.item, "electric", 5438, 161, 0, 10, 0, 170, 0.7, 0.965, 6850, TraincraftUtil.getBytesFromColors(new String[]{"Red", "Blue", "Brown"}), 18, -4, Constants.TOOLTIP),
 	locoElectricZSSK362("Loco Electric ZSSK362", Ctyrk4EntityLocoElectricZSSK362.class, Ctyrk4ItemIDs.minecartZSSK362.item, "electric", 4446, 141, 0, 10, 0, 170, 0.7, 0.965, 6850, TraincraftUtil.getBytesFromColors(new String[]{"Red"}), 18, -4, Constants.TOOLTIP),
-	locoElectricZSSK363("Loco Electric ZSSK363", Ctyrk4EntityLocoElectricZSSK363.class, Ctyrk4ItemIDs.minecartZSSK363.item, "electric", 4446, 141, 0, 10, 0, 170, 0.7, 0.965, 6850, TraincraftUtil.getBytesFromColors(new String[]{"Blue"}), 18, -4, Constants.TOOLTIP),
+	locoElectricZSSK363("Loco Electric ZSSK363", Ctyrk4EntityLocoElectricZSSK363.class, Ctyrk4ItemIDs.minecartZSSK363.item, "electric", 4446, 121, 0, 10, 0, 170, 0.7, 0.965, 6850, TraincraftUtil.getBytesFromColors(new String[]{"Blue"}), 18, -4, Constants.TOOLTIP),
 	locoCD230("Loco Electric CD 230", Ctyrk4EntityLocoElectricCD230.class, Ctyrk4ItemIDs.minecartCD230.item,"electric",4188,111,0,38,0,170,0.66,0.96,8000,TraincraftUtil.getBytesFromColors(new String[] {"Red"}),15,-3.6, Constants.TOOLTIP),
 	locoElectricCD362("Loco Electric CD362", Ctyrk4EntityLocoElectricCD362.class, Ctyrk4ItemIDs.minecartLocoCD362.item, "electric", 4446, 141, 0, 10, 0, 170, 0.7, 0.965, 6850, TraincraftUtil.getBytesFromColors(new String[] {"Red", "Blue", "Yellow", "LightBlue", "Pink", "Brown"}), 18, -4, Constants.TOOLTIP),
-	locoElectricCD363("Loco Electric CD363", Ctyrk4EntityLocoElectricCD363.class, Ctyrk4ItemIDs.minecartLocoCD363.item, "electric", 4446, 141, 0, 10, 0, 170, 0.7, 0.965, 6850, TraincraftUtil.getBytesFromColors(new String[]{"Blue", "Red", "LightBlue"}), 18, -4, Constants.TOOLTIP),
+	locoElectricCD363("Loco Electric CD363", Ctyrk4EntityLocoElectricCD363.class, Ctyrk4ItemIDs.minecartLocoCD363.item, "electric", 4446, 121, 0, 10, 0, 170, 0.7, 0.965, 6850, TraincraftUtil.getBytesFromColors(new String[]{"Blue", "Red", "LightBlue"}), 18, -4, Constants.TOOLTIP),
 	locoCD242("Loco Electric CD 242", Ctyrk4EntityLocoElectricCD242.class, Ctyrk4ItemIDs.locoCD242.item,"electric",4188,121,0,8,0,170,0.66,0.96,8000,TraincraftUtil.getBytesFromColors(new String[] {"Blue", "Grey", "Brown", "Green", "Red", "LightBlue"}),15,-3.8, Constants.TOOLTIP),
 	locoCD100("Loco Electric CD 100", Ctyrk4EntityLocoElectricCD100.class, Ctyrk4ItemIDs.locoCD100.item,"electric",4188,51,0,8,0,170,0.66,0.96,8000,TraincraftUtil.getBytesFromColors(new String[] {"Green"}),15,-3.8, Constants.TOOLTIP),
 	locoCD140("Loco Electric CD 140", Ctyrk4EntityLocoElectricCD140.class, Ctyrk4ItemIDs.locoCD140.item,"electric",4188,121,0,8,0,170,0.66,0.96,8000,TraincraftUtil.getBytesFromColors(new String[] {"Green", "Blue", "LightBlue"}),15,-3.8, Constants.TOOLTIP),
@@ -93,10 +91,23 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	locoZSSK812("ZSSK812 Driving Motor", Ctyrk4EntityLocoDieselZSSK812.class, Ctyrk4ItemIDs.minecartZSSK812.item, "diesel", 349, 81, 0, 60, 0, 200, 0.8, 0.97, 6000, TraincraftUtil.getBytesFromColors(new String[]{"Red"}), 10, -2.0, Constants.TOOLTIP),
 	CDBFHPVEE295("CDBFHPVEE295", Ctyrk4EntityElectricCDBFHPVEE295.class, Ctyrk4ItemIDs.minecartCDBFHPVEE295.item, "electric", 4446, 141, 0,60, 0, 100, 0.7, 0.7, 1000, TraincraftUtil.getBytesFromColors(new String[] {"Blue"}), 18, -4,Constants.TOOLTIP),
 	CDBDMTEE("CDBDMTEE", Ctyrk4EntityPassengerCDBDMTEE.class, Ctyrk4ItemIDs.minecartCDBDMTEE.item, "passenger", 0, 0, 3,0 , 0, 0, 0,0,0,TraincraftUtil.getBytesFromColors(new String[] {"Blue", "Green"}),0,0),
-
+	locoElectricCD680("CD680 Loco", Ctyrk4EntityLocoElectricCD680.class, Ctyrk4ItemIDs.minecartCD680Loco.item, "electric", 6840, 260, 0,60, 0, 100, 0.7, 0.8, 1000, TraincraftUtil.getBytesFromColors(new String[] {"Blue"}), 18, -5.1,Constants.TOOLTIP),
+	passengerCD680Coach("CD680 Coach", Ctyrk4EntityPassengerCD680Coach.class, Ctyrk4ItemIDs.minecartCD680Coach.item, "passenger", 0, 0, 4, 0, 0, 0, 0, 0, 0, TraincraftUtil.getBytesFromColors(new String[]{"Blue"}), 0, 0, Constants.TOOLTIP),
+	cabooseCD680Tail("CD680 Tail", Ctyrk4EntityPassengerCD680Tail.class, Ctyrk4ItemIDs.minecartCD680Tail.item, "passenger", 0, 0, 4, 0, 0, 0, 0, 0, 0, TraincraftUtil.getBytesFromColors(new String[]{"Blue"}), 0, 0, Constants.TOOLTIP),
+	CD715("CD 715", Ctyrk4EntityLocoDieselCD715.class, Ctyrk4ItemIDs.minecartCD715.item,"diesel",1058,60,0,60,0,170,0.66,0.96,8000,null,15,-1.5),
+	CDZAS30("Zas 30", Ctyrk4EntityCDZAS30.class, Ctyrk4ItemIDs.minecartCDZAS30.item, "tank", 0, 0, 6, 0, 0, 0, 0, 0, 50000, TraincraftUtil.getBytesFromColors(new String[]{"Blue", "White"}), 18, 0, Constants.TOOLTIP),
+	CDNP("CD NP", Ctyrk4EntityCDNP.class, Ctyrk4ItemIDs.minecartCDNP.item, "freight", 5, TraincraftUtil.getBytesFromColors(new String[]{"Brown"}), 18, 36, Constants.TOOLTIP),
+	CDKNS("CD KNS", Ctyrk4EntityCDKNS.class, Ctyrk4ItemIDs.minecartCDKNS.item, "freight", 4, TraincraftUtil.getBytesFromColors(new String[]{"Red"}), 18, 45, Constants.TOOLTIP),
+	CDES11("CD ES11", Ctyrk4EntityCDES11.class, Ctyrk4ItemIDs.minecartCDES11.item, "freight", 3.5, TraincraftUtil.getBytesFromColors(new String[]{"Brown"}), 18, 45, Constants.TOOLTIP),
+	CSD464("Loco Steam C11", Ctyrk4EntityCSD464.class, Ctyrk4ItemIDs.minecartCSD464.item,"steam", 1030, 97, 0, 80, 100, 200, 0.35, 0.975, 16000, TraincraftUtil.getBytesFromColors(new String[]{"Red"}), 10, -3.0, Constants.TOOLTIP),
+	T4("T4", Ctyrk4EntityElectricT4.class, Ctyrk4ItemIDs.minecartT4.item, "electric", 200, 70, 0,20, 0, 100, 0.7, 0.8, 1000, TraincraftUtil.getBytesFromColors(new String[] {"Red","Orange"}), 18, -2, Constants.TOOLTIP),
+	ClassA16("A16", Ctyrk4EntityLocoSteamA16.class,  Ctyrk4ItemIDs.minecartA16Loco.item,
+			"steam", 2102, 111, 0, 60, 180, 160, 0.7, 0.97, 10000, TraincraftUtil.getBytesFromColors(new String[] {"Black", "Brown", "Cyan", "Green", "Grey", "LightBlue", "Lime", "Magenta", "Pink", "Red", "White", "Skin16", "Skin17", "Skin18"}), 7, -8, Constants.TOOLTIP),
+	ClassA16tender("A16 tender", Ctyrk4EntityTenderA16.class, Ctyrk4ItemIDs.minecartA16Tender.item, "tender", 0,
+			0, 0.5, 0, 0, 0, 0, 0, 14000, TraincraftUtil.getBytesFromColors(new String[] { "Black" }), 18, 0,
+			Constants.TOOLTIP ),
+	FlBox("FreeLance Box Cart", Ctyrk4EntityFreightFLBox.class, Ctyrk4ItemIDs.minecartFLBox.item, "freight", 3.5, TraincraftUtil.getBytesFromColors(new String[]{"Brown"}), 18, 45, Constants.TOOLTIP),
 	;
-
-//String trainType,int MHP,int maxSpeed, double mass, int fuelConsumption, int waterConsumption, int heatingTime, double accelerationRate, double brakeRate, int tankCapacity, String[] colors,
 
 	private String internalName;
 	private Class entityClass;
@@ -118,7 +129,8 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	private int cargoCapacity;
 	
 	/**
-	 * 
+	 * Constructor for standard train.
+	 *
 	 * @param internalName : Only used by EntityRegistry
 	 * @param entityClass
 	 * @param item
@@ -156,6 +168,7 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	
 	/**
 	 * Constructor for additional tooltips on the item
+	 *
 	 * @param internalName
 	 * @param entityClass
 	 * @param item
@@ -196,6 +209,7 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	
 	/**
 	 * Constructor for freight carts
+	 *
 	 * @param internalName
 	 * @param entityClass
 	 * @param item
@@ -203,8 +217,6 @@ public enum Ctyrk4EnumTrains implements TrainRecord {
 	 * @param mass
 	 * @param colors
 	 * @param guiRenderScale
-	 * //@param bogieLocoPositions
-	 * //@param bogieUtilityPositions
 	 * @param cargoCapacity
 	 * @param additionalTooltip
 	 */
