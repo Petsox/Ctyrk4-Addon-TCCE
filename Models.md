@@ -32,6 +32,7 @@
 | U57              | IceWelder               | U57                                                  |                   | ❓ |
 |                  |                         |                                                      |                   | |
 | 854              | adamek.trains_cz.tc     | 854                                                  |                   | ✅ |
+| 751              | adamek.trains_cz.tc     | 751                                                  |                   | ✅ |
 | 754              | adamek.trains_cz.tc     | 754                                                  |                   | ✅ |
 | 111              | Ctyrk4                  | 111                                                  |                   | ✅ |
 | 451              | S. S. Amazon            | 451                                                  |                   | ✅ |
