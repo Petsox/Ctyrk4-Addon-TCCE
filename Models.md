@@ -1,5 +1,5 @@
 | VANILLA MODEL	   | AUTHOR                  | RESKINS IN CTYRK4 EDITION                            | NOTES             | RESULT ❓-not solved/❌-disallowed/✅-allowed |
-|------------------|-------------------------|------------------------------------------------------|-------------------| --- |
+|------------------|-------------------------|------------------------------------------------------|-------------------| -- |
 | Rheingold        | sebasver                | A149, AB349, B249, Bbdgmee236, BDs, Ds, WRmz, MVZSv2 |                   | ❓ |
 | E10 DB           | sebasver                | 100, 140, 242, RE 420                                |                   | ❓ |
 | 440R             | kranker                 | 8171M, 8171, 460                                     |                   | ❓ |
@@ -24,7 +24,7 @@
 | 363              | vranaw                  | 363, 362                                             |                   | ❓ |
 | 704              | vranaw                  | 704                                                  |                   | ❓ |
 | MILW H10-44      | gevoo                   | 721/720                                              |                   | ❓ |
-| FM H16-66        | trainsfrom1.3.2to1.7.10 | 770                                                  |                   | ❓ |
+| FM H16-66        | trainsfrom1.3.2to1.7.10 | 770                                                  |                   | ❌|
 | GS4 Passenger    | EternalBlueFlame        | Bdmteeo, Bp                                          |                   | ❓ |
 | C62              | Broscolotos             | 387                                                  |                   | ❓ |
 | Propaganda car   | broscolotos             | Propaganda car                                       |                   | ❓ |
