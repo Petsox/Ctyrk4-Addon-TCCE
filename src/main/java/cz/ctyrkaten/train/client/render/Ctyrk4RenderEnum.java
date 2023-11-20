@@ -110,11 +110,6 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 			add(new double[] { 3.2, -0.5, 0.60D });
 		}
 	}, 2, true),
-	CD770( Ctyrk4EntityLocoDieselCD770.class,  new ModelCD770(), "CD_770_", true,new float[] {-1.7F, 0.15F, 0F},  new float[] { 0F, 180F, 180F }, null, "smoke", 4,  new ArrayList<double[]>() {
-		{
-			add(new double[]{1.85D, 1.55D, 0.0D});
-		}
-	}, "", null, 0, false),
 	CD704( Ctyrk4EntityLocoDieselCD704.class,  new ModelCD704(), "CD704_", true,new float[] {-0.5F, 0.15F, 0F},  new float[] { 0F, 180F, 180F },null, "smoke", 2,  new ArrayList<double[]>() {
 		{
 			add(new double[]{0.55D, 1.0D, 0.0D});
