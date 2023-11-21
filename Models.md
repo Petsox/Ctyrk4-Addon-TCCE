@@ -1,7 +1,7 @@
 | VANILLA MODEL	   | AUTHOR                  | RESKINS IN CTYRK4 EDITION                            | NOTES             | RESULT ❓-not solved/❌-disallowed/✅-allowed |
 |------------------|-------------------------|------------------------------------------------------|-------------------| -- |
-| Rheingold        | sebasver                | A149, AB349, B249, Bbdgmee236, BDs, Ds, WRmz, MVZSv2 |                   | ❓ |
-| E10 DB           | sebasver                | 100, 140, 242, RE 420                                |                   | ❓ |
+| Rheingold        | sebasver                | A149, AB349, B249, Bbdgmee236, BDs, Ds, WRmz, MVZSv2 |                   | ✅ |
+| E10 DB           | sebasver                | 100, 140, 242, RE 420                                |                   | ✅ |
 | 440R             | kranker                 | 8171M, 8171, 460                                     |                   | ✅ |
 | 450              | kranker                 | 470, 471                                             |                   | ✅ |
 | 446              | kranker                 | M1                                                   |                   | ✅ |
