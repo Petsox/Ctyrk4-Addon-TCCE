@@ -26,8 +26,8 @@
 | MILW H10-44      | gevoo                   | 721/720                                              |                   | ❓ |
 | FM H16-66        | trainsfrom1.3.2to1.7.10 | 770                                                  |                   | ❌ |
 | GS4 Passenger    | EternalBlueFlame        | Bdmteeo, Bp                                          |                   | ❓ |
-| C62              | Broscolotos             | 387                                                  |                   | ❓ |
-| Propaganda car   | broscolotos             | Propaganda car                                       |                   | ❓ |
+| C62              | Broscolotos             | 387                                                  |                   | ✅ |
+| Propaganda car   | broscolotos             | Propaganda car                                       |                   | ✅ |
 | C11              | cubed64                 | 464 (ušatá)                                          |                   | ✅ |
 | U57              | IceWelder               | U57                                                  |                   | ❓ |
 |                  |                         |                                                      |                   | |
