@@ -14,9 +14,9 @@
 | 390              | chazi                   | 680                                                  |                   | ❓ |
 | BR Mk2f          | chazi                   | Bdtn                                                 |                   | ❓ |
 | 010, 810         | Ondar                   | 010, 810, 012, 812                                   |                   | ❓ |
-| 014, 814, 914    | Ondar                   | 014, 814, 914                                        |                   | ❓ |
-| 151              | Ondar                   | 151, 350                                             |                   | ❓ |
-| 742              | Ondar                   | 742                                                  |                   | ❓ |
+| 014, 814, 914    | Ondar                   | 014, 814, 914                                        |                   | ✅ |
+| 151              | Ondar                   | 151, 350                                             |                   | ✅ |
+| 742              | Ondar                   | 742                                                  |                   | ✅ |
 | H10-44 new model | bidahochi               | new 721                                              |                   | ✅ |
 | Ore Jenny        | bidahochi               | 127 motor                                            |                   | ✅ |
 | ILMB             | migmog                  | 127 loco                                             |                   | ❓ |
