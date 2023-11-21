@@ -11,8 +11,8 @@
 | HLE 18           | chazi                   | 383                                                  |                   | ❓ |
 | 321              | chazi                   | Bdmtee, Bfhpvee295                                   |                   | ❓ |
 | 390              | chazi                   | 680                                                  |                   | ❓ |
-| FGV 4300         | TheDoctor1138/chazi     | 650                                                  |                   | ❓ |
-| BR Mk2f          | TheDoctor1138           | Bdtn                                                 |                   | ❓ |
+| FGV 4300         | kranker                 | 650                                                  |                   | ✅ |
+| BR Mk2f          | chazi                   | Bdtn                                                 |                   | ❓ |
 | 010, 810         | Ondar                   | 010, 810, 012, 812                                   |                   | ❓ |
 | 014, 814, 914    | Ondar                   | 014, 814, 914                                        |                   | ❓ |
 | 151              | Ondar                   | 151, 350                                             |                   | ❓ |
