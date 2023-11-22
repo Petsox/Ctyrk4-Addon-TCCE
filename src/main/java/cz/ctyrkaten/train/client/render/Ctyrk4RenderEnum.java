@@ -21,8 +21,8 @@ import java.util.ArrayList;
 
 public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	//Ctyrk4 Pack
-	PropagandaCzech(Ctyrk4EntityPropagandaCzech.class, new cz.ctyrkaten.train.client.render.models.ModelPropagandaCar(), "propaganda_Czech_", true, new float[] { 1.1F, 0.2F, -0.1F }, new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
-	PropagandaCtyrk4(Ctyrk4EntityPropaganda.class, new cz.ctyrkaten.train.client.render.models.ModelPropagandaCar(), "propaganda_Ctyrk4_", true, new float[] { 1.1F, 0.2F, -0.1F }, new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
+	PropagandaCzech(Ctyrk4EntityPropagandaCzech.class, new train.client.render.models.ModelPropagandaCar(), "propaganda_Czech_", true, new float[] { 1.1F, 0.2F, -0.1F }, new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
+	PropagandaCtyrk4(Ctyrk4EntityPropaganda.class, new train.client.render.models.ModelPropagandaCar(), "propaganda_Ctyrk4_", true, new float[] { 1.1F, 0.2F, -0.1F }, new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
 	locoCD127(Ctyrk4EntityLocoElectricCD127.class, new ModelCD127(), "CD_127_", true, new float[] { 0.0F, 0.15F, 0.0F }, new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
 	CD127Motor(Ctyrk4EntityCD127Motor.class, new ModelCD127Motor(),"CD_127_Motor_", true, new float[]{0F, 0.0F, 0F}, new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
 	ARR845(Ctyrk4EntityLocoDieselARR845.class, new ModelARR845(), "ARR845_", true, new float[]{-2.25f,-0.127f,0}, new float[] {0, 180, 180}, null , "smoke", 1,  null, "", null, 0, false),
@@ -125,7 +125,7 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 			add(new double[]{1.1D, 1.3D, 0.15D});
 		}
 	}, "", null, 0, false),*/
-	locoCD111(Ctyrk4EntityLocoElectricCD111.class, new ModelCD111(), "CD111_", true, new float[] { -1.3F, 0.1F, 0.0F }, new float[] { 0F, 0F, 180F }, new float[]{0.9f,0.9f,0.70f}, "",0,null, "", null, 0, false),
+	locoCD111(Ctyrk4EntityLocoElectricCD111.class, new ModelCD111(), "CD_111_", true, new float[] { -1.3F, 0.1F, 0.0F }, new float[] { 0F, 0F, 180F }, new float[]{0.9f,0.9f,0.70f}, "",0,null, "", null, 0, false),
 	CDBDMTEEO(Ctyrk4EntityPassengerCDBBDGMEE236.class, new ModelCDBBDGMEE236(), "CD_Bbdgmee236_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	locoRE420(Ctyrk4EntityLocoElectricRE420.class, new ModelRE420(), "RE420_", true, new float[] { -1.7F, 0.05F, 0.0F }, new float[] { 0F, 0F, 180F }, new float[]{0.9f,0.9f,0.9f}, "",0,null, "", null, 0, false),
 	CDEAS11(Ctyrk4EntityFreightCDEAS11.class, new ModelCDEAS11(), "CDEAs11_", true, new float[] { 0.0F, -0.47F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
@@ -176,6 +176,30 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 		}
 	}, 2, false),
 	FLBox(Ctyrk4EntityFreightFLBox.class, new ModelFLBox(), "FLBox_", true, new float[] { 0.0F, 0.1F, 0.0F },  new float[] { 180F, 0.0F, 0.0F }, new float[] { 1.3F, 1.1F, 0.9F }, "", 0, null, "", null, 0, false),
+	ClassTitantender(Ctyrk4EntityTenderTitan.class, new ModelClassTitanTender(), "Titan_Tender_", true,
+			new float[] { 0.0F, 0F, 0.0F }, new float[] { 180F, 0.0F, 0.0F }, null, "", 0, null, "", null, 0, false),
+	ClassTitanLoco(Ctyrk4EntityLocoSteamTitan.class, new ModelClassTitan(), "Titan_", true,
+			new float[] { -3F, 0F, 0.0F }, new float[] { 180F, 180F, 0.0F }, null, "largesmoke", 3, new ArrayList<double[]>() {
+		{
+			add(new double[] { 5.68D, 1.2D, 0.0D });
+		}
+	}, "explode", new ArrayList<double[]>() {
+		{
+			add(new double[] { 4.4D, -0.2D, 0.8D });
+		}
+	}, 2, false),
+	SFTenderLarge(Ctyrk4EntityTenderSFLarge.class, new ModelSFTenderLarge(), "SFTenderLarge_", true,
+			new float[] { 0.0F, 0F, 0.0F }, new float[] { 180F, 0.0F, 0.0F }, null, "", 0, null, "", null, 0, false),
+	SF482(Ctyrk4EntityLocoSteamSF482.class, new ModelSF482(), "SF_4-8-2_", true,
+			new float[] { -3F, 0F, 0.0F }, new float[] { 180F, 180F, 0.0F }, null, "largesmoke", 3, new ArrayList<double[]>() {
+		{
+			add(new double[] { 5.35D, 1.2D, 0.0D });
+		}
+	}, "explode", new ArrayList<double[]>() {
+		{
+			add(new double[] { 4.4D, -0.2D, 0.8D });
+		}
+	}, 2, false),
 	;
 	private Class<? extends EntityRollingStock> entityClass;
 	private ModelBase model;

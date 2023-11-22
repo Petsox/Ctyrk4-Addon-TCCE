@@ -89,10 +89,11 @@ item.tc_4ka_addon:minecartCD014.name=CD014 Trailer
 item.tc_4ka_addon:minecartCD814.name=CD814 Driving Motor
 item.tc_4ka_addon:minecartCD914.name=CD914 Driving Trailer
 item.tc_4ka_addon:minecartLocoCD151.name=CD 151
-item.tc_4ka_addon:minecartCD060.name=CD 060
 item.tc_4ka_addon:minecartFLBox.name=FreeLance Box Cart
-item.tc_4ka_addon:minecartA16Loco.name=Class A16
-item.tc_4ka_addon:minecartA16Tender.name=Class A16 Tender
+item.tc_4ka_addon:minecartA16Loco.name=Class 16A
+item.tc_4ka_addon:minecartA16Tender.name=Class 16A Tender
+item.tc_4ka_addon:minecartTitanLoco.name=Titan Loco
+item.tc_4ka_addon:minecartTitanTender.name=Titan Tender
 
 train.owner.name=You are not the owner!
 train.locked.name=Locked
