@@ -19,7 +19,7 @@
 | 742              | Ondar                   | 742                                                  |                   | ✅ |
 | H10-44 new model | bidahochi               | new 721                                              |                   | ✅ |
 | Ore Jenny        | bidahochi               | 127 motor                                            |                   | ✅ |
-| ILMB             | migmog                  | 127 loco                                             |                   | ❓ |
+| ILMB             | migmog                  | 127 loco                                             |                   | ✅ |
 | BR 155           | retrogxmr               | 230                                                  |                   | ❌ |
 | 363              | vranaw                  | 363, 362                                             |                   | ❓ |
 | 704              | vranaw                  | 704                                                  |                   | ❓ |
