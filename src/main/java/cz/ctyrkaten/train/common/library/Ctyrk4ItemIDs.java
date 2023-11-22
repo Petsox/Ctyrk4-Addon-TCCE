@@ -63,7 +63,6 @@ public enum Ctyrk4ItemIDs {
 	minecartCD060("ItemRollingStock", "CD_060", 2),
 	minecartCD127Motor("ItemRollingStock", "CD_127_Motor", 2),
 	minecartCD127("ItemRollingStock", "CD_127_Loco", 2),
-	minecartCD770("ItemRollingStock", "CD_770", 2),
 	minecartCD704("ItemRollingStock", "CD_704", 2),
 	minecartRE420("ItemRollingStock", "RE_420", 2),
 	minecartCDEAS11("ItemRollingStock", "CD_EAS11", 2),
