@@ -8,11 +8,11 @@
 | 153              | kranker                 | 843                                                  |                   | ✅ |
 | Duewag T4        | kranker                 | T4 spawn repaint                                     |                   | ✅ |
 | FGV 4300         | kranker                 | 650                                                  |                   | ✅ |
-| 175              | chazi                   | 845                                                  |                   | ❓ |
-| HLE 18           | chazi                   | 383                                                  |                   | ❓ |
-| 321              | chazi                   | Bdmtee, Bfhpvee295                                   |                   | ❓ |
-| 390              | chazi                   | 680                                                  |                   | ❓ |
-| BR Mk2f          | chazi                   | Bdtn                                                 |                   | ❓ |
+| 175              | chazi                   | 845                                                  |                   | ✅ |
+| HLE 18           | chazi                   | 383                                                  |                   | ✅ |
+| 321              | chazi                   | Bdmtee, Bfhpvee295                                   |                   | ✅ |
+| 390              | chazi                   | 680                                                  |                   | ✅ |
+| BR Mk2f          | chazi                   | Bdtn                                                 |                   | ✅ |
 | 010, 810         | Ondar                   | 010, 810, 012, 812                                   |                   | ✅ |
 | 014, 814, 914    | Ondar                   | 014, 814, 914                                        |                   | ✅ |
 | 151              | Ondar                   | 151, 350                                             |                   | ✅ |
@@ -21,8 +21,8 @@
 | Ore Jenny        | bidahochi               | 127 motor                                            |                   | ✅ |
 | ILMB             | migmog                  | 127 loco                                             |                   | ✅ |
 | BR 155           | retrogxmr               | 230                                                  |                   | ❌ |
-| 363              | vranaw                  | 363, 362                                             |                   | ❓ |
-| 704              | vranaw                  | 704                                                  |                   | ❓ |
+| 363              | vranaw                  | 363, 362                                             |                   | ✅ |
+| 704              | vranaw                  | 704                                                  |                   | ✅ |
 | MILW H10-44      | gevoo                   | 721/720                                              |                   | ❓ |
 | FM H16-66        | trainsfrom1.3.2to1.7.10 | 770                                                  |                   | ❌ |
 | GS4 Passenger    | EternalBlueFlame        | Bdmteeo, Bp                                          |                   | ❓ |
