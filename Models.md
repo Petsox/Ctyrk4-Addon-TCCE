@@ -8,11 +8,11 @@
 | 153              | kranker                 | 843                                                  |                   | ✅ |
 | Duewag T4        | kranker                 | T4 spawn repaint                                     |                   | ✅ |
 | FGV 4300         | kranker                 | 650                                                  |                   | ✅ |
-| 175              | chazi                   | 845                                                  |                   | ✅ |
-| HLE 18           | chazi                   | 383                                                  |                   | ✅ |
-| 321              | chazi                   | Bdmtee, Bfhpvee295                                   |                   | ✅ |
-| 390              | chazi                   | 680                                                  |                   | ✅ |
-| BR Mk2f          | chazi                   | Bdtn                                                 |                   | ✅ |
+| 175              | chazi                   | 845                                                  |                   | ✅ (TCCE import) |
+| HLE 18           | chazi                   | 383                                                  |                   | ✅ (TCCE import) |
+| 321              | chazi                   | Bdmtee, Bfhpvee295                                   |                   | ✅ (TCCE import) |
+| 390              | chazi                   | 680                                                  |                   | ✅ (TCCE import) |
+| BR Mk2f          | chazi                   | Bdtn                                                 |                   | ✅ (TCCE import) |
 | 010, 810         | Ondar                   | 010, 810, 012, 812                                   |                   | ✅ |
 | 014, 814, 914    | Ondar                   | 014, 814, 914                                        |                   | ✅ |
 | 151              | Ondar                   | 151, 350                                             |                   | ✅ |
@@ -25,7 +25,7 @@
 | 704              | vranaw                  | 704                                                  |                   | ✅ |
 | MILW H10-44      | gevoo                   | 721/720                                              |                   | ❓ |
 | FM H16-66        | trainsfrom1.3.2to1.7.10 | 770                                                  |                   | ❌ |
-| GS4 Passenger    | EternalBlueFlame        | Bdmteeo, Bp                                          |                   | ❓ |
+| GS4 Passenger    | EternalBlueFlame        | Bdmteeo, Bp                                          |                   | ✅ (TCCE import) |
 | C62              | Broscolotos             | 387                                                  |                   | ✅ |
 | Propaganda car   | broscolotos             | Propaganda car                                       |                   | ✅ |
 | C11              | cubed64                 | 464 (ušatá)                                          |                   | ✅ |
