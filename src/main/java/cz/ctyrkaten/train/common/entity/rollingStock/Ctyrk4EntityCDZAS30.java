@@ -9,14 +9,13 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
 import train.common.Traincraft;
 import train.common.api.LiquidTank;
-import train.common.library.EnumTrains;
 import train.common.library.GuiIDs;
 
 public class Ctyrk4EntityCDZAS30 extends LiquidTank {
 	public int freightInventorySize;
 
 	public Ctyrk4EntityCDZAS30(World world) {
-		super(world, EnumTrains.tankWagon_DB.getTankCapacity());
+		super(world);
 		initFreightWater();
 	}
 

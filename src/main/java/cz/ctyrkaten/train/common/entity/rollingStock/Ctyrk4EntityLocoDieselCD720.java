@@ -10,12 +10,11 @@ import net.minecraftforge.common.util.Constants;
 import train.common.Traincraft;
 import train.common.api.DieselTrain;
 import train.common.api.LiquidManager;
-import train.common.library.EnumTrains;
 import train.common.library.GuiIDs;
 
 public class Ctyrk4EntityLocoDieselCD720 extends DieselTrain {
     public Ctyrk4EntityLocoDieselCD720(World world) {
-        super(world, EnumTrains.H1044.getTankCapacity(), LiquidManager.dieselFilter());
+        super(world, LiquidManager.dieselFilter());
         initLoco();
     }
     public Ctyrk4EntityLocoDieselCD720(World world, double d, double d1, double d2) {

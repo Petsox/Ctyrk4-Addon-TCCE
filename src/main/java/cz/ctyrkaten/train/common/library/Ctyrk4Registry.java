@@ -11,7 +11,7 @@ import train.common.Traincraft;
 public class Ctyrk4Registry {
 
     public void registerTrainRecords() {
-        for (TrainRecord train : Ctyrk4EnumTrains.values()) {
+        for (TrainRecord train : Ctyrk4EnumTrains.trains()) {
             Traincraft.instance.traincraftRegistry.registerTrainRecord(train);
         }
     }

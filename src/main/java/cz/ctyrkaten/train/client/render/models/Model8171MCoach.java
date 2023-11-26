@@ -14,10 +14,10 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 import train.common.api.AbstractTrains;
-import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
-import tmt.Tessellator;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
+import fexcraft.tmt.slim.Tessellator;
+import train.common.library.Info;
 
 public class Model8171MCoach extends ModelConverter //Same as Filename
 {
@@ -1388,10 +1388,10 @@ public class Model8171MCoach extends ModelConverter //Same as Filename
 			}
 		}
 
-		if(entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor()==3455){
-			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/440_bogie.png"));
+		if(entity instanceof AbstractTrains && AbstractTrains.getColorFromString(((AbstractTrains) entity).getColor())==3455){
+			Tessellator.bindTexture(new ResourceLocation(Info.resourceLocation, "textures/trains/440_bogie.png"));
 		} else {
-			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/440_bogie.png"));
+			Tessellator.bindTexture(new ResourceLocation(Info.resourceLocation, "textures/trains/440_bogie.png"));
 		}
 
 		GL11.glPushMatrix();

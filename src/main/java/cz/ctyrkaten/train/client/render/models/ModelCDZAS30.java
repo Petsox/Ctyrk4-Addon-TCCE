@@ -1,7 +1,8 @@
 package cz.ctyrkaten.train.client.render.models;
 
+import fexcraft.tmt.slim.ModelBase;
 import net.minecraft.entity.Entity;
-import tmt.ModelBase;
+
 import train.client.render.CustomModelRenderer;
 import train.common.core.handlers.ConfigHandler;
 

@@ -15,9 +15,9 @@ import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
 import train.common.api.AbstractTrains;
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
-import tmt.Tessellator;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
+import fexcraft.tmt.slim.Tessellator;
 import train.client.render.models.Modelrenfebogie;
 
 public class ModelCD470Loco extends ModelConverter //Same as Filename
@@ -1687,7 +1687,7 @@ public class ModelCD470Loco extends ModelConverter //Same as Filename
 		}
 
 
-		if(entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor()==3455){
+		if(entity instanceof AbstractTrains && AbstractTrains.getColorFromString(((AbstractTrains) entity).getColor())==3455){
 			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/CD_x7x_bogie.png"));
 		} else {
 			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/CD_x7x_bogie.png"));

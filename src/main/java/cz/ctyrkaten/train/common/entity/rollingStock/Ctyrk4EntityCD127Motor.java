@@ -8,7 +8,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
-import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
 import train.common.Traincraft;
 import train.common.api.Freight;
 import train.common.library.GuiIDs;
@@ -35,7 +34,7 @@ public class Ctyrk4EntityCD127Motor extends Freight implements IInventory  {
 
     public void initFreightCart() {
         numFreightSlots = 3;
-        freightInventorySize = trainSpec.getCargoCapacity();
+        freightInventorySize = getSpec().getCargoCapacity();
         cargoItems = new ItemStack[freightInventorySize];
     }
     @Override

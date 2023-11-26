@@ -15,9 +15,9 @@ import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
 import train.common.api.EntityRollingStock;
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
-import tmt.Tessellator;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
+import fexcraft.tmt.slim.Tessellator;
 
 public class ModelCSD387Locomotive extends ModelConverter //Same as Filename
 {
@@ -40,11 +40,11 @@ public class ModelCSD387Locomotive extends ModelConverter //Same as Filename
 	@Override
 	public void render(Entity entity, float f0, float f1, float f2, float f3, float f4, float scale){
 		super.render(entity, f0, f1, f2, f3, f4, scale);
-		Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, Ctyrk4AddonInfo.trainsPrefix +"CSD387_front_"+((EntityRollingStock)entity).getColorAsString() + ".png"));
+		Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, Ctyrk4AddonInfo.trainsPrefix +"CSD387_front_"+((EntityRollingStock)entity).getColor() + ".png"));
 		GL11.glPushMatrix();
 		GL11.glTranslatef(-5.75f,-0.15f,0);
 		frontBogie.render();
-		Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, Ctyrk4AddonInfo.trainsPrefix +"CSD387_back_"+((EntityRollingStock)entity).getColorAsString() + ".png"));
+		Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, Ctyrk4AddonInfo.trainsPrefix +"CSD387_back_"+((EntityRollingStock)entity).getColor() + ".png"));
 		GL11.glTranslatef(5.75f,0.15f,0);
 		rearBogie.render();
 		GL11.glPopMatrix();

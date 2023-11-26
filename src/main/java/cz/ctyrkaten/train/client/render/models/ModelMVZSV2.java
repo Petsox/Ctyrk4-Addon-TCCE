@@ -9,13 +9,13 @@
 
 package cz.ctyrkaten.train.client.render.models;
 
+import fexcraft.tmt.slim.ModelBase;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
-import tmt.ModelBase;
-import tmt.ModelRendererTurbo;
-import tmt.Tessellator;
+import fexcraft.tmt.slim.ModelRendererTurbo;
+import fexcraft.tmt.slim.Tessellator;
 import train.client.render.models.ModelRheingoldBogie;
 
 public class ModelMVZSV2 extends ModelBase

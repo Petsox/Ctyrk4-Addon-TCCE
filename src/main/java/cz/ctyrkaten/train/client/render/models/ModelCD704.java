@@ -3,8 +3,8 @@
 
 package cz.ctyrkaten.train.client.render.models;
 
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
 
 
 /** This file was exported via the (Default) FlansMod Exporter of<br>

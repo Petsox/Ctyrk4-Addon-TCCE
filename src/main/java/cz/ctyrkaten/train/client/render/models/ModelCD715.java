@@ -1,8 +1,8 @@
 package cz.ctyrkaten.train.client.render.models;
 
+import fexcraft.tmt.slim.ModelBase;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
-import tmt.ModelBase;
 import train.client.render.CustomModelRenderer;
 
 public class ModelCD715 extends ModelBase {

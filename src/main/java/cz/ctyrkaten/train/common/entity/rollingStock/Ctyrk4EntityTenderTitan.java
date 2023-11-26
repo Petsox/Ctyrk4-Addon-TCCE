@@ -1,7 +1,6 @@
 package cz.ctyrkaten.train.common.entity.rollingStock;
 
 import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
-import cz.ctyrkaten.train.common.library.Ctyrk4EnumTrains;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
@@ -20,7 +19,7 @@ public class Ctyrk4EntityTenderTitan extends Tender implements IInventory {
 	public int numFreightSlots;
 
 	public Ctyrk4EntityTenderTitan(World world) {
-		super(world, FluidRegistry.WATER, 0, Ctyrk4EnumTrains.tenderCSD387.getTankCapacity(), LiquidManager.WATER_FILTER);
+		super(world, FluidRegistry.WATER, 0, LiquidManager.WATER_FILTER);
 		initFreightTender();
 	}
 

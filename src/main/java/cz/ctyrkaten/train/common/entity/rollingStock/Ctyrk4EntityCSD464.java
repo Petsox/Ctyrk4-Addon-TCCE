@@ -10,12 +10,11 @@ import net.minecraftforge.common.util.Constants;
 import train.common.Traincraft;
 import train.common.api.LiquidManager;
 import train.common.api.SteamTrain;
-import train.common.library.EnumTrains;
 import train.common.library.GuiIDs;
 
 public class Ctyrk4EntityCSD464 extends SteamTrain {
 	public Ctyrk4EntityCSD464(World world) {
-		super(world, EnumTrains.locoSteamC41T.getTankCapacity(), LiquidManager.WATER_FILTER);
+		super(world, LiquidManager.WATER_FILTER);
 		initLocoSteam();
 	}
 

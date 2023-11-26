@@ -13,9 +13,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
-import tmt.Tessellator;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
+import fexcraft.tmt.slim.Tessellator;
 import train.client.render.models.ModelTypeA;
 import train.common.api.AbstractTrains;
 import train.common.library.Info;
@@ -1064,7 +1064,7 @@ public class ModelCD720 extends ModelConverter //Same as Filename
 				bodyModel[i].render(f5);
 			}
 		}
-		if(entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor()==15 || entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor()==11){
+		if(entity instanceof AbstractTrains && AbstractTrains.getColorFromString(((AbstractTrains) entity).getColor())==15 || entity instanceof AbstractTrains && AbstractTrains.getColorFromString(((AbstractTrains) entity).getColor())==11){
 			Tessellator.bindTexture(new ResourceLocation(Info.resourceLocation, "textures/trains/typeA_Silver.png"));
 		} else {
 			Tessellator.bindTexture(new ResourceLocation(Info.resourceLocation, "textures/trains/typeA_Black.png"));

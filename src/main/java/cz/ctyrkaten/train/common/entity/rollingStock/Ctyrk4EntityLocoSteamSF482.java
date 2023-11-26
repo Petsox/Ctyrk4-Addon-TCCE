@@ -1,6 +1,5 @@
 package cz.ctyrkaten.train.common.entity.rollingStock;
 
-import cz.ctyrkaten.train.common.library.Ctyrk4EnumTrains;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -15,7 +14,7 @@ import train.common.library.GuiIDs;
 
 public class Ctyrk4EntityLocoSteamSF482 extends SteamTrain {
 	public Ctyrk4EntityLocoSteamSF482(World world) {
-		super(world, Ctyrk4EnumTrains.locoSteamCSD387.getTankCapacity(), LiquidManager.WATER_FILTER);
+		super(world, LiquidManager.WATER_FILTER);
 		initLocoSteam();
 	}
 

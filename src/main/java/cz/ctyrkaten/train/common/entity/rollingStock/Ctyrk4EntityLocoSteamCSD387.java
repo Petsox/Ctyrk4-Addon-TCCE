@@ -7,8 +7,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
-import cz.ctyrkaten.train.common.library.Ctyrk4EnumTrains;
-import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
 import train.common.Traincraft;
 import train.common.api.LiquidManager;
 import train.common.api.SteamTrain;
@@ -16,7 +14,7 @@ import train.common.library.GuiIDs;
 
 public class Ctyrk4EntityLocoSteamCSD387 extends SteamTrain {
 	public Ctyrk4EntityLocoSteamCSD387(World world) {
-		super(world, Ctyrk4EnumTrains.locoSteamCSD387.getTankCapacity(), LiquidManager.WATER_FILTER);
+		super(world, LiquidManager.WATER_FILTER);
 		initLocoSteam();
 	}
 

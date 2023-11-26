@@ -14,6 +14,7 @@ import org.apache.logging.log4j.Logger;
 import cz.ctyrkaten.train.common.items.Ctyrk4Items;
 
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
+import train.common.api.TrainRecord;
 import train.common.core.util.TraincraftUtil;
 
 import cz.ctyrkaten.train.common.core.Ctyrk4CreativeTabTraincraftTrains;
@@ -65,7 +66,7 @@ public class Ctyrk4_Addon_TCCE {
     
     private void registerEntityHandlers() {
 		int trainID = 1;
-		for(Ctyrk4EnumTrains train : Ctyrk4EnumTrains.values()){
+		for(TrainRecord train : Ctyrk4EnumTrains.trains()){
 			EntityRegistry.registerModEntity(train.getEntityClass(), train.getInternalName(), trainID, Ctyrk4_Addon_TCCE.instance, 512, 1, true);
 			trainID++;
 		}

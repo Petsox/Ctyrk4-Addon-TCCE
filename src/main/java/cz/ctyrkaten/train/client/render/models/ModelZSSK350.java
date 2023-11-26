@@ -8,9 +8,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
-import tmt.Tessellator;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
+import fexcraft.tmt.slim.Tessellator;
 
 /** This file was exported via the (Default) FlansMod Exporter of<br>
  *  FMT (Fex's Modelling Toolbox) v.2.6.5 &copy; 2023 - Fexcraft.net<br>
@@ -39,10 +39,10 @@ public class ModelZSSK350 extends ModelConverter {
 		for (ModelRendererTurbo mrt : bodyModel){
 			if(mrt.boxName.equals("lamp")){
 				Minecraft.getMinecraft().entityRenderer.disableLightmap(1D);
-				mrt.render(scale,false);
+				mrt.render(scale);
 				Minecraft.getMinecraft().entityRenderer.enableLightmap(1D);
 			} else {
-				mrt.render(scale,false);
+				mrt.render(scale);
 			}
 		}
 

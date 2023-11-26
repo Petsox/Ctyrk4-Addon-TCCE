@@ -3,8 +3,9 @@
 
 package cz.ctyrkaten.train.client.render.models;
 
-import tmt.ModelRendererTurbo;
-import tmt.ModelConverter;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
+
 
 /** This file was exported via the (Default) FlansMod Exporter of<br>
  *  FMT (Fex's Modelling Toolbox) v.2.6.5 &copy; 2023 - Fexcraft.net<br>
@@ -110,7 +111,7 @@ public class ModelA16Tender extends ModelConverter {
 		bodyModel[19].setRotationPoint(5.0f, -21.0f, -11.0f);
 
 		bodyModel[20] = new ModelRendererTurbo(this, 25, 96, textureX, textureY);
-		bodyModel[20].flip = true;
+		bodyModel[20].mirror = true;
 		bodyModel[20].addCylinder(0, 0, 0, 2, 2, 8, 1, 1, 4);
 		bodyModel[20].setRotationPoint(-55.0f, -13.0f, 0.0f);
 		bodyModel[20].rotateAngleZ = 1.5707964f;

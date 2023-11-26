@@ -13,9 +13,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
-import tmt.Tessellator;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
+import fexcraft.tmt.slim.Tessellator;
 import train.client.render.models.ModelRheingoldBogie;
 
 public class ModelCDAB349 extends ModelConverter

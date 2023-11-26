@@ -1,6 +1,5 @@
 package cz.ctyrkaten.train.common.entity.rollingStock;
 
-import cz.ctyrkaten.train.common.library.Ctyrk4EnumTrains;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -15,7 +14,7 @@ import train.common.library.GuiIDs;
 
 public class Ctyrk4EntityLocoDieselCD751 extends DieselTrain {
 	public Ctyrk4EntityLocoDieselCD751(World world) {
-		super(world, Ctyrk4EnumTrains.locoDieselGP40.getTankCapacity(), LiquidManager.dieselFilter());
+		super(world, LiquidManager.dieselFilter());
 		initLoco();
 	}
 

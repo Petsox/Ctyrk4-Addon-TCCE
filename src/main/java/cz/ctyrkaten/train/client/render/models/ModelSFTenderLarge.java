@@ -3,8 +3,8 @@
 
 package cz.ctyrkaten.train.client.render.models;
 
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
 
 /** This file was exported via the (Default) FlansMod Exporter of<br>
  *  FMT (Fex's Modelling Toolbox) v.2.6.5 &copy; 2023 - Fexcraft.net<br>
@@ -92,7 +92,7 @@ public class ModelSFTenderLarge extends ModelConverter {
 		bodyModel[17].setRotationPoint(4.0f, -20.0f, -10.0f);
 
 		bodyModel[18] = new ModelRendererTurbo(this, 1595, 3, textureX, textureY);
-		bodyModel[18].flip = true;
+		bodyModel[18].mirror = true;
 		bodyModel[18].addCylinder(0, 0, 0, 4, 1, 8, 1, 1, 4);
 		bodyModel[18].setRotationPoint(-16.0f, -13.0f, 0.0f);
 
@@ -553,7 +553,7 @@ public class ModelSFTenderLarge extends ModelConverter {
 		model[110].setRotationPoint(4.0f, -22.0f, -4.0f);
 
 		model[111] = new ModelRendererTurbo(this, 1190, 4, textureX, textureY);
-		model[111].flip = true;
+		model[111].mirror = true;
 		model[111].addCylinder(0, 0, 0, 2, 1, 8, 1, 1, 4);
 		model[111].setRotationPoint(-41.0f, -9.0f, 0.0f);
 		model[111].rotateAngleZ = 1.5707964f;

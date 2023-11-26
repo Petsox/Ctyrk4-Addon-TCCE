@@ -4,8 +4,8 @@
 package cz.ctyrkaten.train.client.render.models;
 
 
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
 
 /** This file was exported via the (Default) FlansMod Exporter of<br>
  *  FMT (Fex's Modelling Toolbox) v.2.6.5 &copy; 2023 - Fexcraft.net<br>
@@ -49,7 +49,7 @@ public class ModelA16Loco extends ModelConverter {
 		bodyModel[6].setRotationPoint(-80.0f, -30.0f, -7.0f);
 
 		bodyModel[7] = new ModelRendererTurbo(this, 256, 0, textureX, textureY);
-		bodyModel[7].flip = true;
+		bodyModel[7].mirror = true;
 		bodyModel[7].addCylinder(0, 0, 0, 11, 116, 12, 1, 1, 4);
 		bodyModel[7].setRotationPoint(-56.0f, -18.0f, 0.0f);
 		bodyModel[7].rotateAngleZ = 1.5707964f;
@@ -326,7 +326,7 @@ public class ModelA16Loco extends ModelConverter {
 		bodyModel[74].rotateAngleZ = -0.43633232f;
 
 		bodyModel[75] = new ModelRendererTurbo(this, 159, 162, textureX, textureY);
-		bodyModel[75].flip = true;
+		bodyModel[75].mirror = true;
 		bodyModel[75].addCylinder(0, 0, 0, 2, 1, 8, 0.7f, 0.7f, 4);
 		bodyModel[75].setRotationPoint(34.0f, 5.0f, 6.0f);
 		bodyModel[75].rotateAngleY = -1.5707964f;
@@ -345,7 +345,7 @@ public class ModelA16Loco extends ModelConverter {
 		bodyModel[78].setRotationPoint(29.0f, -4.0f, 8.0f);
 
 		bodyModel[79] = new ModelRendererTurbo(this, 248, 27, textureX, textureY);
-		bodyModel[79].flip = true;
+		bodyModel[79].mirror = true;
 		bodyModel[79].addCylinder(0, 0, 0, 1, 1, 8, 0.6f, 0.6f, 4);
 		bodyModel[79].setRotationPoint(29.8f, -3.2f, 8.0f);
 		bodyModel[79].rotateAngleY = -1.5707964f;
@@ -356,7 +356,7 @@ public class ModelA16Loco extends ModelConverter {
 		bodyModel[80].setRotationPoint(-68.0f, -26.0f, 11.25f);
 
 		bodyModel[81] = new ModelRendererTurbo(this, 112, 210, textureX, textureY);
-		bodyModel[81].flip = true;
+		bodyModel[81].mirror = true;
 		bodyModel[81].addCylinder(0, 0, 0, 1, 20, 8, 1.5f, 1.5f, 4);
 		bodyModel[81].setRotationPoint(-9.0f, -12.5f, 11.5f);
 		bodyModel[81].rotateAngleZ = 1.5707964f;
@@ -442,7 +442,7 @@ public class ModelA16Loco extends ModelConverter {
 		barrelModel[3].setRotationPoint(-80.0f, -26.0f, 11.0f);
 
 		barrelModel[4] = new ModelRendererTurbo(this, 58, 188, textureX, textureY);
-		barrelModel[4].flip = true;
+		barrelModel[4].mirror = true;
 		barrelModel[4].addCylinder(0, 0, 0, 2, 3, 12, 1, 1, 4);
 		barrelModel[4].setRotationPoint(60.0f, -25.0f, 0.0f);
 		barrelModel[4].rotateAngleZ = 1.5707964f;
@@ -460,7 +460,7 @@ public class ModelA16Loco extends ModelConverter {
 		barrelModel[7].setRotationPoint(54.0f, 2.0f, 6.0f);
 
 		barrelModel[8] = new ModelRendererTurbo(this, 38, 180, textureX, textureY);
-		barrelModel[8].flip = true;
+		barrelModel[8].mirror = true;
 		barrelModel[8].addCylinder(0, 0, 0, 2, 3, 12, 1, 1, 4);
 		barrelModel[8].setRotationPoint(50.0f, -25.0f, 0.0f);
 		barrelModel[8].rotateAngleZ = 1.5707964f;
@@ -518,7 +518,7 @@ public class ModelA16Loco extends ModelConverter {
 		barrelModel[21].setRotationPoint(-72.0f, 2.0f, -6.0f);
 
 		barrelModel[22] = new ModelRendererTurbo(this, 38, 165, textureX, textureY);
-		barrelModel[22].flip = true;
+		barrelModel[22].mirror = true;
 		barrelModel[22].addCylinder(0, 0, 0, 3, 5, 12, 1, 1, 4);
 		barrelModel[22].setRotationPoint(60.0f, -18.0f, 0.0f);
 		barrelModel[22].rotateAngleZ = 1.5707964f;
@@ -596,7 +596,7 @@ public class ModelA16Loco extends ModelConverter {
 		barrelModel[40].setRotationPoint(60.5f, -12.0f, 10.0f);
 
 		barrelModel[41] = new ModelRendererTurbo(this, 29, 180, textureX, textureY);
-		barrelModel[41].flip = true;
+		barrelModel[41].mirror = true;
 		barrelModel[41].addCylinder(0, 0, 0, 2, 3, 12, 1, 1, 4);
 		barrelModel[41].setRotationPoint(60.0f, -18.0f, 0.0f);
 		barrelModel[41].rotateAngleZ = 1.5707964f;
@@ -666,21 +666,21 @@ public class ModelA16Loco extends ModelConverter {
 		barrelModel[57].setRotationPoint(37.0f, 4.0f, 6.0f);
 
 		barrelModel[58] = new ModelRendererTurbo(this, 116, 157, textureX, textureY);
-		barrelModel[58].flip = true;
+		barrelModel[58].mirror = true;
 		barrelModel[58].addCylinder(0, 0, 0, 2, 1, 8, 0.7f, 0.7f, 4);
 		barrelModel[58].setRotationPoint(-34.0f, 5.0f, 6.0f);
 		barrelModel[58].rotateAngleY = -1.5707964f;
 		barrelModel[58].rotateAngleZ = 1.5707964f;
 
 		barrelModel[59] = new ModelRendererTurbo(this, 20, 155, textureX, textureY);
-		barrelModel[59].flip = true;
+		barrelModel[59].mirror = true;
 		barrelModel[59].addCylinder(0, 0, 0, 2, 1, 8, 0.7f, 0.7f, 4);
 		barrelModel[59].setRotationPoint(38.5f, 2.5f, 8.0f);
 		barrelModel[59].rotateAngleY = -1.5707964f;
 		barrelModel[59].rotateAngleZ = 1.5707964f;
 
 		barrelModel[60] = new ModelRendererTurbo(this, 20, 149, textureX, textureY);
-		barrelModel[60].flip = true;
+		barrelModel[60].mirror = true;
 		barrelModel[60].addCylinder(0, 0, 0, 2, 1, 8, 0.7f, 0.7f, 4);
 		barrelModel[60].setRotationPoint(8.0f, 4.5f, 8.0f);
 		barrelModel[60].rotateAngleY = -1.5707964f;
@@ -699,7 +699,7 @@ public class ModelA16Loco extends ModelConverter {
 		barrelModel[63].setRotationPoint(37.0f, 1.0f, -8.0f);
 
 		barrelModel[64] = new ModelRendererTurbo(this, 198, 136, textureX, textureY);
-		barrelModel[64].flip = true;
+		barrelModel[64].mirror = true;
 		barrelModel[64].addCylinder(0, 0, 0, 2, 1, 8, 0.7f, 0.7f, 4);
 		barrelModel[64].setRotationPoint(38.5f, 2.5f, -9.0f);
 		barrelModel[64].rotateAngleY = -1.5707964f;
@@ -714,14 +714,14 @@ public class ModelA16Loco extends ModelConverter {
 		barrelModel[66].setRotationPoint(-35.0f, 4.0f, -7.0f);
 
 		barrelModel[67] = new ModelRendererTurbo(this, 215, 111, textureX, textureY);
-		barrelModel[67].flip = true;
+		barrelModel[67].mirror = true;
 		barrelModel[67].addCylinder(0, 0, 0, 2, 1, 8, 0.7f, 0.7f, 4);
 		barrelModel[67].setRotationPoint(34.0f, 5.0f, -7.0f);
 		barrelModel[67].rotateAngleY = -1.5707964f;
 		barrelModel[67].rotateAngleZ = 1.5707964f;
 
 		barrelModel[68] = new ModelRendererTurbo(this, 203, 74, textureX, textureY);
-		barrelModel[68].flip = true;
+		barrelModel[68].mirror = true;
 		barrelModel[68].addCylinder(0, 0, 0, 2, 1, 8, 0.7f, 0.7f, 4);
 		barrelModel[68].setRotationPoint(-34.0f, 5.0f, -7.0f);
 		barrelModel[68].rotateAngleY = -1.5707964f;
@@ -733,7 +733,7 @@ public class ModelA16Loco extends ModelConverter {
 		barrelModel[69].rotateAngleZ = -0.43633232f;
 
 		barrelModel[70] = new ModelRendererTurbo(this, 0, 29, textureX, textureY);
-		barrelModel[70].flip = true;
+		barrelModel[70].mirror = true;
 		barrelModel[70].addCylinder(0, 0, 0, 2, 1, 8, 0.7f, 0.7f, 4);
 		barrelModel[70].setRotationPoint(8.0f, 4.5f, -9.0f);
 		barrelModel[70].rotateAngleY = -1.5707964f;
@@ -748,7 +748,7 @@ public class ModelA16Loco extends ModelConverter {
 		barrelModel[72].setRotationPoint(10.0f, -3.0f, -9.0f);
 
 		barrelModel[73] = new ModelRendererTurbo(this, 208, 18, textureX, textureY);
-		barrelModel[73].flip = true;
+		barrelModel[73].mirror = true;
 		barrelModel[73].addCylinder(0, 0, 0, 1, 1, 8, 0.6f, 0.6f, 4);
 		barrelModel[73].setRotationPoint(29.8f, -3.2f, -9.0f);
 		barrelModel[73].rotateAngleY = -1.5707964f;
@@ -771,7 +771,7 @@ public class ModelA16Loco extends ModelConverter {
 		barrelModel[77].setRotationPoint(-75.0f, -23.0f, -11.75f);
 
 		barrelModel[78] = new ModelRendererTurbo(this, 107, 209, textureX, textureY);
-		barrelModel[78].flip = true;
+		barrelModel[78].mirror = true;
 		barrelModel[78].addCylinder(0, 0, 0, 1, 20, 8, 1.5f, 1.5f, 4);
 		barrelModel[78].setRotationPoint(-9.0f, -12.5f, -10.5f);
 		barrelModel[78].rotateAngleZ = 1.5707964f;

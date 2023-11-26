@@ -1,8 +1,7 @@
 package cz.ctyrkaten.train.client.render.models;
 
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
-
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
 
 public class ModelCD854 extends ModelConverter {
 

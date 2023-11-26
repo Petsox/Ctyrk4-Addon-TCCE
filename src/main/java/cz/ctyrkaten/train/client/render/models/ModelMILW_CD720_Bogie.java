@@ -8,9 +8,10 @@
 // Last changed on: 04.09.2017 - 12:12:33
 package cz.ctyrkaten.train.client.render.models;
 
+import fexcraft.tmt.slim.ModelBase;
+import fexcraft.tmt.slim.ModelRendererTurbo;
 import net.minecraft.entity.Entity;
-import tmt.ModelBase;
-import tmt.ModelRendererTurbo;
+
 
 public class ModelMILW_CD720_Bogie extends ModelBase
 {

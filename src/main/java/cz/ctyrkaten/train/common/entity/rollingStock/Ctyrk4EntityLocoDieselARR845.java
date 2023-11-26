@@ -7,8 +7,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
-import cz.ctyrkaten.train.common.library.Ctyrk4EnumTrains;
-import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
 import train.common.Traincraft;
 import train.common.api.DieselTrain;
 import train.common.api.LiquidManager;
@@ -16,7 +14,7 @@ import train.common.library.GuiIDs;
 
 public class Ctyrk4EntityLocoDieselARR845 extends DieselTrain {
     public Ctyrk4EntityLocoDieselARR845(World world) {
-        super(world, Ctyrk4EnumTrains.ARR845.getTankCapacity(), LiquidManager.dieselFilter());
+        super(world, LiquidManager.dieselFilter());
         initLoco();
 
     }

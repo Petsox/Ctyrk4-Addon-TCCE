@@ -1,14 +1,5 @@
 package cz.ctyrkaten.train.client.render;
 
-import cz.ctyrkaten.train.client.render.models.ModelCD010;
-import cz.ctyrkaten.train.client.render.models.ModelCD014;
-import cz.ctyrkaten.train.client.render.models.ModelCD754;
-import cz.ctyrkaten.train.client.render.models.ModelCD810;
-import cz.ctyrkaten.train.client.render.models.ModelCD814;
-import cz.ctyrkaten.train.client.render.models.ModelCD914;
-import cz.ctyrkaten.train.client.render.models.ModelGP40;
-import cz.ctyrkaten.train.client.render.models.ModelLocoCD151;
-import cz.ctyrkaten.train.client.render.models.ModelLocoU57;
 import cz.ctyrkaten.train.client.render.models.*;
 import cz.ctyrkaten.train.common.entity.rollingStock.*;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;

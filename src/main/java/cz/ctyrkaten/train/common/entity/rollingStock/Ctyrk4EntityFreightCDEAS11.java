@@ -8,7 +8,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
-import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
 import train.common.Traincraft;
 import train.common.api.Freight;
 import train.common.library.GuiIDs;
@@ -25,7 +24,7 @@ public class Ctyrk4EntityFreightCDEAS11 extends Freight implements IInventory {
 
 	public void initFreightCart() {
 		numFreightSlots = 9;
-		if(trainSpec!=null)freightInventorySize = trainSpec.getCargoCapacity();
+		if(getSpec()!=null)freightInventorySize = getSpec().getCargoCapacity();
 		cargoItems = new ItemStack[freightInventorySize];
 	}
 

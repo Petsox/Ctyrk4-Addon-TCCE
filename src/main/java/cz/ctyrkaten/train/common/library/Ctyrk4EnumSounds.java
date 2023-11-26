@@ -26,8 +26,8 @@ public enum Ctyrk4EnumSounds implements TrainSoundRecord {
 	private String idle;
 	private float runVolume;
 	private float idleVolume;
-	private int runSoundLenght;
-	private int idleSoundLenght;
+	private int runSoundLength;
+	private int idleSoundLength;
 	private boolean soundChangeWithSpeed;
 
 	/**
@@ -52,8 +52,8 @@ public enum Ctyrk4EnumSounds implements TrainSoundRecord {
 		this.idle = idle;
 		this.runVolume = runVolume;
 		this.idleVolume = idleVolume;
-		this.runSoundLenght = runSoundLenght;
-		this.idleSoundLenght = idleSoundLenght;
+		this.runSoundLength = runSoundLength;
+		this.idleSoundLength = idleSoundLength;
 		this.soundChangeWithSpeed = soundChangeWithSpeed;
 	}
 
@@ -95,15 +95,13 @@ public enum Ctyrk4EnumSounds implements TrainSoundRecord {
 		return idleVolume;
 	}
 
-    @Override
-	public int getRunSoundLenght() {
-		return runSoundLenght;
+	@Override
+	public int getRunSoundLength() {
+		return runSoundLength;
 	}
 
-    @Override
-	public int getIdleSoundLenght() {
-		return idleSoundLenght;
-	}
+	@Override
+	public int getIdleSoundLength() {return idleSoundLength;}
 
     @Override
 	public boolean getSoundChangeWithSpeed() {

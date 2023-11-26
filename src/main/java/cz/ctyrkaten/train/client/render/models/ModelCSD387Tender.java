@@ -14,9 +14,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 import train.common.api.EntityRollingStock;
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
-import tmt.Tessellator;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
+import fexcraft.tmt.slim.Tessellator;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
 
 public class ModelCSD387Tender extends ModelConverter //Same as Filename
@@ -41,7 +41,7 @@ public class ModelCSD387Tender extends ModelConverter //Same as Filename
 	@Override
 	public void render(Entity entity, float f0, float f1, float f2, float f3, float f4, float scale){
 		super.render(entity, f0, f1, f2, f3, f4, scale);
-		Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, Ctyrk4AddonInfo.trainsPrefix +"CSD387_tender_bogie_"+((EntityRollingStock)entity).getColorAsString() + ".png"));
+		Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, Ctyrk4AddonInfo.trainsPrefix +"CSD387_tender_bogie_"+((EntityRollingStock)entity).getColor() + ".png"));
 		GL11.glPushMatrix();
 		GL11.glTranslatef(2.25f,0f,0);
 		bogie.render();

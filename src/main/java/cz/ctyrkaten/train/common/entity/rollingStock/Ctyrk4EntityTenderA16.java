@@ -20,7 +20,7 @@ public class Ctyrk4EntityTenderA16 extends Tender implements IInventory {
 	public int numFreightSlots;
 
 	public Ctyrk4EntityTenderA16(World world) {
-		super(world, FluidRegistry.WATER, 0, Ctyrk4EnumTrains.tenderCSD387.getTankCapacity(), LiquidManager.WATER_FILTER);
+		super(world, FluidRegistry.WATER,0, LiquidManager.WATER_FILTER);
 		initFreightTender();
 	}
 

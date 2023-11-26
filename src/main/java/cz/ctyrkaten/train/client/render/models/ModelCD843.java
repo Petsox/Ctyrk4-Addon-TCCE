@@ -9,11 +9,12 @@
 
 package cz.ctyrkaten.train.client.render.models;
 
+import fexcraft.tmt.slim.ModelBase;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import org.lwjgl.opengl.GL11;
-import tmt.ModelBase;
-import tmt.ModelRendererTurbo;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
 
 import java.util.ArrayList;
 

@@ -12,7 +12,6 @@ import net.minecraftforge.fluids.FluidRegistry;
 import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
 import train.common.api.LiquidManager;
 import train.common.api.Tender;
-import cz.ctyrkaten.train.common.library.Ctyrk4EnumTrains;
 import train.common.library.GuiIDs;
 
 public class Ctyrk4EntityTenderCSD387 extends Tender implements IInventory {
@@ -20,7 +19,7 @@ public class Ctyrk4EntityTenderCSD387 extends Tender implements IInventory {
 	public int numFreightSlots;
 
 	public Ctyrk4EntityTenderCSD387(World world) {
-		super(world, FluidRegistry.WATER, 0, Ctyrk4EnumTrains.tenderCSD387.getTankCapacity(), LiquidManager.WATER_FILTER);
+		super(world, FluidRegistry.WATER, 0, LiquidManager.WATER_FILTER);
 		initFreightTender();
 	}
 

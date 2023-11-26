@@ -13,9 +13,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
-import tmt.ModelConverter;
-import tmt.ModelRendererTurbo;
-import tmt.Tessellator;
+import fexcraft.tmt.slim.ModelConverter;
+import fexcraft.tmt.slim.ModelRendererTurbo;
+import fexcraft.tmt.slim.Tessellator;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
 import train.client.render.models.ModelE10Bogie;
 
@@ -748,10 +748,10 @@ public class ModelRE420 extends ModelConverter
 		for (ModelRendererTurbo mrt : bodyModel) {
 			if (mrt.boxName.equals("lamp")) {
 				Minecraft.getMinecraft().entityRenderer.disableLightmap(1D);
-				mrt.render(f5, false);
+				mrt.render(f5);
 				Minecraft.getMinecraft().entityRenderer.enableLightmap(1D);
 			} else {
-				mrt.render(f5, false);
+				mrt.render(f5);
 			}
 		}
 
