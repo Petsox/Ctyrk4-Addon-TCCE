@@ -93,6 +93,8 @@ item.tc_4ka_addon:minecartA16Loco.name=Class 16A
 item.tc_4ka_addon:minecartA16Tender.name=Class 16A Tender
 item.tc_4ka_addon:minecartTitanLoco.name=Titan Loco
 item.tc_4ka_addon:minecartTitanTender.name=Titan Tender
+item.tc_4ka_addon:minecartSF482.name=Southfield 4-8-2
+item.tc_4ka_addon:minecartSFTenderLarge.name=Southfield Large Tender
 
 train.owner.name=You are not the owner!
 train.locked.name=Locked

@@ -14,7 +14,7 @@ import cz.ctyrkaten.train.common.entity.rollingStock.*;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
 import train.common.api.EntityRollingStock;
 import train.common.api.TrainRenderRecord;
-import tmt.ModelBase;
+import fexcraft.tmt.slim.ModelBase;
 import net.minecraft.util.ResourceLocation;
 
 import java.util.ArrayList;
