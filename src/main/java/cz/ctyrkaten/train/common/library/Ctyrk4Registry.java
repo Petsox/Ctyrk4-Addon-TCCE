@@ -11,8 +11,11 @@ import train.common.Traincraft;
 public class Ctyrk4Registry {
 
     public void registerTrainRecords() {
-        for (TrainRecord train : Ctyrk4EnumTrains.trains()) {
-            Traincraft.instance.traincraftRegistry.registerTrainRecord(train);
+        for (Ctyrk4EnumTrains train : Ctyrk4EnumTrains.values()) {
+            TrainRecord trainRecord = TrainRecord.makeEntry(train.getTrainId(), train.getInternalName(), train.getEntityClass(), train.getItem(), train.getTrainType(),
+                    train.getMHP(), train.getMaxSpeed(), train.getMass(), train.getFuelConsumption(), train.getWaterConsumption(), train.getHeatingTime(), train.getAccelerationRate(), train.getBrakeRate(), train.getTankCapacity(),
+                    train.getLiveries(), train.getGuiRenderScale(), train.getBogieLocoPosition(), train.getAdditionnalTooltip());
+            Traincraft.instance.traincraftRegistry.registerTrainRecord(trainRecord);
         }
     }
 

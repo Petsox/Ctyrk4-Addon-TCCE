@@ -66,7 +66,7 @@ public class Ctyrk4_Addon_TCCE {
     
     private void registerEntityHandlers() {
 		int trainID = 1;
-		for(TrainRecord train : Ctyrk4EnumTrains.trains()){
+		for(Ctyrk4EnumTrains train : Ctyrk4EnumTrains.values()){
 			EntityRegistry.registerModEntity(train.getEntityClass(), train.getInternalName(), trainID, Ctyrk4_Addon_TCCE.instance, 512, 1, true);
 			trainID++;
 		}

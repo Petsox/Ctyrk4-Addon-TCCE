@@ -4,7 +4,7 @@ public class Ctyrk4AddonInfo {
 
 	/* Mod relevant information */
 	public static final String modID = "tc_4ka_addon";
-	public static final String modName = "Ctyrka4 Addon for Traincraft";
+	public static final String modName = "Ctyrk4 Addon for Traincraft";
 	public static final String modVersion = "0.1";
 	public static final String channel = "Ctyrk4_Addon";
 	public static final String keyChannel = "Ctyrk4Key";
