@@ -25,7 +25,6 @@ public class ModelClassTitan extends ModelConverter {
 		barrelModel[0].setRotationPoint(1.5f, -3.0f, 6.0f);
 
 		barrelModel[1] = new ModelRendererTurbo(this, 1721, 3, textureX, textureY);
-		barrelModel[1].mirror = true;
 		barrelModel[1].addCylinder(0, 0, 0, 8, 18, 24, 1, 1, 4);
 		barrelModel[1].setRotationPoint(32.0f, -10.0f, 0.0f);
 		barrelModel[1].rotateAngleZ = 1.5707964f;
@@ -83,7 +82,6 @@ public class ModelClassTitan extends ModelConverter {
 		barrelModel[14].setRotationPoint(51.0f, -16.0f, -9.0f);
 
 		barrelModel[15] = new ModelRendererTurbo(this, 1866, 5, textureX, textureY);
-		barrelModel[15].mirror = true;
 		barrelModel[15].addCylinder(0, 0, 0, 5, 1, 24, 1, 0.9f, 4);
 		barrelModel[15].setRotationPoint(50.0f, -10.0f, 0.0f);
 		barrelModel[15].rotateAngleZ = 1.5707964f;
@@ -277,13 +275,11 @@ public class ModelClassTitan extends ModelConverter {
 		barrelModel[61].setRotationPoint(18.0f, 1.0f, -6.0f);
 
 		barrelModel[62] = new ModelRendererTurbo(this, 1154, 15, textureX, textureY);
-		barrelModel[62].mirror = true;
 		barrelModel[62].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		barrelModel[62].setRotationPoint(19.0f, 4.0f, 7.0f);
 		barrelModel[62].rotateAngleX = -1.5707964f;
 
 		barrelModel[63] = new ModelRendererTurbo(this, 446, 15, textureX, textureY);
-		barrelModel[63].mirror = true;
 		barrelModel[63].addCylinder(0, 0, 0, 2, 12, 16, 0.7f, 0.7f, 4);
 		barrelModel[63].setRotationPoint(0.0f, -7.3f, -8.0f);
 		barrelModel[63].rotateAngleZ = 1.5707964f;
@@ -293,7 +289,6 @@ public class ModelClassTitan extends ModelConverter {
 		barrelModel[64].setRotationPoint(21.0f, -6.0f, 6.0f);
 
 		barrelModel[65] = new ModelRendererTurbo(this, 437, 15, textureX, textureY);
-		barrelModel[65].mirror = true;
 		barrelModel[65].addCylinder(0, 0, 0, 2, 3, 8, 1, 1, 4);
 		barrelModel[65].setRotationPoint(24.0f, -4.0f, -7.0f);
 		barrelModel[65].rotateAngleZ = 3.1415927f;
@@ -472,7 +467,6 @@ public class ModelClassTitan extends ModelConverter {
 		barrelModel[108].setRotationPoint(34.0f, -20.4f, -1.5f);
 
 		barrelModel[109] = new ModelRendererTurbo(this, 410, 15, textureX, textureY);
-		barrelModel[109].mirror = true;
 		barrelModel[109].addCylinder(0, 0, 0, 2, 10, 8, 1, 1, 4);
 		barrelModel[109].setRotationPoint(50.0f, -17.0f, 5.0f);
 		barrelModel[109].rotateAngleX = -1.5707964f;
@@ -562,14 +556,12 @@ public class ModelClassTitan extends ModelConverter {
 		bodyModel[18].setRotationPoint(-53.0f, 1.0f, 6.0f);
 
 		bodyModel[19] = new ModelRendererTurbo(this, 1688, 3, textureX, textureY);
-		bodyModel[19].mirror = true;
 		bodyModel[19].addCylinder(0, 0, 0, 8, 27, 24, 1, 1.03f, 4);
 		bodyModel[19].setRotationPoint(32.0f, -10.0f, 0.0f);
 		bodyModel[19].rotateAngleX = -3.1415927f;
 		bodyModel[19].rotateAngleZ = 1.5707964f;
 
 		bodyModel[20] = new ModelRendererTurbo(this, 1655, 3, textureX, textureY);
-		bodyModel[20].mirror = true;
 		bodyModel[20].addCylinder(0, 0, 0, 8, 41, 24, 1.03f, 0.9f, 4);
 		bodyModel[20].setRotationPoint(5.0f, -10.0f, 0.0f);
 		bodyModel[20].rotateAngleX = -3.1415927f;
@@ -732,7 +724,6 @@ public class ModelClassTitan extends ModelConverter {
 		bodyModel[59].setRotationPoint(51.0f, -10.0f, -2.0f);
 
 		bodyModel[60] = new ModelRendererTurbo(this, 361, 15, textureX, textureY);
-		bodyModel[60].mirror = true;
 		bodyModel[60].addCylinder(0, 0, 0, 2, 3, 8, 0.8f, 0.8f, 4);
 		bodyModel[60].setRotationPoint(51.7f, -11.0f, 0.0f);
 		bodyModel[60].rotateAngleZ = 1.5707964f;
@@ -1092,49 +1083,41 @@ public class ModelClassTitan extends ModelConverter {
 		bodyModel[148].setRotationPoint(21.0f, -4.0f, 6.0f);
 
 		bodyModel[149] = new ModelRendererTurbo(this, 1942, 10, textureX, textureY);
-		bodyModel[149].mirror = true;
 		bodyModel[149].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		bodyModel[149].setRotationPoint(-19.0f, 4.0f, 7.0f);
 		bodyModel[149].rotateAngleX = -1.5707964f;
 
 		bodyModel[150] = new ModelRendererTurbo(this, 1778, 10, textureX, textureY);
-		bodyModel[150].mirror = true;
 		bodyModel[150].addCylinder(0, 0, 0, 1, 2, 8, 1, 1, 4);
 		bodyModel[150].setRotationPoint(3.0f, 4.0f, 8.0f);
 		bodyModel[150].rotateAngleX = -1.5707964f;
 
 		bodyModel[151] = new ModelRendererTurbo(this, 1618, 10, textureX, textureY);
-		bodyModel[151].mirror = true;
 		bodyModel[151].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		bodyModel[151].setRotationPoint(19.0f, 4.0f, -6.0f);
 		bodyModel[151].rotateAngleX = -1.5707964f;
 
 		bodyModel[152] = new ModelRendererTurbo(this, 536, 10, textureX, textureY);
-		bodyModel[152].mirror = true;
 		bodyModel[152].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		bodyModel[152].setRotationPoint(-19.0f, 4.0f, -6.0f);
 		bodyModel[152].rotateAngleX = -1.5707964f;
 
 		bodyModel[153] = new ModelRendererTurbo(this, 1154, 10, textureX, textureY);
-		bodyModel[153].mirror = true;
 		bodyModel[153].addCylinder(0, 0, 0, 1, 2, 8, 1, 1, 4);
 		bodyModel[153].setRotationPoint(3.0f, 4.0f, -6.0f);
 		bodyModel[153].rotateAngleX = -1.5707964f;
 
 		bodyModel[154] = new ModelRendererTurbo(this, 941, 12, textureX, textureY);
-		bodyModel[154].mirror = true;
 		bodyModel[154].addCylinder(0, 0, 0, 2, 12, 16, 0.7f, 0.7f, 4);
 		bodyModel[154].setRotationPoint(0.0f, -7.3f, 8.0f);
 		bodyModel[154].rotateAngleZ = 1.5707964f;
 
 		bodyModel[155] = new ModelRendererTurbo(this, 932, 12, textureX, textureY);
-		bodyModel[155].mirror = true;
 		bodyModel[155].addCylinder(0, 0, 0, 2, 8, 16, 0.7f, 0.7f, 4);
 		bodyModel[155].setRotationPoint(30.0f, -7.3f, 8.0f);
 		bodyModel[155].rotateAngleZ = 1.5707964f;
 
 		bodyModel[156] = new ModelRendererTurbo(this, 923, 12, textureX, textureY);
-		bodyModel[156].mirror = true;
 		bodyModel[156].addCylinder(0, 0, 0, 2, 8, 16, 0.7f, 0.7f, 4);
 		bodyModel[156].setRotationPoint(30.0f, -7.3f, -8.0f);
 		bodyModel[156].rotateAngleZ = 1.5707964f;
@@ -1144,13 +1127,11 @@ public class ModelClassTitan extends ModelConverter {
 		bodyModel[157].setRotationPoint(21.0f, -6.0f, -9.0f);
 
 		bodyModel[158] = new ModelRendererTurbo(this, 1824, 9, textureX, textureY);
-		bodyModel[158].mirror = true;
 		bodyModel[158].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		bodyModel[158].setRotationPoint(16.0f, 1.0f, -7.0f);
 		bodyModel[158].rotateAngleX = -1.5707964f;
 
 		bodyModel[159] = new ModelRendererTurbo(this, 1349, 9, textureX, textureY);
-		bodyModel[159].mirror = true;
 		bodyModel[159].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		bodyModel[159].setRotationPoint(16.0f, 1.0f, 8.0f);
 		bodyModel[159].rotateAngleX = -1.5707964f;
@@ -1164,20 +1145,17 @@ public class ModelClassTitan extends ModelConverter {
 		bodyModel[161].setRotationPoint(-19.0f, 3.0f, 6.0f);
 
 		bodyModel[162] = new ModelRendererTurbo(this, 914, 12, textureX, textureY);
-		bodyModel[162].mirror = true;
 		bodyModel[162].addCylinder(0, 0, 0, 2, 3, 8, 1, 1, 4);
 		bodyModel[162].setRotationPoint(24.0f, -4.0f, 7.0f);
 		bodyModel[162].rotateAngleZ = 3.1415927f;
 
 		bodyModel[163] = new ModelRendererTurbo(this, 905, 12, textureX, textureY);
-		bodyModel[163].mirror = true;
 		bodyModel[163].addCylinder(0, 0, 0, 2, 3, 8, 1, 1, 4);
 		bodyModel[163].setRotationPoint(24.0f, -6.4f, 7.0f);
 		bodyModel[163].rotateAngleX = -0.29670596f;
 		bodyModel[163].rotateAngleZ = 3.1415927f;
 
 		bodyModel[164] = new ModelRendererTurbo(this, 896, 12, textureX, textureY);
-		bodyModel[164].mirror = true;
 		bodyModel[164].addCylinder(0, 0, 0, 2, 3, 8, 1, 1, 4);
 		bodyModel[164].setRotationPoint(24.0f, -6.4f, -7.0f);
 		bodyModel[164].rotateAngleX = 0.29670596f;
@@ -1232,13 +1210,11 @@ public class ModelClassTitan extends ModelConverter {
 		bodyModel[176].setRotationPoint(-4.0f, -20.5f, 0.0f);
 
 		bodyModel[177] = new ModelRendererTurbo(this, 721, 9, textureX, textureY);
-		bodyModel[177].mirror = true;
 		bodyModel[177].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		bodyModel[177].setRotationPoint(9.0f, -1.0f, 8.0f);
 		bodyModel[177].rotateAngleX = -1.5707964f;
 
 		bodyModel[178] = new ModelRendererTurbo(this, 528, 9, textureX, textureY);
-		bodyModel[178].mirror = true;
 		bodyModel[178].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		bodyModel[178].setRotationPoint(4.0f, 1.0f, 8.0f);
 		bodyModel[178].rotateAngleX = -1.5707964f;
@@ -1248,7 +1224,6 @@ public class ModelClassTitan extends ModelConverter {
 		bodyModel[179].setRotationPoint(9.0f, -2.0f, -8.0f);
 
 		bodyModel[180] = new ModelRendererTurbo(this, 383, 9, textureX, textureY);
-		bodyModel[180].mirror = true;
 		bodyModel[180].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		bodyModel[180].setRotationPoint(9.0f, -1.0f, -7.0f);
 		bodyModel[180].rotateAngleX = -1.5707964f;
@@ -1258,7 +1233,6 @@ public class ModelClassTitan extends ModelConverter {
 		bodyModel[181].setRotationPoint(4.0f, -1.0f, -8.5f);
 
 		bodyModel[182] = new ModelRendererTurbo(this, 1417, 8, textureX, textureY);
-		bodyModel[182].mirror = true;
 		bodyModel[182].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		bodyModel[182].setRotationPoint(4.0f, 1.0f, -7.0f);
 		bodyModel[182].rotateAngleX = -1.5707964f;
@@ -1272,7 +1246,6 @@ public class ModelClassTitan extends ModelConverter {
 		bodyModel[184].setRotationPoint(39.5f, 0.0f, -0.5f);
 
 		bodyModel[185] = new ModelRendererTurbo(this, 786, 12, textureX, textureY);
-		bodyModel[185].mirror = true;
 		bodyModel[185].addCylinder(0, 0, 0, 2, 3, 8, 1, 1, 4);
 		bodyModel[185].setRotationPoint(43.0f, -20.0f, 0.0f);
 

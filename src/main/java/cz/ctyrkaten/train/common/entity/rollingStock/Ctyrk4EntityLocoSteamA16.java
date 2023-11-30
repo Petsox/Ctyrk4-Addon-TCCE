@@ -37,7 +37,7 @@ public class Ctyrk4EntityLocoSteamA16 extends SteamTrain {
 	@Override
 	public void updateRiderPosition() {
 		if(riddenByEntity==null){return;}
-		riddenByEntity.setPosition(posX - 2F, posY + getMountedYOffset() + riddenByEntity.getYOffset() + 0.36F, posZ);
+		riddenByEntity.setPosition(posX - 0.8F, posY + getMountedYOffset() + riddenByEntity.getYOffset() + 0.36F, posZ);
 	}
 
 	@Override

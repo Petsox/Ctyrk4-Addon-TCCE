@@ -25,7 +25,6 @@ public class ModelSF482 extends ModelConverter {
 		bodyModel[0].setRotationPoint(1.5f, -3.0f, 6.0f);
 
 		bodyModel[1] = new ModelRendererTurbo(this, 1726, 0, textureX, textureY);
-		bodyModel[1].mirror = true;
 		bodyModel[1].addCylinder(0, 0, 0, 8, 18, 24, 1, 1, 4);
 		bodyModel[1].setRotationPoint(27.0f, -10.0f, 0.0f);
 		bodyModel[1].rotateAngleZ = 1.5707964f;
@@ -47,7 +46,6 @@ public class ModelSF482 extends ModelConverter {
 		bodyModel[5].setRotationPoint(46.0f, -2.0f, -4.0f);
 
 		bodyModel[6] = new ModelRendererTurbo(this, 401, 4, textureX, textureY);
-		bodyModel[6].mirror = true;
 		bodyModel[6].addCylinder(0, 0, 0, 5, 1, 24, 1, 0.9f, 4);
 		bodyModel[6].setRotationPoint(45.0f, -10.0f, 0.0f);
 		bodyModel[6].rotateAngleZ = 1.5707964f;
@@ -193,13 +191,11 @@ public class ModelSF482 extends ModelConverter {
 		bodyModel[40].setRotationPoint(18.0f, 1.0f, -6.0f);
 
 		bodyModel[41] = new ModelRendererTurbo(this, 1907, 7, textureX, textureY);
-		bodyModel[41].mirror = true;
 		bodyModel[41].addCylinder(1, 0, 0, 1, 1, 8, 1, 1, 4);
 		bodyModel[41].setRotationPoint(18.0f, 4.0f, 7.0f);
 		bodyModel[41].rotateAngleX = -1.5707964f;
 
 		bodyModel[42] = new ModelRendererTurbo(this, 1360, 9, textureX, textureY);
-		bodyModel[42].mirror = true;
 		bodyModel[42].addCylinder(0, 0, 0, 2, 12, 16, 0.7f, 0.7f, 4);
 		bodyModel[42].setRotationPoint(6.0f, -7.3f, -8.0f);
 		bodyModel[42].rotateAngleZ = 1.5707964f;
@@ -209,7 +205,6 @@ public class ModelSF482 extends ModelConverter {
 		bodyModel[43].setRotationPoint(21.0f, -6.0f, 6.0f);
 
 		bodyModel[44] = new ModelRendererTurbo(this, 1207, 9, textureX, textureY);
-		bodyModel[44].mirror = true;
 		bodyModel[44].addCylinder(0, 0, 0, 2, 3, 8, 1, 1, 4);
 		bodyModel[44].setRotationPoint(25.0f, -4.0f, -7.0f);
 		bodyModel[44].rotateAngleZ = 3.1415927f;
@@ -416,14 +411,12 @@ public class ModelSF482 extends ModelConverter {
 		model[12].setRotationPoint(-44.0f, 1.0f, 6.0f);
 
 		model[13] = new ModelRendererTurbo(this, 1637, 0, textureX, textureY);
-		model[13].mirror = true;
 		model[13].addCylinder(0, 0, 0, 8, 27, 24, 1, 1.03f, 4);
 		model[13].setRotationPoint(27.0f, -10.0f, 0.0f);
 		model[13].rotateAngleX = -3.1415927f;
 		model[13].rotateAngleZ = 1.5707964f;
 
 		model[14] = new ModelRendererTurbo(this, 1604, 0, textureX, textureY);
-		model[14].mirror = true;
 		model[14].addCylinder(0, 0, 0, 8, 32, 24, 1.03f, 0.95f, 4);
 		model[14].setRotationPoint(0.0f, -10.0f, 0.0f);
 		model[14].rotateAngleX = -3.1415927f;
@@ -570,7 +563,6 @@ public class ModelSF482 extends ModelConverter {
 		model[49].setRotationPoint(46.0f, -9.0f, -2.0f);
 
 		model[50] = new ModelRendererTurbo(this, 1105, 9, textureX, textureY);
-		model[50].mirror = true;
 		model[50].addCylinder(0, 0, 0, 2, 3, 8, 0.8f, 0.8f, 4);
 		model[50].setRotationPoint(46.7f, -10.0f, 0.0f);
 		model[50].rotateAngleZ = 1.5707964f;
@@ -838,49 +830,41 @@ public class ModelSF482 extends ModelConverter {
 		model[115].setRotationPoint(21.0f, -4.0f, 6.0f);
 
 		model[116] = new ModelRendererTurbo(this, 1566, 6, textureX, textureY);
-		model[116].mirror = true;
 		model[116].addCylinder(1, 0, 0, 1, 1, 8, 1, 1, 4);
 		model[116].setRotationPoint(-20.0f, 4.0f, 7.0f);
 		model[116].rotateAngleX = -1.5707964f;
 
 		model[117] = new ModelRendererTurbo(this, 1262, 6, textureX, textureY);
-		model[117].mirror = true;
 		model[117].addCylinder(0, 0, 0, 1, 2, 8, 1, 1, 4);
 		model[117].setRotationPoint(3.0f, 4.0f, 8.0f);
 		model[117].rotateAngleX = -1.5707964f;
 
 		model[118] = new ModelRendererTurbo(this, 1254, 6, textureX, textureY);
-		model[118].mirror = true;
 		model[118].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		model[118].setRotationPoint(19.0f, 4.0f, -6.0f);
 		model[118].rotateAngleX = -1.5707964f;
 
 		model[119] = new ModelRendererTurbo(this, 1236, 6, textureX, textureY);
-		model[119].mirror = true;
 		model[119].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		model[119].setRotationPoint(-19.0f, 4.0f, -6.0f);
 		model[119].rotateAngleX = -1.5707964f;
 
 		model[120] = new ModelRendererTurbo(this, 1228, 6, textureX, textureY);
-		model[120].mirror = true;
 		model[120].addCylinder(0, 0, 0, 1, 2, 8, 1, 1, 4);
 		model[120].setRotationPoint(3.0f, 4.0f, -6.0f);
 		model[120].rotateAngleX = -1.5707964f;
 
 		model[121] = new ModelRendererTurbo(this, 1033, 9, textureX, textureY);
-		model[121].mirror = true;
 		model[121].addCylinder(0, 0, 0, 2, 12, 16, 0.7f, 0.7f, 4);
 		model[121].setRotationPoint(6.0f, -7.3f, 8.0f);
 		model[121].rotateAngleZ = 1.5707964f;
 
 		model[122] = new ModelRendererTurbo(this, 1402, 8, textureX, textureY);
-		model[122].mirror = true;
 		model[122].addCylinder(0, 0, 0, 2, 8, 16, 0.7f, 0.7f, 4);
 		model[122].setRotationPoint(30.0f, -7.3f, 8.0f);
 		model[122].rotateAngleZ = 1.5707964f;
 
 		model[123] = new ModelRendererTurbo(this, 1393, 8, textureX, textureY);
-		model[123].mirror = true;
 		model[123].addCylinder(0, 0, 0, 2, 8, 16, 0.7f, 0.7f, 4);
 		model[123].setRotationPoint(30.0f, -7.3f, -8.0f);
 		model[123].rotateAngleZ = 1.5707964f;
@@ -890,13 +874,11 @@ public class ModelSF482 extends ModelConverter {
 		model[124].setRotationPoint(21.0f, -6.0f, -9.0f);
 
 		model[125] = new ModelRendererTurbo(this, 182, 6, textureX, textureY);
-		model[125].mirror = true;
 		model[125].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		model[125].setRotationPoint(16.0f, 1.0f, -7.0f);
 		model[125].rotateAngleX = -1.5707964f;
 
 		model[126] = new ModelRendererTurbo(this, 159, 6, textureX, textureY);
-		model[126].mirror = true;
 		model[126].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		model[126].setRotationPoint(16.0f, 1.0f, 8.0f);
 		model[126].rotateAngleX = -1.5707964f;
@@ -910,20 +892,17 @@ public class ModelSF482 extends ModelConverter {
 		model[128].setRotationPoint(-20.0f, 3.0f, 6.0f);
 
 		model[129] = new ModelRendererTurbo(this, 721, 8, textureX, textureY);
-		model[129].mirror = true;
 		model[129].addCylinder(0, 0, 0, 2, 3, 8, 1, 1, 4);
 		model[129].setRotationPoint(25.0f, -4.0f, 7.0f);
 		model[129].rotateAngleZ = 3.1415927f;
 
 		model[130] = new ModelRendererTurbo(this, 712, 8, textureX, textureY);
-		model[130].mirror = true;
 		model[130].addCylinder(0, 0, 0, 2, 3, 8, 1, 1, 4);
 		model[130].setRotationPoint(25.0f, -6.4f, 7.0f);
 		model[130].rotateAngleX = -0.29670596f;
 		model[130].rotateAngleZ = 3.1415927f;
 
 		model[131] = new ModelRendererTurbo(this, 703, 8, textureX, textureY);
-		model[131].mirror = true;
 		model[131].addCylinder(0, 0, 0, 2, 3, 8, 1, 1, 4);
 		model[131].setRotationPoint(25.0f, -6.4f, -7.0f);
 		model[131].rotateAngleX = 0.29670596f;
@@ -974,13 +953,11 @@ public class ModelSF482 extends ModelConverter {
 		model[142].setRotationPoint(-24.0f, -20.5f, 0.0f);
 
 		model[143] = new ModelRendererTurbo(this, 1774, 5, textureX, textureY);
-		model[143].mirror = true;
 		model[143].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		model[143].setRotationPoint(9.0f, -1.0f, 8.0f);
 		model[143].rotateAngleX = -1.5707964f;
 
 		model[144] = new ModelRendererTurbo(this, 741, 0, textureX, textureY);
-		model[144].mirror = true;
 		model[144].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		model[144].setRotationPoint(4.0f, 1.0f, 8.0f);
 		model[144].rotateAngleX = -1.5707964f;
@@ -990,7 +967,6 @@ public class ModelSF482 extends ModelConverter {
 		model[145].setRotationPoint(9.0f, -2.0f, -8.0f);
 
 		model[146] = new ModelRendererTurbo(this, 640, 0, textureX, textureY);
-		model[146].mirror = true;
 		model[146].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		model[146].setRotationPoint(9.0f, -1.0f, -7.0f);
 		model[146].rotateAngleX = -1.5707964f;
@@ -1000,7 +976,6 @@ public class ModelSF482 extends ModelConverter {
 		model[147].setRotationPoint(4.0f, -1.0f, -8.5f);
 
 		model[148] = new ModelRendererTurbo(this, 547, 0, textureX, textureY);
-		model[148].mirror = true;
 		model[148].addCylinder(0, 0, 0, 1, 1, 8, 1, 1, 4);
 		model[148].setRotationPoint(4.0f, 1.0f, -7.0f);
 		model[148].rotateAngleX = -1.5707964f;
@@ -1010,7 +985,6 @@ public class ModelSF482 extends ModelConverter {
 		model[149].setRotationPoint(2.0f, 1.0f, -7.5f);
 
 		model[150] = new ModelRendererTurbo(this, 685, 8, textureX, textureY);
-		model[150].mirror = true;
 		model[150].addCylinder(0, 0, 0, 2, 3, 8, 1, 1, 4);
 		model[150].setRotationPoint(38.0f, -20.0f, 0.0f);
 
