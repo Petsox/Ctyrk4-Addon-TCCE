@@ -26,7 +26,7 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	passengerCDWRMZ(Ctyrk4EntityPassengerCDWRMZ.class, new ModelCDWRMZ(), "CD_WRMz_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	passengerMVZSV2(Ctyrk4EntityPassengerMVZSV2.class, new ModelMVZSV2(), "MVZSV2_", true, new float[] { 0.05F, 0.15F, 0F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	passengerCDBDTN( Ctyrk4EntityPassengerCDBDTN.class, new train.client.render.models.ModelBR_MK2F_Coach(), "CD_Bdtn_", true, new float[] {0.5F,0F,0F}, new float[] {0F, 180F, 180F}, null, "",0,null, "", null, 0, false),
-	locoGP40(Ctyrk4EntityLocoDieselCD742.class, new ModelGP40(), "cd742_", true, new float[] { -0.8F, 0.75F, 0.0F }, new float[] { 180F, 180F, 0F }, new float[] { 0.8F, 0.8F, 0.8F }, "smoke", 5, new ArrayList<double[]>() {
+	locoGP40(Ctyrk4EntityLocoDieselCD742.class, new train.client.render.models.ModelGP40(), "cd742_", true, new float[] { -0.8F, 0.75F, 0.0F }, new float[] { 180F, 180F, 0F }, new float[] { 0.8F, 0.8F, 0.8F }, "smoke", 5, new ArrayList<double[]>() {
 		{
 			add(new double[] { 1.25D, 1.15D, 0.0D });
 		}

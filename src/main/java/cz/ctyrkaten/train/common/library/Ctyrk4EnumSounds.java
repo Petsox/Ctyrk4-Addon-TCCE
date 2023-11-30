@@ -1,22 +1,37 @@
 package cz.ctyrkaten.train.common.library;
 
+import cz.ctyrkaten.train.common.entity.rollingStock.*;
 import train.common.api.TrainSoundRecord;
+import train.common.entity.rollingStock.EntityLocoElectric81717_Motor;
 import train.common.library.Info;
-import cz.ctyrkaten.train.common.entity.rollingStock.Ctyrk4EntityLocoDieselCD742;
-import cz.ctyrkaten.train.common.entity.rollingStock.Ctyrk4EntityLocoDieselCD810;
-import cz.ctyrkaten.train.common.entity.rollingStock.Ctyrk4EntityLocoDieselCD814;
-import cz.ctyrkaten.train.common.entity.rollingStock.Ctyrk4EntityLocoElectricCD111;
-import cz.ctyrkaten.train.common.entity.rollingStock.Ctyrk4EntityLocoElectricCD151;
 
 
 public enum Ctyrk4EnumSounds implements TrainSoundRecord {
-	locoCD742(Ctyrk4EntityLocoDieselCD742.class, "742_horn", 0.8F, "742_motor_slow", 0.65F, 40, "742_motor", 0.65F, 40,
+	LOCO_CD742(Ctyrk4EntityLocoDieselCD742.class, "742_horn", 0.8F, "742_motor_slow", 0.65F, 40, "742_motor", 0.65F, 40,
 			false),
-	locoCD151(Ctyrk4EntityLocoElectricCD151.class,"mg_horn", 1F, "cd151", 0.8F, 10, "mg_idle", 0.6F, 50, false),
-	DieselCD810(Ctyrk4EntityLocoDieselCD810.class, "tram_horn", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),
-	DieselCD814(Ctyrk4EntityLocoDieselCD814.class, "tram_horn", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),
-	LocoElectricCD111T(Ctyrk4EntityLocoElectricCD111.class, "tc_4ka_addon:fullhour", 1F, "mg_run", 0.8F, 10, "mg_idle", 0.6F, 50, false),
-
+	LOCO_CD810(Ctyrk4EntityLocoDieselCD810.class, "tram_horn", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),
+	LOCO_CD814(Ctyrk4EntityLocoDieselCD814.class, "tram_horn", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),
+	LOCO_CD100(Ctyrk4EntityLocoElectricCD100.class, "mg_horn", 1F, "mg_run", 0.6F, 8, "mg_idle", 0.4F, 50, false),
+	LOCO_CD140(Ctyrk4EntityLocoElectricCD140.class, "mg_horn", 1F, "mg_run", 0.6F, 8, "mg_idle", 0.4F, 50, false),
+	LOCO_CD242(Ctyrk4EntityLocoElectricCD242.class, "mg_horn", 1F, "mg_run", 0.6F, 8, "mg_idle", 0.4F, 50, false),
+	LOCO_RE420(Ctyrk4EntityLocoElectricRE420.class, "mg_horn", 1F, "mg_run", 0.6F, 8, "mg_idle", 0.4F, 50, false),
+	LOCO_8171M(Ctyrk4EntityLocoElectric8171MLoco.class, "446Horn", 0.8F, "vl10_idle", 0.6F, 50, "vl10_idle", 0.6F, 50, false),
+	LOCO_CD460(Ctyrk4EntityLocoElectricCD460.class, "446Horn", 0.8F, "vl10_idle", 0.6F, 50, "vl10_idle", 0.6F, 50, false),
+	LOCO_CD470(Ctyrk4EntityLocoElectricCD470Motor.class, "446Horn", 0.8F, "vl10_idle", 0.6F, 50, "vl10_idle", 0.6F, 50, false),
+	LOCO_CD471(Ctyrk4EntityLocoElectricCD471Motor.class, "446Horn", 0.8F, "vl10_idle", 0.6F, 50, "vl10_idle", 0.6F, 50, false),
+	LOCO_M1(Ctyrk4EntityLocoElectricM1.class, "446Horn", 0.8F, "vl10_idle", 0.6F, 50, "vl10_idle", 0.6F, 50, false),
+	LOCO_843(Ctyrk4EntityLocoDieselCD843.class, "british_two_tone", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, false),
+	LOCO_T4(Ctyrk4EntityElectricT4.class, "tram_bell", 1F, "vl10_idle", 0.6F, 50, "vl10_idle", 0.6F, 50, false),
+	LOCO_650(Ctyrk4EntityLocoElectricCD650Loco.class, "4300_horn", 1F, "vl10_idle", 0.65F, 10, "vl10_idle", 0.6F, 40, false),
+	LOCO_845(Ctyrk4EntityLocoDieselARR845.class, "british_two_tone", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, false),
+	LOCO_383(Ctyrk4EntityLocoElectricCD383.class, "mg_horn", 1F, "vl10_idle", 0.8F, 10, "vl10_idle", 0.6F, 50, false),
+	LOCO_ZSSK383(Ctyrk4EntityLocoElectricZSSK383.class, "mg_horn", 1F, "vl10_idle", 0.8F, 10, "vl10_idle", 0.6F, 50, false),
+	LOCO_CD812(Ctyrk4EntityLocoDieselCD812.class, "tram_horn", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),
+	LOCO_CD151(Ctyrk4EntityLocoElectricCD151.class, "mg_horn", 1F, "mg_run", 0.8F, 10, "mg_idle", 0.6F, 50, false),
+	LOCO_CD350(Ctyrk4EntityLocoElectricCD350.class, "mg_horn", 1F, "mg_run", 0.8F, 10, "mg_idle", 0.6F, 50, false),
+	LOCO_H1044(Ctyrk4EntityLocoDieselCD720.class, "wabco_e2", 10F, "FM_38D_6_Notch8", 0.65F, 40, "FM_38D_6_Notch8", 0.45F, 40, false),
+	LOCO_CSD387(Ctyrk4EntityLocoSteamCSD387.class, "class62_horn", 0.8F, "steam_run", 0.2F, 20, "steam_run", 0.2F, 20, true),
+	LOCO_CD464(Ctyrk4EntityCSD464.class, "class62_horn", 0.6F, "steam_run", 0.4F, 20, "steam_run", 0.4F, 20, true),
 	;
 
 	private Class entityClass;
