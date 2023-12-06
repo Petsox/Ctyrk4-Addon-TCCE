@@ -12,6 +12,7 @@ import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
 import train.common.api.AbstractTrains;
 import train.client.render.models.ModelOreJennyTrucc;
 import train.client.render.models.ModelOreJennyTruck2;
+import train.common.core.util.DepreciatedUtil;
 import train.common.library.Info;
 
 public class ModelCD127Motor extends ModelConverter //Same as Filename
@@ -203,7 +204,7 @@ public class ModelCD127Motor extends ModelConverter //Same as Filename
 		GL11.glTranslated(1.19,0,0.03);
 		trucc.render(entity,f,f1,f2,f3,f4,f5);
 		GL11.glPopMatrix();*/
-		if(entity instanceof AbstractTrains && AbstractTrains.getColorFromString(((AbstractTrains) entity).getColor())==9 || entity instanceof AbstractTrains && AbstractTrains.getColorFromString(((AbstractTrains) entity).getColor())==1){
+		if(entity instanceof AbstractTrains && DepreciatedUtil.getColorFromString(((AbstractTrains) entity).getColor())==9 || entity instanceof AbstractTrains && DepreciatedUtil.getColorFromString(((AbstractTrains) entity).getColor())==1){
 			Tessellator.bindTexture(new ResourceLocation(Info.resourceLocation, "textures/trains/Ore_jenny_Truck2.png"));
 		} else {
 			Tessellator.bindTexture(new ResourceLocation(Info.resourceLocation, "textures/trains/Ore_jenny_Truck2_journal_boxes.png"));

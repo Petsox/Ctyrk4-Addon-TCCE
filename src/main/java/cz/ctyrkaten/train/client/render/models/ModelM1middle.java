@@ -19,6 +19,7 @@ import fexcraft.tmt.slim.ModelRendererTurbo;
 import fexcraft.tmt.slim.Tessellator;
 import train.common.api.AbstractTrains;
 import train.client.render.models.Modelrenfebogie;
+import train.common.core.util.DepreciatedUtil;
 
 public class ModelM1middle extends ModelConverter //Same as Filename
 {
@@ -1646,7 +1647,7 @@ public class ModelM1middle extends ModelConverter //Same as Filename
 		}
 
 
-		if(entity instanceof AbstractTrains && AbstractTrains.getColorFromString(((AbstractTrains) entity).getColor())==3455){
+		if(entity instanceof AbstractTrains && DepreciatedUtil.getColorFromString(((AbstractTrains) entity).getColor())==3455){
 			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/CD_x7x_bogie.png"));
 		} else {
 			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/CD_x7x_bogie.png"));

@@ -92,6 +92,9 @@ public enum Ctyrk4ItemIDs {
 	minecartCDDS("ItemRollingStock", "CD_Ds", 2),
 	minecartCD914("ItemRollingStock", "CD914", 2),
 	minecartFLBox("ItemRollingStock", "FlBox", 2),
+	minecartSDLow("ItemRollingStock", "SDLow", 2),
+	minecartSDHigh("ItemRollingStock", "SDHigh", 2),
+	minecartSDBUnit("ItemRollingStock", "SDBUnit", 2),
 	;
 
 	public Item item;

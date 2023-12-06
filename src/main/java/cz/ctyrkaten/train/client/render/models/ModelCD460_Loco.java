@@ -18,6 +18,7 @@ import fexcraft.tmt.slim.ModelRendererTurbo;
 import fexcraft.tmt.slim.Tessellator;
 import train.common.api.AbstractTrains;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
+import train.common.core.util.DepreciatedUtil;
 
 public class ModelCD460_Loco extends ModelConverter //Same as Filename
 {
@@ -1577,7 +1578,7 @@ public class ModelCD460_Loco extends ModelConverter //Same as Filename
 		}
 
 
-		if(entity instanceof AbstractTrains && AbstractTrains.getColorFromString(((AbstractTrains) entity).getColor())==3455){
+		if(entity instanceof AbstractTrains && DepreciatedUtil.getColorFromString(((AbstractTrains) entity).getColor())==3455){
 			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/CD_x60_bogie.png"));
 		} else {
 			Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/CD_x60_bogie.png"));
