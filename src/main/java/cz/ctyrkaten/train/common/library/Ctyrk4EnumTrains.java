@@ -111,9 +111,9 @@ public enum Ctyrk4EnumTrains {
             0, 0.5, 0, 0, 0, 0, 0, 30000, new String[]{"Black", "Red"}, 18, 0,
             Constants.TOOLTIP),
     LOCO_SDHIGH("SDHigh", "Early SD High Hood", Ctyrk4EntityLocoDieselSDHigh.class, Ctyrk4ItemIDs.minecartSDHigh.item, "diesel", 1200, 91,
-            0, 50, 0, 250, 0.8, 0.966, 10000, new String[]{"Yellow", "Grey"}, 15, -2.8, Constants.TOOLTIP),
+            0, 50, 0, 250, 0.8, 0.966, 10000, new String[]{"Yellow", "Grey"}, 15, -3.4, Constants.TOOLTIP),
     LOCO_SDLOW("SDLOW", "Early SD LOW Hood", Ctyrk4EntityLocoDieselSDLow.class, Ctyrk4ItemIDs.minecartSDLow.item, "diesel", 1200, 91,
-            0, 50, 0, 250, 0.8, 0.966, 10000, new String[]{"Yellow", "Yellow2", "Yellow3", "Grey"}, 15, -2.8, Constants.TOOLTIP),
+            0, 50, 0, 250, 0.8, 0.966, 10000, new String[]{"Yellow", "Yellow2", "Yellow3", "Grey"}, 15, -3.4, Constants.TOOLTIP),
     LOCO_SDBUnit("SDBUnit", "Early SD B-Unit", Ctyrk4EntityLocoDieselSDBUnit.class, Ctyrk4ItemIDs.minecartSDBUnit.item, "diesel", 1200, 91,
             0, 50, 0, 250, 0.8, 0.966, 10000, new String[]{"Default", "Southfield"}, 15, -3.4, Constants.TOOLTIP),
     ;

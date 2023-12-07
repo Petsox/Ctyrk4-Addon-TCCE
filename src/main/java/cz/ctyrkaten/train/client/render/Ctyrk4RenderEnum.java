@@ -186,19 +186,19 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 			add(new double[] { 4.4D, -0.2D, 0.8D });
 		}
 	}, 2, false),
-	SDLow(Ctyrk4EntityLocoDieselSDLow.class, new ModelSDLow(), "SDLow_", true, new float[] { -0.8F, 0F, 0.0F }, new float[] { 180F, 180F, 0F }, null, "smoke", 5, new ArrayList<double[]>() {
+	SDLow(Ctyrk4EntityLocoDieselSDLow.class, new ModelSDLow(), "SDLow_", true, new float[] { -1.65F, 0F, 0.0F }, new float[] { 180F, 180F, 0F }, null, "smoke", 5, new ArrayList<double[]>() {
 		{
-			add(new double[] { 1.25D, 1.15D, 0.0D });
+			add(new double[] { 1.1D, 1.3D, 0.0D });
 		}
 	}, "", null, 0, false),
-	SDHigh(Ctyrk4EntityLocoDieselSDHigh.class, new ModelSDHigh(), "SDHigh_", true, new float[] { -0.8F, 0F, 0.0F }, new float[] { 180F, 180F, 0F }, null, "smoke", 5, new ArrayList<double[]>() {
+	SDHigh(Ctyrk4EntityLocoDieselSDHigh.class, new ModelSDHigh(), "SDHigh_", true, new float[] { -1.65F, 0F, 0.0F }, new float[] { 180F, 180F, 0F }, null, "smoke", 5, new ArrayList<double[]>() {
 		{
-			add(new double[] { 1.25D, 1.15D, 0.0D });
+			add(new double[] { 1.1D, 1.3D, 0.0D });
 		}
 	}, "", null, 0, false),
 	SDBUnit(Ctyrk4EntityLocoDieselSDBUnit.class, new ModelSDBUnit(), "SDBUnit_", true, new float[] { -1.65F, 0F, 0.0F }, new float[] { 180F, 180F, 0F }, null, "smoke", 5, new ArrayList<double[]>() {
 		{
-			add(new double[] { 1.25D, 1.15D, 0.0D });
+			add(new double[] { 1.1D, 1.3D, 0.0D });
 		}
 	}, "", null, 0, false),
 	;
