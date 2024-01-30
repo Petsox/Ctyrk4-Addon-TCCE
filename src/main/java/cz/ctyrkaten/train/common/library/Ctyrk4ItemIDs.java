@@ -68,8 +68,9 @@ public enum Ctyrk4ItemIDs {
 	minecartCDAB349("ItemRollingStock", "CD_AB", 2),
 	minecartZSSK012("ItemRollingStock", "ZSSK_012", 2),
 	minecartZSSK812("ItemRollingStock", "ZSSK_812", 2),
-	minecartCD650Loco("ItemRollingStock", "CD_650_Loco", 2),
-	minecartCD650Tail("ItemRollingStock", "CD_650_Tail", 2),
+	minecartCD650("ItemRollingStock", "CD_650", 2),
+	minecartCD652("ItemRollingStock", "CD_651", 2),
+	minecartCD651("ItemRollingStock", "CD_652", 2),
 	minecartCD680Loco("ItemRollingStock", "CD_681", 2),
 	minecartCD680Coach("ItemRollingStock", "CD_081", 2),
 	minecartCD680Tail("ItemRollingStock", "CD_684", 2),
@@ -94,7 +95,13 @@ public enum Ctyrk4ItemIDs {
 	minecartFLBox("ItemRollingStock", "FlBox", 2),
 	minecartSDLow("ItemRollingStock", "SDLow", 2),
 	minecartSDHigh("ItemRollingStock", "SDHigh", 2),
+	minecartSD("ItemRollingStock", "SD", 2),
 	minecartSDBUnit("ItemRollingStock", "SDBUnit", 2),
+	minecartCSDABa("ItemRollingStock", "CSD_ABa", 2),
+	minecartCSDAa("ItemRollingStock", "CSD_Aa", 2),
+	minecartCSDBda("ItemRollingStock", "CSD_BDa", 2),
+	minecartCSDBa("ItemRollingStock", "CSD_Ba", 2),
+	minecartCSDWR("ItemRollingStock", "CSD_WR", 2),
 	;
 
 	public Item item;

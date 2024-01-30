@@ -31,7 +31,7 @@ public class Ctyrk4EntityLocoElectricCD111 extends ElectricTrain {
 
 	@Override
 	public void updateRiderPosition() {
-		TraincraftUtil.updateRider(this,  1.3, 0.15);
+		TraincraftUtil.updateRider(this,  1.3, 0.05);
 	}
 
 	@Override
