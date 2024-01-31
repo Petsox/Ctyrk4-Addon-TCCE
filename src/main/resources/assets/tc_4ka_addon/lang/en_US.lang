@@ -13,8 +13,8 @@ item.tc_4ka_addon:minecartCD460.name=CD 460
 item.tc_4ka_addon:minecartCD060.name=CD 060
 item.tc_4ka_addon:minecartCD714.name=CD 714
 item.tc_4ka_addon:minecartRE420.name=RE 420
-item.tc_4ka_addon:minecartCDEAS11.name=CD EAs11
-item.tc_4ka_addon:minecartCDES11.name=CD Es11
+item.tc_4ka_addon:minecartCDEAS11.name=CDC Eas 11
+item.tc_4ka_addon:minecartCDES11.name=CDC Es 11
 item.tc_4ka_addon:minecartCDNP.name=CD Np
 item.tc_4ka_addon:minecartCDKNS.name=CD Kns
 item.tc_4ka_addon:minecartCDZAS30.name=CD Zas 30
@@ -105,6 +105,9 @@ item.tc_4ka_addon:minecartSDHigh.name=Early SD High Hood
 item.tc_4ka_addon:minecartSDLow.name=Early SD Low Hood
 item.tc_4ka_addon:minecartSD.name=Early SD
 item.tc_4ka_addon:minecartSDBUnit.name=Early SD B Unit
+
+entity.tc_4ka_addon.CD EAs 11.name=CDC Eas 11
+entity.tc_4ka_addon.CD ES11.name=CDC Es 11
 
 train.owner.name=You are not the owner!
 train.locked.name=Locked

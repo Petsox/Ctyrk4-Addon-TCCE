@@ -77,7 +77,7 @@ public class Ctyrk4EntityFreightCDEAS11 extends Freight implements IInventory {
 	}
 	@Override
 	public String getInventoryName() {
-		return "CD EAs 11";
+		return "CDC Eas 11";
 	}
 	@Override
 	public int getSizeInventory() {

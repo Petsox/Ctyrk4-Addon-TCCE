@@ -24,7 +24,7 @@ public class Ctyrk4EntityCDES11 extends Freight implements IInventory {
 
 	public void initFreightCart() {
 		numFreightSlots = 9;
-		if(getSpec()!=null)freightInventorySize = getSpec().getCargoCapacity();
+		freightInventorySize = getInventoryRows()*9;
 		cargoItems = new ItemStack[freightInventorySize];
 	}
 
@@ -77,7 +77,7 @@ public class Ctyrk4EntityCDES11 extends Freight implements IInventory {
 	}
 	@Override
 	public String getInventoryName() {
-		return "Es 11";
+		return "CDC Es 11";
 	}
 
 	@Override

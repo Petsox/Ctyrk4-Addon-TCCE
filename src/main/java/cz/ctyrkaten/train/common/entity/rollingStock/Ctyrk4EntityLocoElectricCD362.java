@@ -91,48 +91,8 @@ public class Ctyrk4EntityLocoElectricCD362 extends ElectricTrain {
 	}
 
 	@Override
-	public ItemStack getStackInSlot(int i) {
-		return null;
-	}
-
-	@Override
-	public ItemStack decrStackSize(int i, int i1) {
-		return null;
-	}
-
-	@Override
-	public ItemStack getStackInSlotOnClosing(int i) {
-		return null;
-	}
-
-	@Override
-	public void setInventorySlotContents(int i, ItemStack itemStack) {
-
-	}
-
-	@Override
 	public String getInventoryName() {
 		return "CD 362";
-	}
-
-	@Override
-	public int getInventoryStackLimit() {
-		return 0;
-	}
-
-	@Override
-	public void markDirty() {
-
-	}
-
-	@Override
-	public void openInventory() {
-
-	}
-
-	@Override
-	public void closeInventory() {
-
 	}
 
 	@Override
