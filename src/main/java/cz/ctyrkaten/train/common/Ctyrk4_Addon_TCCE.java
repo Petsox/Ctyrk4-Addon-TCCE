@@ -46,7 +46,7 @@ public class Ctyrk4_Addon_TCCE {
 		/* Register Items, Blocks, ... */
 		tcLog.info("Initialize Blocks, Items, ...");
 
-        tcAddonTab = new Ctyrk4CreativeTabTraincraftTrains(CreativeTabs.getNextID(), "Ctyrk4 Trains");
+        tcAddonTab = new Ctyrk4CreativeTabTraincraftTrains(CreativeTabs.getNextID(), "Ctyrk4 Addon for TrainCraft");
 
         Ctyrk4Items.init();
         registerEntityHandlers();
