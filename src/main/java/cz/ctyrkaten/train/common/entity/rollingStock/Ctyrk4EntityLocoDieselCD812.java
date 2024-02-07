@@ -1,6 +1,5 @@
 package cz.ctyrkaten.train.common.entity.rollingStock;
 
-import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -79,7 +78,7 @@ public class Ctyrk4EntityLocoDieselCD812 extends DieselTrain {
 	@Override
 	public void pressKey(int i) {
 		if (i == 7 && riddenByEntity != null && riddenByEntity instanceof EntityPlayer) {
-			((EntityPlayer) riddenByEntity).openGui(Ctyrk4_Addon_TCCE.instance, GuiIDs.LOCO, worldObj, (int) this.posX, (int) this.posY, (int) this.posZ);
+			((EntityPlayer) riddenByEntity).openGui(Traincraft.instance, GuiIDs.LOCO, worldObj, (int) this.posX, (int) this.posY, (int) this.posZ);
 		}
 	}
 
