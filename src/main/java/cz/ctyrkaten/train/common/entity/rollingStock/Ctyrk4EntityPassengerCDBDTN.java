@@ -74,6 +74,6 @@ public class Ctyrk4EntityPassengerCDBDTN extends EntityRollingStock implements I
 
     @Override
     public float getOptimalDistance(EntityMinecart cart) {
-        return 2.7F;
+        return 3.5F;
     }
 }

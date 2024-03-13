@@ -38,7 +38,7 @@ public class Ctyrk4EntityLocoDieselCD954 extends DieselTrain {
 	public void updateRiderPosition() {
 		if(riddenByEntity==null){return;}
 		double pitchRads = this.anglePitchClient * Math.PI / 180.0D;
-		double distance = 6.2f;
+		double distance = 5.8f;
 		double yOffset = -0.1;
 		float rotationCos1 = (float) Math.cos(Math.toRadians(this.renderYaw + 90));
 		float rotationSin1 = (float) Math.sin(Math.toRadians((this.renderYaw + 90)));
@@ -131,7 +131,7 @@ public class Ctyrk4EntityLocoDieselCD954 extends DieselTrain {
 
 	@Override
 	public String getInventoryName() {
-		return "CD854";
+		return "CD954";
 	}
 
 	@Override
