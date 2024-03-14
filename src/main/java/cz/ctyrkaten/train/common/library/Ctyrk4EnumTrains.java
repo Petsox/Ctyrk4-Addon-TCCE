@@ -132,6 +132,9 @@ public enum Ctyrk4EnumTrains {
     LOCO_CD163("locoElectricCD163", "Loco Electric CD163", Ctyrk4EntityLocoElectricCD163.class, Ctyrk4ItemIDs.minecartLocoCD163.item, "electric", 4446, 141, 0, 10, 0, 170, 0.7, 0.965, 6850, new String[]{"Green"}, 18, -4.25, Constants.TOOLTIP),
     LOCO_CD263("locoElectricCD263", "Loco Electric CD263", Ctyrk4EntityLocoElectricCD263.class, Ctyrk4ItemIDs.minecartLocoCD263.item, "electric", 4446, 141, 0, 10, 0, 170, 0.7, 0.965, 6850, new String[]{"Red"}, 18, -4.25, Constants.TOOLTIP),
     tankWagonErmewa("tankWagonErmewa", "Tank Ermewa", Ctyrk4EntityEntityWagonErmewa.class, Ctyrk4ItemIDs.tankWagonErmewa.item, "tank", 0, 0, 7.5, 0, 0, 0, 0, 0, 90000, new String[]{"Ermewa"}, 18, 0, Constants.TOOLTIP),
+    PASSENGER_ZSSKB("passengerZSSKB", "Passenger ZSSK B", Ctyrk4EntityPassengerZSSKB.class, Ctyrk4ItemIDs.minecartZSSKB.item, "passenger", 0, 0, 1, 0, 0, 0, 0, 0, 0, new String[]{"Red"}, 18, 0, Constants.TOOLTIP),
+    LOCO_CSD477("locoSteamCSD477", "CSD 477", Ctyrk4EntityLocoSteamCSD477.class, Ctyrk4ItemIDs.minecartCSD477.item,
+            "steam", 2102, 111, 0, 60, 180, 160, 0.7, 0.97, 10000, new String[]{"Black", "Green"}, 7, -5.66, Constants.TOOLTIP),
     ;
     private String trainId;
     private String internalName;

@@ -220,6 +220,17 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	locoCD163(Ctyrk4EntityLocoElectricCD163.class, new ModelLocoCD151(), "CD163_", true, new float[]{-2.125F,0.18F,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
 	locoCD263(Ctyrk4EntityLocoElectricCD263.class, new ModelLocoCD151(), "CD263_", true, new float[]{-2.125F,0.18F,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
 	tankWagonErmewa(Ctyrk4EntityEntityWagonErmewa.class, new train.client.render.models.ModelTankWagonThreeDome(), "Tank_", true, new float[]{0.0F, 0.17F, 0.0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
+	passengerZSSKB(Ctyrk4EntityPassengerZSSKB.class, new ModelCDB249(), "ZSSK_B_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
+	locoSteamCSD477(Ctyrk4EntityLocoSteamCSD477.class, new ModelCSD387Locomotive(), "CSD387_engine_", true,
+			new float[] { 0F, -0.44F, 0.0F }, null, null, "largesmoke", 3, new ArrayList<double[]>() {
+		{
+			add(new double[] { 5.0D, 1.75D, 0.0D });
+		}
+	}, "explode", new ArrayList<double[]>() {
+		{
+			add(new double[] { 5.2D, -0.2D, 0.8D });
+		}
+	}, 2, false),
 	;
 	private Class<? extends EntityRollingStock> entityClass;
 	private ModelBase model;
