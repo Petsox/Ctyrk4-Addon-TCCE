@@ -46,7 +46,8 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	locoZSSK350(Ctyrk4EntityLocoElectricZSSK350.class, new ModelZSSK350(), "ZSSK350_", true, new float[]{-2,0.18F,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
 	locoCD362(Ctyrk4EntityLocoElectricCD362.class, new ModelCD362(), "CD362_", true, new float[]{-2.125F,0.18F,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
 	locoCD363(Ctyrk4EntityLocoElectricCD363.class, new ModelCD363(), "CD363_", true, new float[]{-2.125F,0.18F,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
-	locoZSSK362(Ctyrk4EntityLocoElectricZSSK362.class, new ModelZSSK362(), "ZSSK362_", true, new float[]{-2.125F,0.18F,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
+	locoZSSK361(Ctyrk4EntityLocoElectricZSSK361.class, new ModelZSSK362(), "ZSSK361_", true, new float[]{-2.125F,0.18F,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
+	locoZSSK362(Ctyrk4EntityLocoElectricZSSK362.class, new ModelCD362(), "ZSSK362_", true, new float[]{-2.125F,0.18F,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
 	locoZSSK363(Ctyrk4EntityLocoElectricZSSK363.class, new ModelZSSK363(), "ZSSK363_", true, new float[]{-2.125F,0.18F,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
 	locoCD751(Ctyrk4EntityLocoDieselCD751.class, new ModelCD751(), "CD_751_", true, new float[] { -3.1F, 0.15F, 0.0F }, new float[] { 0F, 180F, 180F }, null, "smoke", 5, new ArrayList<double[]>() {
 		{
@@ -221,16 +222,34 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	locoCD263(Ctyrk4EntityLocoElectricCD263.class, new ModelLocoCD151(), "CD263_", true, new float[]{-2.125F,0.18F,0}, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "",0,null, "", null, 0, false),
 	tankWagonErmewa(Ctyrk4EntityEntityWagonErmewa.class, new train.client.render.models.ModelTankWagonThreeDome(), "Tank_", true, new float[]{0.0F, 0.17F, 0.0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 	passengerZSSKB(Ctyrk4EntityPassengerZSSKB.class, new ModelCDB249(), "ZSSK_B_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
-	locoSteamCSD477(Ctyrk4EntityLocoSteamCSD477.class, new ModelCSD387Locomotive(), "CSD387_engine_", true,
-			new float[] { 0F, -0.44F, 0.0F }, null, null, "largesmoke", 3, new ArrayList<double[]>() {
+	locoSteamCSD477(Ctyrk4EntityLocoSteamCSD477.class, new ModelCSD477(), "CSD477_", true,
+			new float[] { -6.7F, 1.25F, 0.63F }, new float[] { 0F, 180F, 180F }, new float[] { 1.20F, 1.125F, 0.92F }, "largesmoke", 3, new ArrayList<double[]>() {
 		{
-			add(new double[] { 5.0D, 1.75D, 0.0D });
+			add(new double[] { 6.5D, 1.75D, 0.0D });
 		}
 	}, "explode", new ArrayList<double[]>() {
 		{
-			add(new double[] { 5.2D, -0.2D, 0.8D });
+			add(new double[] { 6.0D, -0.2D, 0.8D });
 		}
 	}, 2, false),
+	locoT478a1(Ctyrk4EntityLocoDieselT478a1.class, new ModelT478a1(), "T478-1_", true, new float[] { -3.1F, 0.15F, 0.0F }, new float[] { 0F, 180F, 180F }, null, "smoke", 5, new ArrayList<double[]>() {
+		{
+			add(new double[] { 1.42D, 1.45D, 0.0D });
+		}
+	}, "", null, 0, false),
+	locoCD850(Ctyrk4EntityLocoDieselCD850.class, new ModelCD850(), "CD850_", true, new float[] { -1.6F, 0.15F, -0.68F }, new float[] { 0F, 180F, 180F }, null, "", 0,null, "", null, 0, false),
+	locoCD820(Ctyrk4EntityLocoDieselCD820.class, new ModelCD820(), "CD820_", true, new float[] { -1.4F, 0.15F, -0.68F }, new float[] { 0F, 180F, 180F }, null, "smoke", 5, new ArrayList<double[]>() {
+		{
+			add(new double[] { 4.6D, 1D, -0.45D });
+		}
+	}, "", null, 0, false),
+	passengerCDBalm020(Ctyrk4EntityPassengerCDBalm020.class, new ModelBalm020(), "CDBalm020_", true, new float[] { 1.0F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
+	passengerCDBtx763(Ctyrk4EntityPassengerCDBtx763.class, new ModelBtx763(), "CDBtx763_", true, new float[] { 1.0F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
+	/*LocoCD770(Ctyrk4EntityLocoDieselCD770.class, new ModelCD770(), "CD770_", true, new float[] { -3.1F, 0.15F, 0.0F }, new float[] { 0F, 180F, 180F }, null, "smoke", 5, new ArrayList<double[]>() {
+		{
+			add(new double[] { 1.42D, 1.45D, 0.0D });
+		}
+	}, "", null, 0, false),*/
 	;
 	private Class<? extends EntityRollingStock> entityClass;
 	private ModelBase model;

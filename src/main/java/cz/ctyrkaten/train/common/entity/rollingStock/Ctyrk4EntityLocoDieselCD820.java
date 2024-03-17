@@ -8,22 +8,22 @@ import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
 import train.common.Traincraft;
+import train.common.api.DieselTrain;
 import train.common.api.LiquidManager;
-import train.common.api.SteamTrain;
 import train.common.library.GuiIDs;
 
-public class Ctyrk4EntityLocoSteamCSD477 extends SteamTrain {
-	public Ctyrk4EntityLocoSteamCSD477(World world) {
-		super(world, LiquidManager.WATER_FILTER);
-		initLocoSteam();
+public class Ctyrk4EntityLocoDieselCD820 extends DieselTrain {
+	public Ctyrk4EntityLocoDieselCD820(World world) {
+		super(world, LiquidManager.dieselFilter());
+		initLoco();
 	}
 
-	public void initLocoSteam() {
+	public void initLoco() {
 		fuelTrain = 0;
 		locoInvent = new ItemStack[inventorySize];
 	}
 
-	public Ctyrk4EntityLocoSteamCSD477(World world, double d, double d1, double d2) {
+	public Ctyrk4EntityLocoDieselCD820(World world, double d, double d1, double d2) {
 		this(world);
 		setPosition(d, d1 + yOffset, d2);
 		motionX = 0.0D;
@@ -36,10 +36,10 @@ public class Ctyrk4EntityLocoSteamCSD477 extends SteamTrain {
 
 	@Override
 	public void updateRiderPosition() {
-		if (riddenByEntity == null) {return;}
+		if(riddenByEntity==null){return;}
 		double pitchRads = this.anglePitchClient * Math.PI / 180.0D;
-		double distance = 1.5;
-		double yOffset = 0.36;
+		double distance = 5.4f;
+		double yOffset = -0.1;
 		float rotationCos1 = (float) Math.cos(Math.toRadians(this.renderYaw + 90));
 		float rotationSin1 = (float) Math.sin(Math.toRadians((this.renderYaw + 90)));
 		if(side.isServer()){
@@ -52,13 +52,13 @@ public class Ctyrk4EntityLocoSteamCSD477 extends SteamTrain {
 		float pitch1 = (float) (posY + getMountedYOffset() + riddenByEntity.getYOffset() + yOffset);
 		double bogieX1 = (this.posX + (rotationCos1 * distance));
 		double bogieZ1 = (this.posZ + (rotationSin1* distance));
-		//System.out.println(rotationCos1+" "+rotationSin1);
+		// System.out.println(rotationCos1+" "+rotationSin1);
 		if(anglePitchClient>20 && rotationCos1 == 1){
-			bogieX1-=pitchRads*2;
+			bogieX1 -= pitchRads * 2;
 			pitch-=pitchRads*1.2;
 		}
 		if(anglePitchClient>20 && rotationSin1 == 1){
-			bogieZ1-=pitchRads*2 + 1;
+			bogieZ1 -= pitchRads * 2;
 			pitch-=pitchRads*1.2;
 		}
 		if (pitchRads == 0.0) {
@@ -88,7 +88,7 @@ public class Ctyrk4EntityLocoSteamCSD477 extends SteamTrain {
 		if (worldObj.isRemote) {
 			return;
 		}
-		checkInvent(locoInvent[0], locoInvent[1], this);
+		checkInvent(locoInvent[0]);
 	}
 
 	@Override
@@ -128,10 +128,12 @@ public class Ctyrk4EntityLocoSteamCSD477 extends SteamTrain {
 	public int getSizeInventory() {
 		return inventorySize;
 	}
+
 	@Override
 	public String getInventoryName() {
-		return "CSD 477";
+		return "CD 820";
 	}
+
 	@Override
 	public boolean interactFirst(EntityPlayer entityplayer) {
 		playerEntity = entityplayer;
@@ -149,7 +151,7 @@ public class Ctyrk4EntityLocoSteamCSD477 extends SteamTrain {
 
 	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
-		return (0.5F);
+		return (1.3F);
 	}
 
 	@Override
