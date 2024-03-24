@@ -39,7 +39,7 @@ public enum Ctyrk4EnumSounds implements TrainSoundRecord {
 	LOCO_SDLOW(Ctyrk4EntityLocoDieselSDLow.class, "sd70_horn", 0.8F, "steam_run", 0.4F, 20, "steam_run", 0.4F, 20, true),
 	LOCO_SDBUnit(Ctyrk4EntityLocoDieselSDBUnit.class, "sd70_horn", 0.8F, "steam_run", 0.4F, 20, "steam_run", 0.4F, 20, true),
 	LOCO_SD(Ctyrk4EntityLocoDieselSD.class, "sd70_horn", 1.0F, "steam_run", 0.4F, 20, "steam_run", 0.4F, 20, true),
-	LOCO_U57(Ctyrk4EntityLocoSteamU57.class, "class62_horn", 0.6F, "steam_run", 0.4F, 20, "steam_run", 0.4F, 20, true)
+	LOCO_U57(Ctyrk4EntityLocoSteamU57.class, "hancock_3chime", 0.8F, "steam_run", 0.2F, 20, "steam_run", 0.2F, 20, true),
 	;
 
 	private Class entityClass;
