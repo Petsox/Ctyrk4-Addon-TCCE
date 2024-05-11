@@ -250,13 +250,23 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 			add(new double[] { 1.42D, 1.45D, 0.0D });
 		}
 	}, "", null, 0, false),
-	CSD534(Ctyrk4EntityLocoSteamCSD534.class, new ModelCSD534(), "CSD534_", true, new float[] { -3.5F, 1.05F, 0.65F }, new float[] { 0F, 180F, 180F }, null, "largesmoke", 10, new ArrayList<double[]>() {
+	CSD534(Ctyrk4EntityLocoSteamCSD534.class, new ModelCSD534(), "CSD534_", true, new float[] { -3.5F, 1.05F, 0.69F }, new float[] { 0F, 180F, 180F }, null, "largesmoke", 10, new ArrayList<double[]>() {
 		{
-			add(new double[] { 3.05D, 1.25D, 0D });
+			add(new double[] { 3D, 1.5D, 0D });
 		}
 	}, "explode", new ArrayList<double[]>() {
 		{
-			add(new double[] { 2.9D, 0.00D, 0.75D });
+			add(new double[] { 2.9D, -0.25D, 0.75D });
+		}
+	}, 3, true),
+	tenderCSD555(Ctyrk4EntityTenderCSD555.class, new ModelTenderCSD555(), "CSDTender555_", true, new float[] { -6F, 1.05F, 0.69F }, new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
+	locoCSD555(Ctyrk4EntityLocoSteamCSD555.class, new ModelCSD555(), "CSD555_", true, new float[] { -4.75F, 1.05F, 0.69F }, new float[] { 0F, 180F, 180F }, null, "largesmoke", 3, new ArrayList<double[]>() {
+		{
+			add(new double[] { 4.25D, 1.5D, 0D });
+		}
+	}, "explode", new ArrayList<double[]>() {
+		{
+			add(new double[] { 4D, -0.2D, 0.75D });
 		}
 	}, 3, true),
 	;

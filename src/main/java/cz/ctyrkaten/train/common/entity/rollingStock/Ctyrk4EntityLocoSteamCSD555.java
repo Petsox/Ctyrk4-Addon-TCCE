@@ -12,8 +12,8 @@ import train.common.api.LiquidManager;
 import train.common.api.SteamTrain;
 import train.common.library.GuiIDs;
 
-public class Ctyrk4EntityLocoSteamCSD534 extends SteamTrain {
-	public Ctyrk4EntityLocoSteamCSD534(World world) {
+public class Ctyrk4EntityLocoSteamCSD555 extends SteamTrain {
+	public Ctyrk4EntityLocoSteamCSD555(World world) {
 		super(world, LiquidManager.WATER_FILTER);
 		initLocoSteam();
 	}
@@ -23,7 +23,7 @@ public class Ctyrk4EntityLocoSteamCSD534 extends SteamTrain {
 		locoInvent = new ItemStack[inventorySize];
 	}
 
-	public Ctyrk4EntityLocoSteamCSD534(World world, double d, double d1, double d2) {
+	public Ctyrk4EntityLocoSteamCSD555(World world, double d, double d1, double d2) {
 		this(world);
 		setPosition(d, d1 + (double) yOffset, d2);
 		motionX = 0.0D;
@@ -38,7 +38,7 @@ public class Ctyrk4EntityLocoSteamCSD534 extends SteamTrain {
 	public void updateRiderPosition() {
 		if (riddenByEntity == null) {return;}
 		double pitchRads = this.anglePitchClient * Math.PI / 180.0D;
-		double distance = -0.5;
+		double distance = 0;
 		double yOffset = 0.36;
 		float rotationCos1 = (float) Math.cos(Math.toRadians(this.renderYaw + 90));
 		float rotationSin1 = (float) Math.sin(Math.toRadians((this.renderYaw + 90)));
@@ -77,7 +77,7 @@ public class Ctyrk4EntityLocoSteamCSD534 extends SteamTrain {
 
 	@Override
 	public void pressKey(int i) {
-		if (i == 7 && riddenByEntity != null && riddenByEntity instanceof EntityPlayer) {
+		if (i == 7 && riddenByEntity instanceof EntityPlayer) {
 			((EntityPlayer) riddenByEntity).openGui(Traincraft.instance, GuiIDs.LOCO, worldObj, (int) this.posX, (int) this.posY, (int) this.posZ);
 		}
 	}
@@ -94,7 +94,7 @@ public class Ctyrk4EntityLocoSteamCSD534 extends SteamTrain {
 	@Override
 	protected void writeEntityToNBT(NBTTagCompound nbttagcompound) {
 		super.writeEntityToNBT(nbttagcompound);
-		
+
 		nbttagcompound.setShort("fuelTrain", (short) fuelTrain);
 		NBTTagList nbttaglist = new NBTTagList();
 		for (int i = 0; i < locoInvent.length; i++) {
@@ -111,7 +111,7 @@ public class Ctyrk4EntityLocoSteamCSD534 extends SteamTrain {
 	@Override
 	protected void readEntityFromNBT(NBTTagCompound nbttagcompound) {
 		super.readEntityFromNBT(nbttagcompound);
-		
+
 		fuelTrain = nbttagcompound.getShort("fuelTrain");
 		NBTTagList nbttaglist = nbttagcompound.getTagList("Items", Constants.NBT.TAG_COMPOUND);
 		locoInvent = new ItemStack[getSizeInventory()];
@@ -131,7 +131,7 @@ public class Ctyrk4EntityLocoSteamCSD534 extends SteamTrain {
 
 	@Override
 	public String getInventoryName() {
-		return "CSD 534";
+		return "CSD 555";
 	}
 
 	@Override
@@ -151,7 +151,7 @@ public class Ctyrk4EntityLocoSteamCSD534 extends SteamTrain {
 
 	@Override
 	public float getOptimalDistance(EntityMinecart cart) {
-		return 0.9F;
+		return 0.39F;
 	}
 
 	@Override

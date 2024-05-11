@@ -44,9 +44,10 @@ public enum Ctyrk4ItemIDs {
 	tankWagonErmewa("ItemRollingStock", "Ermewa", 3),
 	minecartCDBDTN("ItemRollingStock", "CD_Bdtn", 3),
 	minecartPassengerMVZSV2("ItemRollingStock", "MVZSV2", 3),
-
 	minecartZSSK131("ItemRollingStock", "ZSSK_131", 3),
 	//minecartCD714("ItemRollingStock", "CD_714", 3),
+	minecartLocoSteamCSD555("ItemRollingStock", "CSD_555", 3),
+	minecartTenderCSD555("ItemRollingStock", "CSD_Tender_555", 3),
 	locoCD111("ItemRollingStock", "CD_111", 3),
 	minecartCD010("ItemRollingStock", "CD010", 2),
 	minecartCD810("ItemRollingStock", "CD810", 2),

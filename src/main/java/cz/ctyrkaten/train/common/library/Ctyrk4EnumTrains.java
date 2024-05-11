@@ -6,7 +6,7 @@ import cz.ctyrkaten.train.common.entity.rollingStock.*;
 
 public enum Ctyrk4EnumTrains {
 
-    LOCO_CD843("locoCD843", "CD 843", Ctyrk4EntityLocoDieselCD843.class, Ctyrk4ItemIDs.minecartLocoCD843.item, "diesel", 816, 111, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Orange", "Green", "Grey", "LightBlue"}, 18, -4.25, Constants.TOOLTIP),
+    LOCO_CD843("locoCD843", "CD 843", Ctyrk4EntityLocoDieselCD843.class, Ctyrk4ItemIDs.minecartLocoCD843.item, "diesel", 816, 111, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Blue"}, 18, -4.25, Constants.TOOLTIP),
     LOCO_CD127("locoElectricCD127", "Loco Electric CD 127", Ctyrk4EntityLocoElectricCD127.class, Ctyrk4ItemIDs.minecartCD127.item, "electric", 2978, 66, 0, 15, 0, 400, 0.9, 0.946, 0, new String[]{"Red", "Lime"}, 18, -1, Constants.TOOLTIP),
     MOTOR_CD127("CD127Motor", "CD 127 Motor", Ctyrk4EntityCD127Motor.class, Ctyrk4ItemIDs.minecartCD127Motor.item, "freight", 0.5, new String[]{"Red", "Lime"}, 0, 27, Constants.TOOLTIP),
     PASSENGER_CSDBP920("passengerCSDBP920", "CSD Bp 920", Ctyrk4EntityPassengerCSDBP920.class, Ctyrk4ItemIDs.minecartCSDBP920.item, "passenger", 0, 0, 1, 0, 0, 0, 0, 0, 0, null, 10, 0, Constants.TOOLTIP),
@@ -145,6 +145,8 @@ public enum Ctyrk4EnumTrains {
     LOCO_CD770("locoDieselCD770", "Loco Diesel CD770", Ctyrk4EntityLocoDieselCD770.class, Ctyrk4ItemIDs.minecartCD770.item, "diesel",
             1985, 101, 0, 40, 0, 100, 0.8, 0.97, 12000, new String[]{"Green"}, 10, -4.2, Constants.TOOLTIP),
     LOCO_CSD534("CSD534", "Loco Steam CSD 534", Ctyrk4EntityLocoSteamCSD534.class, Ctyrk4ItemIDs.minecartCSD534.item, "steam", 1030, 97, 0, 80, 100, 200, 0.35, 0.975, 16000, new String[]{"Red"}, 10, -3.0, Constants.TOOLTIP),
+    LOCO_CSD555("locoSteamCSD555U57", "Loco CSD555", Ctyrk4EntityLocoSteamCSD555.class, Ctyrk4ItemIDs.minecartLocoSteamCSD555.item, "steam", 800, 31, 0, 60, 160, 150, 1, 0.968, 5000, new String[]{"Black"}, 15, -4.9, Constants.TOOLTIP),
+    TENDER_CSD555("tenderCSD555", "Tender CSD555", Ctyrk4EntityTenderCSD555.class, Ctyrk4ItemIDs.minecartTenderCSD555.item, "tender", 0, 0, 0.5, 0, 0, 0, 0, 0, 10000, new String[]{"Black"}, 18, 0, Constants.TOOLTIP),
     ;
     private String trainId;
     private String internalName;
