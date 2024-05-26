@@ -123,6 +123,11 @@ item.tc_4ka_addon:passengerCDBmpz.name=CD Bmpz
 item.tc_4ka_addon:passengerCDARbmpz.name=CD ARbmpz
 item.tc_4ka_addon:locoCDAfmpz.name=CD Afmpz
 
+item.tc_4ka_addon:minecartCDAMPZ.name=CD Ampz
+item.tc_4ka_addon:minecartCDBBMPZ.name=CD Bbmpz
+item.tc_4ka_addon:minecartCDBDMPZ.name=CD Bdmpz
+item.tc_4ka_addon:minecartCDBMPZ.name=CD Bmpz
+
 entity.tc_4ka_addon.CD EAs 11.name=CDC Eas 11
 entity.tc_4ka_addon.CD ES11.name=CDC Es 11
 

@@ -269,6 +269,11 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 			add(new double[] { 4D, -0.2D, 0.75D });
 		}
 	}, 3, true),
+	passengerCDBDMPZ(Ctyrk4EntityPassengerCDBDMPZ.class, new ModelComfortJet(), "CD_BDMPZ_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
+	passengerCDAMPZ(Ctyrk4EntityPassengerCDAMPZ.class, new ModelComfortJet(), "CD_AMPZ_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
+	passengerCDBMPZ(Ctyrk4EntityPassengerCDBMPZ2.class, new ModelComfortJet(), "CD_BMPZ_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
+	passengerCDBBMPZ(Ctyrk4EntityPassengerCDBBMPZ.class, new ModelComfortJet(), "CD_BBMPZ_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
+
 	;
 	private Class<? extends EntityRollingStock> entityClass;
 	private ModelBase model;
