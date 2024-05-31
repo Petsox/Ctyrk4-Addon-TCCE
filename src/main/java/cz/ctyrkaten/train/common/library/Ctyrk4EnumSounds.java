@@ -6,6 +6,7 @@ import train.common.library.Info;
 
 
 public enum Ctyrk4EnumSounds implements TrainSoundRecord {
+	/*
 	LOCO_CD742(Ctyrk4EntityLocoDieselCD742.class, "742_horn", 0.8F, "742_motor_slow", 0.65F, 40, "742_motor", 0.65F, 40,
 			false),
 	LOCO_CD810(Ctyrk4EntityLocoDieselCD810.class, "tram_horn", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),
@@ -40,6 +41,7 @@ public enum Ctyrk4EnumSounds implements TrainSoundRecord {
 	LOCO_SDBUnit(Ctyrk4EntityLocoDieselSDBUnit.class, "sd70_horn", 0.8F, "steam_run", 0.4F, 20, "steam_run", 0.4F, 20, true),
 	LOCO_SD(Ctyrk4EntityLocoDieselSD.class, "sd70_horn", 1.0F, "steam_run", 0.4F, 20, "steam_run", 0.4F, 20, true),
 	LOCO_U57(Ctyrk4EntityLocoSteamU57.class, "hancock_3chime", 0.8F, "steam_run", 0.2F, 20, "steam_run", 0.2F, 20, true),
+	*/
 	;
 
 	private Class entityClass;

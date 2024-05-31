@@ -121,10 +121,10 @@ public enum Ctyrk4ItemIDs {
 	minecartCSDBda("ItemRollingStock", "CSD_BDa", 2),
 	minecartCSDBa("ItemRollingStock", "CSD_Ba", 2),
 	minecartCSDWR("ItemRollingStock", "CSD_WR", 2),
-	minecartCDBDMPZ("ItemRollingStock", "CD_BDMPZ", 2),
-	minecartCDAMPZ("ItemRollingStock", "CD_AMPZ", 2),
-	minecartCDBMPZ("ItemRollingStock", "CD_BMPZ", 2),
-	minecartCDBBMPZ("ItemRollingStock", "CD_BBMPZ", 2),
+	minecartCDBDMPZ("ItemRollingStock", "CD_Bdmpz", 2),
+	minecartCDAMPZ("ItemRollingStock", "CD_Ampz", 2),
+	minecartCDBMPZ("ItemRollingStock", "CD_Bmpz2", 2),
+	minecartCDBBMPZ("ItemRollingStock", "CD_Bbmpz", 2),
 	;
 
 	public Item item;

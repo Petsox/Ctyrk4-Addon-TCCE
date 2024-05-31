@@ -858,6 +858,7 @@ public class ModelCD652 extends ModelConverter {
 		bodyModel[209].addBox(0, 0, 0, 2, 1, 3, 0f);
 		bodyModel[209].setRotationPoint(14.0f, 4.0f, 4.8f);
 
+		translateAll(0F, 0F, 0F);
 		flipAll();
 	}
 

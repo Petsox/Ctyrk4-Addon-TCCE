@@ -1145,6 +1145,7 @@ public class ModelCD650 extends ModelConverter {
 		bodyModel[281].addShapeBox(0, 0, 0, 2, 17, 0, 0, -2, 0, 0, 0, 0, 0, 0, 0, 0, -2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 		bodyModel[281].setRotationPoint(-13.0f, -12.0f, 10.0f);
 
+		translateAll(0F, 0F, 0F);
 		flipAll();
 	}
 

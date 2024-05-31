@@ -1,7 +1,4 @@
-//FMT-Marker DFM-1.0
-
 package cz.ctyrkaten.train.client.render.models;
-
 
 import fexcraft.tmt.slim.ModelConverter;
 import fexcraft.tmt.slim.ModelRendererTurbo;
@@ -107,11 +104,11 @@ public class ModelCD651 extends ModelConverter {
 		bodyModel[21].setRotationPoint(-18.0f, -2.0f, -9.0f);
 
 		bodyModel[22] = new ModelRendererTurbo(this, 417, 9, textureX, textureY); // Box 32
-		bodyModel[22].addShapeBox(1, 0, 0, 0, 6, 4, 0, 0.4f, 0, 0, -0.4f, 0, 0, -2.5f, 0, -1.9f, 2.5f, 0, -1.9f, 0.7f, 0, 0, -0.7f, 0, 0, -3.5f, 0, -2, 3.5f, 0, -2);
+		bodyModel[22].addShapeBox(1, 0, 0, 0, 6, 4, 0, 0.35f, 0, 0, -0.35f, 0, 0, -2.5f, 0, -1.9f, 2.5f, 0, -1.9f, 0.7f, 0, 0, -0.7f, 0, 0, -3.5f, 0, -2, 3.5f, 0, -2);
 		bodyModel[22].setRotationPoint(-17.0f, -8.0f, -9.0f);
 
 		bodyModel[23] = new ModelRendererTurbo(this, 481, 1, textureX, textureY); // Box 34
-		bodyModel[23].addShapeBox(0, 0, 0, 0, 6, 3, 0, -1, 0, 0, 1, 0, 0, -0.2f, 0, -0.8f, 0.2f, 0, -0.8f, -0.6f, 0, 0, 0.6f, 0, 0, -1.5f, 0, -0.9f, 1.5f, 0, -0.9f);
+		bodyModel[23].addShapeBox(0, 0, 0, 0, 6, 3, 0, -1, 0, 0, 1, 0, 0, -0.2f, 0, -0.8f, 0.2f, 0, -0.8f, -0.65f, 0, 0, 0.65f, 0, 0, -1.5f, 0, -0.9f, 1.5f, 0, -0.9f);
 		bodyModel[23].setRotationPoint(-17.0f, -14.0f, -9.0f);
 
 		bodyModel[24] = new ModelRendererTurbo(this, 1, 17, textureX, textureY); // Box 35
@@ -131,11 +128,11 @@ public class ModelCD651 extends ModelConverter {
 		bodyModel[27].setRotationPoint(-12.0f, -14.0f, -10.0f);
 
 		bodyModel[28] = new ModelRendererTurbo(this, 505, 1, textureX, textureY); // Box 43
-		bodyModel[28].addShapeBox(0, 0, 0, 0, 6, 3, 0, 0.2f, 0, -0.8f, -0.2f, 0, -0.8f, 1, 0, 0, -1, 0, 0, 1.5f, 0, -0.9f, -1.5f, 0, -0.9f, 0.6f, 0, 0, -0.6f, 0, 0);
+		bodyModel[28].addShapeBox(0, 0, 0, 0, 6, 3, 0, 0.2f, 0, -0.8f, -0.2f, 0, -0.8f, 1, 0, 0, -1, 0, 0, 1.5f, 0, -0.9f, -1.5f, 0, -0.9f, 0.65f, 0, 0, -0.65f, 0, 0);
 		bodyModel[28].setRotationPoint(-17.0f, -14.0f, 6.0f);
 
 		bodyModel[29] = new ModelRendererTurbo(this, 57, 17, textureX, textureY); // Box 44
-		bodyModel[29].addShapeBox(1, 0, 0, 0, 6, 4, 0, 2.5f, 0, -1.9f, -2.5f, 0, -1.9f, -0.4f, 0, 0, 0.4f, 0, 0, 3.5f, 0, -2, -3.5f, 0, -2, -0.7f, 0, 0, 0.7f, 0, 0);
+		bodyModel[29].addShapeBox(1, 0, 0, 0, 6, 4, 0, 2.5f, 0, -1.9f, -2.5f, 0, -1.9f, -0.35f, 0, 0, 0.35f, 0, 0, 3.5f, 0, -2, -3.5f, 0, -2, -0.7f, 0, 0, 0.7f, 0, 0);
 		bodyModel[29].setRotationPoint(-17.0f, -8.0f, 5.0f);
 
 		bodyModel[30] = new ModelRendererTurbo(this, 73, 17, textureX, textureY); // Box 45
@@ -1102,6 +1099,7 @@ public class ModelCD651 extends ModelConverter {
 		bodyModel[270].addBox(0, 0, 0, 2, 1, 3, 0f);
 		bodyModel[270].setRotationPoint(24.0f, 4.0f, 4.8f);
 
+		translateAll(0F, 0F, 0F);
 		flipAll();
 	}
 
