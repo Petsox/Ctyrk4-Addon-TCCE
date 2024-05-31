@@ -6,7 +6,7 @@ import cz.ctyrkaten.train.common.entity.rollingStock.*;
 
 public enum Ctyrk4EnumTrains {
 
-    LOCO_CD843("locoCD843", "CD 843", Ctyrk4EntityLocoDieselCD843.class, Ctyrk4ItemIDs.minecartLocoCD843.item, "diesel", 816, 111, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Blue"}, 18, -4.25, Constants.TOOLTIP),
+    //LOCO_CD843("locoCD843", "CD 843", Ctyrk4EntityLocoDieselCD843.class, Ctyrk4ItemIDs.minecartLocoCD843.item, "diesel", 816, 111, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Blue"}, 18, -4.25, Constants.TOOLTIP),
     LOCO_CD127("locoElectricCD127", "Loco Electric CD 127", Ctyrk4EntityLocoElectricCD127.class, Ctyrk4ItemIDs.minecartCD127.item, "electric", 2978, 66, 0, 15, 0, 400, 0.9, 0.946, 0, new String[]{"Red", "Lime"}, 18, -1, Constants.TOOLTIP),
     MOTOR_CD127("CD127Motor", "CD 127 Motor", Ctyrk4EntityCD127Motor.class, Ctyrk4ItemIDs.minecartCD127Motor.item, "freight", 0.5, new String[]{"Red", "Lime"}, 0, 27, Constants.TOOLTIP),
     PASSENGER_CSDBP920("passengerCSDBP920", "CSD Bp 920", Ctyrk4EntityPassengerCSDBP920.class, Ctyrk4ItemIDs.minecartCSDBP920.item, "passenger", 0, 0, 1, 0, 0, 0, 0, 0, 0, null, 10, 0, Constants.TOOLTIP),
@@ -79,9 +79,9 @@ public enum Ctyrk4EnumTrains {
     FREIGHT_CDEAS11("CDEAS11", "CD EAs 11", Ctyrk4EntityFreightCDEAS11.class, Ctyrk4ItemIDs.minecartCDEAS11.item, "freight", 3.5, new String[]{"Brown"}, 18, 36, Constants.TOOLTIP),
     PASSENGER_CDAB349("passengerCDAB349", "CD AB349", Ctyrk4EntityPassengerCDAB349.class, Ctyrk4ItemIDs.minecartCDAB349.item, "passenger", 0, 0, 1, 0, 0, 0, 0, 0, 0, new String[]{"Blue"}, 10, 0, Constants.TOOLTIP),
     PASSENGER_ZSSK012("passengerZSSK012", "ZSSK 012", Ctyrk4EntityPassengerZSSK012.class, Ctyrk4ItemIDs.minecartZSSK012.item, "passenger", 0, 0, 1, 0, 0, 0, 0, 0, 0, new String[]{"Red"}, 10, 0, Constants.TOOLTIP),
-    LOCO_CD650("CD650", "CD 650", Ctyrk4EntityLocoElectricCD650Loco.class, Ctyrk4ItemIDs.minecartCD650.item, "electric", 1849, 161, 0, 10, 0, 0, 0.9, 0.9, 0, new String[]{"Najbrt"}, 10, -4.5, Constants.TOOLTIP),
-    LOCO_CD651("CD651", "CD 651", Ctyrk4EntityLocoElectricCD651Loco.class, Ctyrk4ItemIDs.minecartCD651.item, "electric", 1849, 161, 0, 10, 0, 0, 0.9, 0.9, 0, new String[]{"Najbrt"}, 10, -4.7, Constants.TOOLTIP),
-    PASSENGER_CD652("CD652", "CD 652", Ctyrk4EntityPassengerCD652.class, Ctyrk4ItemIDs.minecartCD652.item, "passenger", 0, 0, 1.5, 0, 0, 0, 0, 0, 0, new String[]{"Najbrt"}, 0, 0, Constants.TOOLTIP),
+    //LOCO_CD650("CD650", "CD 650", Ctyrk4EntityLocoElectricCD650Loco.class, Ctyrk4ItemIDs.minecartCD650.item, "electric", 1849, 161, 0, 10, 0, 0, 0.9, 0.9, 0, new String[]{"Najbrt"}, 10, -4.5, Constants.TOOLTIP),
+    //LOCO_CD651("CD651", "CD 651", Ctyrk4EntityLocoElectricCD651Loco.class, Ctyrk4ItemIDs.minecartCD651.item, "electric", 1849, 161, 0, 10, 0, 0, 0.9, 0.9, 0, new String[]{"Najbrt"}, 10, -4.7, Constants.TOOLTIP),
+    //PASSENGER_CD652("CD652", "CD 652", Ctyrk4EntityPassengerCD652.class, Ctyrk4ItemIDs.minecartCD652.item, "passenger", 0, 0, 1.5, 0, 0, 0, 0, 0, 0, new String[]{"Najbrt"}, 0, 0, Constants.TOOLTIP),
     LOCO_ZSSK812("locoZSSK812", "ZSSK812 Driving Motor", Ctyrk4EntityLocoDieselZSSK812.class, Ctyrk4ItemIDs.minecartZSSK812.item, "diesel", 349, 81, 0, 60, 0, 200, 0.8, 0.97, 6000, new String[]{"Red"}, 10, -2.0, Constants.TOOLTIP),
     LOCO_CDBFHPVEE295("CDBFHPVEE295", "CDBFHPVEE295", Ctyrk4EntityElectricCDBFHPVEE295.class, Ctyrk4ItemIDs.minecartCDBFHPVEE295.item, "electric", 4446, 141, 0, 60, 0, 100, 0.7, 0.7, 1000, new String[]{"Blue"}, 18, -4, Constants.TOOLTIP),
     PASSENGER_CDBDMTEE("CDBDMTEE", "CDBDMTEE", Ctyrk4EntityPassengerCDBDMTEE.class, Ctyrk4ItemIDs.minecartCDBDMTEE.item, "passenger", 0, 0, 3, 0, 0, 0, 0, 0, 0, new String[]{"Blue", "Green"}, 0, 0, Constants.TOOLTIP),
