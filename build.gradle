@@ -103,7 +103,7 @@ dependencies {
 	compile "codechicken:CodeChickenLib:1.7.10-1.1.3.136:dev"
 	compile "codechicken:CodeChickenCore:1.7.10-1.0.4.35:dev"
 	compile "codechicken:NotEnoughItems:1.7.10-1.0.4.90:dev"
-    implementation "train:Traincraft-4.4.1_020-CE_7.1_dev_new"
+    implementation "train:Traincraft-4.4.1_020-CE_7.1_dev"
 
     // quality of life line to simplify importing jars for experimental testing
     compile fileTree(dir: 'libs', include: ['*.jar'])
