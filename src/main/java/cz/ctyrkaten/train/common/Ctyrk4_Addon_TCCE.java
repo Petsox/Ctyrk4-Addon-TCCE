@@ -61,7 +61,8 @@ public class Ctyrk4_Addon_TCCE {
 
         tcLog.info("Finished PreInitialization");
 	}
-    
+
+	@SuppressWarnings("unchecked")
     private void registerEntityHandlers() {
 		int trainID = 1;
 		for(Ctyrk4EnumTrains train : Ctyrk4EnumTrains.values()){
