@@ -6,7 +6,7 @@ import cz.ctyrkaten.train.common.entity.rollingStock.*;
 
 public enum Ctyrk4EnumTrains {
 
-    LOCO_CD843("locoCD843", "CD 843", Ctyrk4EntityLocoDieselCD843.class, Ctyrk4ItemIDs.minecartLocoCD843.item, "diesel", 816, 111, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Blue"}, 18, -4.25, Constants.TOOLTIP),
+    //LOCO_CD843("locoCD843", "CD 843", Ctyrk4EntityLocoDieselCD843.class, Ctyrk4ItemIDs.minecartLocoCD843.item, "diesel", 816, 111, 1.4, 10, 0, 100, 0.7, 0.9, 8000, new String[]{"Blue"}, 18, -4.25, Constants.TOOLTIP),
     LOCO_CD127("locoElectricCD127", "Loco Electric CD 127", Ctyrk4EntityLocoElectricCD127.class, Ctyrk4ItemIDs.minecartCD127.item, "electric", 2978, 66, 0, 15, 0, 400, 0.9, 0.946, 0, new String[]{"Red", "Lime"}, 18, -1, Constants.TOOLTIP),
     MOTOR_CD127("CD127Motor", "CD 127 Motor", Ctyrk4EntityCD127Motor.class, Ctyrk4ItemIDs.minecartCD127Motor.item, "freight", 0.5, new String[]{"Red", "Lime"}, 0, 27, Constants.TOOLTIP),
     PASSENGER_CSDBP920("passengerCSDBP920", "CSD Bp 920", Ctyrk4EntityPassengerCSDBP920.class, Ctyrk4ItemIDs.minecartCSDBP920.item, "passenger", 0, 0, 1, 0, 0, 0, 0, 0, 0, null, 10, 0, Constants.TOOLTIP),

@@ -76,7 +76,7 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	locoCD954(Ctyrk4EntityLocoDieselCD954.class, new ModelCD954(), "CD954_", true, new float[] { -1F, 0.15F, -0.68F }, new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
 	locoCDEMU460(Ctyrk4EntityLocoElectricCD460.class, new ModelCD460_Loco(), "CD_460_", true, new float[] { -1.9F, 0.1F, 0.0F },   new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
 	passengerCDEMU460(Ctyrk4EntityPassengerCD460Coach.class, new ModelCD460_Coach(), "CD_460_", true, new float[] { -0.0F, 0.1F, 0.0F },   new float[] { 0F, 180F, 180F }, null, "", 0, null, "", null, 0, false),
-	locoCD843( Ctyrk4EntityLocoDieselCD843.class, new ModelCD843(), "CD843_", true, new float[] {-2.1F, -0.5F, 0F}, new float[] {0F, 180F, 180F }, null, "smoke", 3,  new ArrayList<double[]>() {{}}, "", null, 0, false),
+	//locoCD843( Ctyrk4EntityLocoDieselCD843.class, new ModelCD843(), "CD843_", true, new float[] {-2.1F, -0.5F, 0F}, new float[] {0F, 180F, 180F }, null, "smoke", 3,  new ArrayList<double[]>() {{}}, "", null, 0, false),
 	CD383( Ctyrk4EntityLocoElectricCD383.class, new train.client.render.models.ModelNMBS_HLE_18(), "CD383_", true, new float[]{-1.5F,0.05F,0}, new float[] {0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 	ZSSK383( Ctyrk4EntityLocoElectricZSSK383.class, new ModelZSSK383(), "ZSSK383_", true, new float[]{-1.5F,0.05F,0}, new float[] {0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 	tenderCSD387(Ctyrk4EntityTenderCSD387.class, new ModelCSD387Tender(), "CSD387_tender_", true,
