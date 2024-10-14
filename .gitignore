@@ -38,3 +38,5 @@ lib
 classes
 runserver
 buildtotest.bat
+.classpath
+.project
