@@ -1,3 +1,8 @@
 {
-  "fullhour": {"category": "master", "sounds": [{"name": "fullhour","stream": true}]}
+  "fullhour": {"category": "master", "sounds": [{"name": "fullhour","stream": true}]},
+  "horn1": {"category": "master", "sounds": [{"name": "horn1","stream": true}]},
+  "cdhorn": {"category": "master", "sounds": [{"name": "cdhorn","stream": true}]},
+  "cdhorn2": {"category": "master", "sounds": [{"name": "cdhorn2","stream": true}]},
+  "cdwhistle": {"category": "master", "sounds": [{"name": "cdwhistle","stream": true}]},
+  "horn954_854": {"category": "master", "sounds": [{"name": "horn954_854","stream": true}]}
 }
