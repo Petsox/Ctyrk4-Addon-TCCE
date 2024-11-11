@@ -11,7 +11,7 @@ public enum Ctyrk4EnumSounds implements TrainSoundRecord {
 	LOCO_CD854(Ctyrk4EntityLocoDieselCD854.class, "tc_4ka_addon:horn954_854", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),
 	LOCO_CD954(Ctyrk4EntityLocoDieselCD954.class, "tc_4ka_addon:horn954_854", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),
 	LOCO_CD751(Ctyrk4EntityLocoDieselCD751.class, "tc_4ka_addon:cdhorn", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),
-	LOCO_CD720(Ctyrk4EntityLocoDieselCD720.class, "tc_4ka_addon:cdhorn", 10F, "FM_38D_6_Notch8", 0.65F, 40, "FM_38D_6_Notch8", 0.45F, 40, false),
+	LOCO_CD720(Ctyrk4EntityLocoDieselCD720.class, "tc_4ka_addon:cdhorn", 1F, "FM_38D_6_Notch8", 0.3F, 40, "FM_38D_6_Notch8", 0.3F, 40, false),
 	LOCO_CD242(Ctyrk4EntityLocoElectricCD242.class, "tc_4ka_addon:cdhorn", 1F, "mg_run", 0.6F, 8, "mg_idle", 0.4F, 50, false),
 	LOCO_CD810(Ctyrk4EntityLocoDieselCD810.class, "tc_4ka_addon:cdhorn", 0.8F, "chme3_idle", 0.65F, 40, "chme3_idle", 0.65F, 40, true),
 	LOCO_CD140(Ctyrk4EntityLocoElectricCD140.class, "tc_4ka_addon:cdhorn", 1F, "mg_run", 0.6F, 8, "mg_idle", 0.4F, 50, false),
