@@ -279,7 +279,7 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	passengerAPM1990(Ctyrk4EntityPassengerAPM1990.class, new ModelCDB249(), "APM1990_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	passengerOrient(Ctyrk4EntityPassengerOrient.class, new ModelCDB249(), "ORIENT_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	locoDuewagGT6ZRLoco(Ctyrk4EntityLocoElectricDuewagGT6ZR.class, new ModelDuewagGT6ZRLoco(), "Duewag_GT6_", true, new float[]{-0.85F, 0.2F, 0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
-	CD844( Ctyrk4EntityLocoDieselCD844.class, new ModelCD844(), "CD844_", true, new float[]{-1.5F,-0.10F,0.03F}, new float[] {0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
+	CD844( Ctyrk4EntityLocoDieselCD844.class, new ModelCD844(), "CD844_", true, new float[]{-2.5F,-0.10F,0.03F}, new float[] {0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 	//CD169( Ctyrk4EntityLocoElectricCD169.class, new ModelCD169(), "CD169_", true, new float[]{-1.5F,0.05F,0}, new float[] {0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 
 	;

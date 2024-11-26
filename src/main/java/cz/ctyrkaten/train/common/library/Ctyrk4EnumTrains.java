@@ -153,7 +153,7 @@ public enum Ctyrk4EnumTrains {
     LOCO_Duewag_GT6ZR("DuewagGT6ZRLoco", "DuewagGT6ZRLoco", Ctyrk4EntityLocoElectricDuewagGT6ZR.class, Ctyrk4ItemIDs.minecartLocoDuewagGT6ZR.item, "electric", 250, 70, 0, 20, 0, 100, 0.7, 0.8, 1000, new String[]{"Kockov"}, 18, -1.95, Constants.TOOLTIP),
     LOCO_CD770("locoDieselCD770", "Loco Diesel CD770", Ctyrk4EntityLocoDieselCD770.class, Ctyrk4ItemIDs.minecartCD770.item, "diesel",
             1331, 91, 0, 40, 0, 100, 0.8, 0.97, 12000, new String[]{"Green"}, 10, -4.8, Constants.TOOLTIP),
-    LOCO_CD844("CD844", "CD844", Ctyrk4EntityLocoDieselCD844.class, Ctyrk4ItemIDs.minecartCD844.item, "diesel", 523, 121, 0, 10, 0, 0, 0.9, 0.79, 0, new String[]{"Najbrt_A", "Najbrt_B"}, 10, -3.7, Constants.TOOLTIP),
+    LOCO_CD844("CD844", "CD844", Ctyrk4EntityLocoDieselCD844.class, Ctyrk4ItemIDs.minecartCD844.item, "diesel", 523, 121, 0, 40, 0, 100, 0.9, 0.79, 12000, new String[]{"Najbrt_A", "Najbrt_B"}, 10, -4.85, Constants.TOOLTIP),
     //LOCO_CD169("CD169", "CD169", Ctyrk4EntityLocoElectricCD169.class, Ctyrk4ItemIDs.minecartCD169.item, "electric", 7885, 201, 0, 10, 0, 0, 0.9, 0.79, 0, new String[]{"Orange"}, 10, -3.7, Constants.TOOLTIP),
 
     //LOCO_CSD534("CSD534", "Loco Steam CSD 534", Ctyrk4EntityLocoSteamCSD534.class, Ctyrk4ItemIDs.minecartCSD534.item, "steam", 1030, 97, 0, 80, 100, 200, 0.35, 0.975, 16000, new String[]{"Red"}, 10, -3.0, Constants.TOOLTIP),
