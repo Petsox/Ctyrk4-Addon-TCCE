@@ -1,9 +1,18 @@
 package cz.ctyrkaten.train.client.render;
 
 import cz.ctyrkaten.train.client.render.models.*;
+import cz.ctyrkaten.train.client.render.models.ModelCD010;
+import cz.ctyrkaten.train.client.render.models.ModelCD014;
+import cz.ctyrkaten.train.client.render.models.ModelCD754;
+import cz.ctyrkaten.train.client.render.models.ModelCD810;
+import cz.ctyrkaten.train.client.render.models.ModelCD814;
+import cz.ctyrkaten.train.client.render.models.ModelCD914;
+import cz.ctyrkaten.train.client.render.models.ModelGP40;
+import cz.ctyrkaten.train.client.render.models.ModelLocoCD151;
+import cz.ctyrkaten.train.client.render.models.ModelLocoU57;
 import cz.ctyrkaten.train.common.entity.rollingStock.*;
 import cz.ctyrkaten.train.common.library.Ctyrk4AddonInfo;
-import train.client.render.models.ModelDuewagGT6ZRLoco;
+import train.client.render.models.*;
 import train.common.api.EntityRollingStock;
 import train.common.api.TrainRenderRecord;
 import fexcraft.tmt.slim.ModelBase;
@@ -279,7 +288,19 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	passengerAPM1990(Ctyrk4EntityPassengerAPM1990.class, new ModelCDB249(), "APM1990_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	passengerOrient(Ctyrk4EntityPassengerOrient.class, new ModelCDB249(), "ORIENT_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	locoDuewagGT6ZRLoco(Ctyrk4EntityLocoElectricDuewagGT6ZR.class, new ModelDuewagGT6ZRLoco(), "Duewag_GT6_", true, new float[]{-0.85F, 0.2F, 0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
+	LOCO_SPAWN_TRAM(Ctyrk4EntityLocoElectricSpawnTram.class, new ModelB80C_A(), "SpawnTram_", true, new float[]{-1.25F, 0.15F, 0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 	CD844( Ctyrk4EntityLocoDieselCD844.class, new ModelCD844(), "CD844_", true, new float[]{-2.5F,-0.10F,0.03F}, new float[] {0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
+	LOCO_HP(Ctyrk4EntityLocoSteamHP.class, new ModelBR_Britannia_Class(), "HP_LOCO_", true, new float[]{-2.3f, -0.05f, 0}, new float[]{0, 180, 180}, null, "largesmoke", 3, new ArrayList<double[]>() {
+		{
+			add(new double[]{3.78D, 1.4D, 0D});
+		}
+	}, "explode", new ArrayList<double[]>() {
+		{
+			add(new double[]{4.1D, 0.05D, 0.65D});
+		}
+	}, 2, true),
+	TENDER_HP(Ctyrk4EntityTenderHP.class, new ModelBR1_Tender(), "HP_TENDER_", true, new float[]{0f, -0.01f, 0f,}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
+	HP_COACH(Ctyrk4EntityPassengerHPCoach.class, new ModelBR_Mk1_TSO(), "HP_COACH_", true, new float[]{0, 0, 0,}, new float[]{0, 180, 180}, null, "", 0, null, "", null, 0, false),
 	//CD169( Ctyrk4EntityLocoElectricCD169.class, new ModelCD169(), "CD169_", true, new float[]{-1.5F,0.05F,0}, new float[] {0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 
 	;
