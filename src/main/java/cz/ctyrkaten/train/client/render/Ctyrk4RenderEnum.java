@@ -289,6 +289,7 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	passengerOrient(Ctyrk4EntityPassengerOrient.class, new ModelCDB249(), "ORIENT_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	locoDuewagGT6ZRLoco(Ctyrk4EntityLocoElectricDuewagGT6ZR.class, new ModelDuewagGT6ZRLoco(), "Duewag_GT6_", true, new float[]{-0.85F, 0.2F, 0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 	LOCO_SPAWN_TRAM(Ctyrk4EntityLocoElectricSpawnTram.class, new ModelB80C_A(), "SpawnTram_", true, new float[]{-1.25F, 0.15F, 0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
+	LOCO_SPAWN_TRAM2(Ctyrk4EntityPassengerSpawnTram.class, new ModelB80C_B(), "SpawnTram2_", true, new float[]{-1.25F, 0.15F, 0F}, new float[]{0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 	CD844( Ctyrk4EntityLocoDieselCD844.class, new ModelCD844(), "CD844_", true, new float[]{-2.5F,-0.10F,0.03F}, new float[] {0F, 180F, 180F}, null, "", 0, null, "", null, 0, false),
 	LOCO_HP(Ctyrk4EntityLocoSteamHP.class, new ModelBR_Britannia_Class(), "HP_LOCO_", true, new float[]{-2.3f, -0.05f, 0}, new float[]{0, 180, 180}, null, "largesmoke", 3, new ArrayList<double[]>() {
 		{

@@ -131,7 +131,7 @@ public class Ctyrk4EntityLocoDieselCD844 extends DieselTrain {
 
 	@Override
 	public String getInventoryName() {
-		return "CD 770";
+		return "CD 844";
 	}
 
 	@Override

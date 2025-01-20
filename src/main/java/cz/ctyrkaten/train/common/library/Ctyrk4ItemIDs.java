@@ -42,6 +42,7 @@ public enum Ctyrk4ItemIDs {
 	minecartLocoCD163("ItemRollingStock", "CD_163", 3),
 	minecartLocoDuewagGT6ZR("ItemRollingStock", "DuewagGT6ZR", 3),
 	minecartLocoSpawnTram("ItemRollingStock", "SpawnTram", 3),
+	minecartSpawnTram2("ItemRollingStock", "SpawnTram2", 3),
 	minecartLocoCD263("ItemRollingStock", "CD_263", 3),
 	locoCD140("ItemRollingStock", "CD_140", 3),
 	locoCD1216("ItemRollingStock", "CD_1216", 3),
