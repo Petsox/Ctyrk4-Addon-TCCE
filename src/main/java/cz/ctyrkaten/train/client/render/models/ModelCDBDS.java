@@ -9,6 +9,7 @@
 
 package cz.ctyrkaten.train.client.render.models;
 
+import cz.ctyrkaten.train.client.render.models.parts.ModelCDBDSWindows;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
@@ -31,10 +32,8 @@ public class ModelCDBDS extends ModelConverter
 
 			translateAll(0F, 0F, 0F);
 
-
 			flipAll();
 		}
-
 		private void initbodyModel_1()
 		{
 			bodyModel[0] = new ModelRendererTurbo(this, 1, 1, textureX, textureY); // Box 0
@@ -838,6 +837,7 @@ public class ModelCDBDS extends ModelConverter
 			bodyModel[182].setRotationPoint(-99F, 2.1F, -12F);
 		}
 	private ModelRheingoldBogie bogie1 = new ModelRheingoldBogie();
+	private ModelCDBDSWindows windows = new ModelCDBDSWindows();
 
 	@Override
 	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)
@@ -851,6 +851,12 @@ public class ModelCDBDS extends ModelConverter
 
 		GL11.glTranslated(5.32,0, 0);
 		bogie1.render(entity,f,f1,f2,f3,f4,f5);
+		GL11.glPopMatrix();
+
+		Tessellator.bindTexture(new ResourceLocation(Ctyrk4AddonInfo.resourceLocation, "textures/trains/parts/CD_BDs_Windows.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslated(0f,-0.01f,0f);
+		windows.render(entity,f,f1,f2,f3,f4,f5);
 		GL11.glPopMatrix();
 	}
 }

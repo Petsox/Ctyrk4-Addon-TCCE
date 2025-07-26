@@ -7,7 +7,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.Constants;
-import cz.ctyrkaten.train.common.Ctyrk4_Addon_TCCE;
 import train.common.Traincraft;
 import train.common.api.ElectricTrain;
 import train.common.core.util.TraincraftUtil;
@@ -31,7 +30,7 @@ public class Ctyrk4EntityLocoElectricCD362 extends ElectricTrain {
 
 	@Override
 	public void updateRiderPosition() {
-		TraincraftUtil.updateRider(this,  4, 0.2);
+		TraincraftUtil.updateRider(this,  4.15, 0.1);
 	}
 
 	@Override
@@ -62,11 +61,6 @@ public class Ctyrk4EntityLocoElectricCD362 extends ElectricTrain {
 			}
 		}
 		nbttagcompound.setTag("Items", nbttaglist);
-	}
-
-	@Override
-	public int getMinecartType() {
-		return 0;
 	}
 
 	@Override

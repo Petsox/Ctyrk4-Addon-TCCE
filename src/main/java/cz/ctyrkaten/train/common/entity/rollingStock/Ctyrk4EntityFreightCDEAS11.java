@@ -24,7 +24,7 @@ public class Ctyrk4EntityFreightCDEAS11 extends Freight implements IInventory {
 
 	public void initFreightCart() {
 		numFreightSlots = 9;
-		if(getSpec()!=null)freightInventorySize = getSpec().getCargoCapacity();
+		freightInventorySize = 36;
 		cargoItems = new ItemStack[freightInventorySize];
 	}
 
