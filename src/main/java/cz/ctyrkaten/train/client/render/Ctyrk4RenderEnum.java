@@ -34,7 +34,7 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	passengerCDBDs(Ctyrk4EntityPassengerCDBDS.class, new ModelCDBDS(), "CD_BDs_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	passengerCDDS(Ctyrk4EntityFreightCDDS.class, new ModelCDDS(), "CD_Ds_", true, new float[] { -1.0F, 0.15F, -0.05F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	passengerCDWRMZ(Ctyrk4EntityPassengerCDWRMZ.class, new ModelCDWRMZ(), "CD_WRMz_", true, new float[] { 1.55F, 0.15F, -0.6F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
-	passengerMVZSV2(Ctyrk4EntityPassengerMVZSV2.class, new ModelMVZSV2(), "MVZSV2_", true, new float[] { 0.05F, 0.15F, 0F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
+	passengerMVZSV2(Ctyrk4EntityPassengerMVZSV2.class, new train.client.render.models.ModelRheingoldPassenger_Dining2(), "MVZSV2_", true, new float[] { 0.05F, 0.15F, 0F }, new float[] { 0F, 180F, 180F }, new float[]{0.9f,1f,0.9f}, "", 0, null, "", null, 0, false),
 	passengerCDBDTN( Ctyrk4EntityPassengerCDBDTN.class, new train.client.render.models.ModelBR_MK2F_Coach(), "CD_Bdtn_", true, new float[] {0.5F,0F,0F}, new float[] {0F, 180F, 180F}, new float[] {1.4F,1F,1F}, "",0,null, "", null, 0, false),
 	locoGP40(Ctyrk4EntityLocoDieselCD742.class, new ModelGP40(), "cd742_", true, new float[] { -0.8F, 0.75F, 0.0F }, new float[] { 180F, 180F, 0F }, new float[] { 0.8F, 0.8F, 0.8F }, "smoke", 5, new ArrayList<double[]>() {
 		{
@@ -152,8 +152,6 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	CDZAS30(Ctyrk4EntityCDZAS30.class, new ModelCDZAS30(), "CD_ZAS30_", true, new float[] { 0.0F, -0.44F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
 	CDNP(Ctyrk4EntityCDNP.class, new ModelCDNP(), "CDNP_", true, new float[] { 0.0F, -0.44F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
 	CDKNS(Ctyrk4EntityCDKNS.class, new ModelCDKNS(), "CDKNS_", true, new float[] { 0.0F, -0.44F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
-	NPPLEKS(Ctyrk4EntityNPPLEKS.class, new ModelNPPLEKS(), "NPPLEKS_", true, new float[] { 0.0F, -0.44F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
-
 	CDES11(Ctyrk4EntityCDES11.class, new ModelCDES11(), "CDES11_", true, new float[] { 0.0F, -0.44F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
 	CSD464(Ctyrk4EntityCSD464.class, new ModelCSD464(), "CSD464_", true, new float[] {  -1.5F, 0.2F, 0.0F }, new float[] { 0, 180, 180 }, null, "largesmoke", 5, new ArrayList<double[]>() {
 		{
