@@ -152,6 +152,8 @@ public enum Ctyrk4RenderEnum implements TrainRenderRecord {
 	CDZAS30(Ctyrk4EntityCDZAS30.class, new ModelCDZAS30(), "CD_ZAS30_", true, new float[] { 0.0F, -0.44F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
 	CDNP(Ctyrk4EntityCDNP.class, new ModelCDNP(), "CDNP_", true, new float[] { 0.0F, -0.44F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
 	CDKNS(Ctyrk4EntityCDKNS.class, new ModelCDKNS(), "CDKNS_", true, new float[] { 0.0F, -0.44F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
+	NPPLEKS(Ctyrk4EntityNPPLEKS.class, new ModelNPPLEKS(), "NPPLEKS_", true, new float[] { 0.0F, -0.44F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
+
 	CDES11(Ctyrk4EntityCDES11.class, new ModelCDES11(), "CDES11_", true, new float[] { 0.0F, -0.44F, 0.0F }, null, null, "", 0, null, "", null, 0, false),
 	CSD464(Ctyrk4EntityCSD464.class, new ModelCSD464(), "CSD464_", true, new float[] {  -1.5F, 0.2F, 0.0F }, new float[] { 0, 180, 180 }, null, "largesmoke", 5, new ArrayList<double[]>() {
 		{
